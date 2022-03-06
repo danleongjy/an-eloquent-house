@@ -1,6 +1,7 @@
 # Ignore auth data.
 .storage/auth
 .storage/auth_provider.homeassistant
+.storage/core.config_entries
 
 # Ignore folders
 .cloud

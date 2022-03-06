@@ -10,7 +10,7 @@
             "category": "integration",
             "description": "HACS gives you a powerful UI to handle downloads of all your custom needs.",
             "domain": "hacs",
-            "downloads": 41296,
+            "downloads": 41460,
             "etag_repository": "W/\"714ac150b9c329c57f2d0542ace8ccff305a595fe3c72658c60f926f46b7aef9\"",
             "full_name": "hacs/integration",
             "first_install": false,
@@ -43,7 +43,7 @@
                 "python"
             ],
             "version_installed": "1.23.0",
-            "last_fetched": 1646532105.278996
+            "last_fetched": 1646539304.943447
         },
         "162468030": {
             "authors": [],
@@ -19309,7 +19309,7 @@
                 "washer"
             ],
             "version_installed": "v0.12.10",
-            "last_fetched": 1646532104.878123
+            "last_fetched": 1646539305.351416
         },
         "340596609": {
             "authors": [
@@ -27254,7 +27254,7 @@
             "stars": 90,
             "topics": [],
             "version_installed": "v4.0.0",
-            "last_fetched": 1646532104.793784
+            "last_fetched": 1646539304.794061
         },
         "192732636": {
             "authors": [],
@@ -27489,7 +27489,7 @@
             "category": "plugin",
             "description": "\u2747\ufe0f Lovelace button-card for home assistant",
             "domain": "",
-            "downloads": 84387,
+            "downloads": 84398,
             "etag_repository": "W/\"eb6ae50be4ba92cd93a00a91afae2badc025eec68aa283cff8b9eb6c1d4cadbf\"",
             "full_name": "custom-cards/button-card",
             "first_install": false,
@@ -27518,7 +27518,7 @@
                 "lovelace-ui"
             ],
             "version_installed": "v3.4.2",
-            "last_fetched": 1646532105.010362
+            "last_fetched": 1646539305.528986
         },
         "142545838": {
             "authors": [],
@@ -31736,7 +31736,7 @@
             "category": "plugin",
             "description": "A button card with integrated slider",
             "domain": "",
-            "downloads": 17614,
+            "downloads": 17616,
             "etag_repository": "W/\"5980dbea659bc39f9a438f376777d1149b1ba60da57044918ff5d9bde81658a2\"",
             "full_name": "mattieha/slider-button-card",
             "first_install": false,
@@ -31774,7 +31774,7 @@
                 "slider"
             ],
             "version_installed": "v1.10.3",
-            "last_fetched": 1646532104.917162
+            "last_fetched": 1646539304.886456
         },
         "256292682": {
             "authors": [],
@@ -33640,7 +33640,7 @@
             "stars": 203,
             "topics": [],
             "version_installed": "1.9.1",
-            "last_fetched": 1646532104.797635
+            "last_fetched": 1646539304.798911
         },
         "231674882": {
             "authors": [],

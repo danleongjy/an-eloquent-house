@@ -23,7 +23,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -48,7 +48,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -73,12 +73,12 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "input_number.elenas_room_fan_speed",
-                "state": "16.0",
+                "state": "33.0",
                 "attributes": {
                     "initial": null,
                     "editable": true,
@@ -89,16 +89,16 @@
                     "icon": "mdi:speedometer",
                     "friendly_name": "Elena's Room Fan Speed"
                 },
-                "last_changed": "2022-03-06T01:37:00.269366+00:00",
-                "last_updated": "2022-03-06T01:37:00.269366+00:00",
+                "last_changed": "2022-03-06T05:48:27.858194+00:00",
+                "last_updated": "2022-03-06T05:48:27.858194+00:00",
                 "context": {
-                    "id": "173f4f6b35986ffefdc85bd7ba25fc48",
+                    "id": "75395e39dab66ae7379529917b9f942c",
                     "parent_id": null,
                     "user_id": "ad2bcce775894550affb6dfef93a2a36"
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -123,7 +123,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -149,7 +149,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -174,7 +174,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -200,7 +200,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -226,7 +226,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -252,7 +252,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -278,7 +278,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -304,7 +304,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -330,7 +330,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -356,7 +356,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -382,7 +382,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -396,7 +396,7 @@
                     "min_temp": 23,
                     "max_temp": 27,
                     "target_temp_step": 1.0,
-                    "current_temperature": 27,
+                    "current_temperature": 28,
                     "temperature": 27,
                     "hvac_action": "off",
                     "icon": "mdi:snowflake",
@@ -404,15 +404,15 @@
                     "supported_features": 1
                 },
                 "last_changed": "2022-03-05T03:41:10.020771+00:00",
-                "last_updated": "2022-03-06T04:23:10.458093+00:00",
+                "last_updated": "2022-03-06T05:23:10.875348+00:00",
                 "context": {
-                    "id": "78b918fca9b89c010403a5006b511b7c",
+                    "id": "05b29b60e2ef2988eb2f0ad9423ebdb1",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -442,7 +442,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -456,28 +456,28 @@
                     "min_temp": 23,
                     "max_temp": 27,
                     "target_temp_step": 1.0,
-                    "current_temperature": 27,
+                    "current_temperature": 28,
                     "temperature": 27,
                     "hvac_action": "off",
                     "icon": "mdi:snowflake",
                     "friendly_name": "Elena's Room AC",
                     "supported_features": 1
                 },
-                "last_changed": "2022-03-06T01:22:17.983840+00:00",
-                "last_updated": "2022-03-06T05:01:25.956663+00:00",
+                "last_changed": "2022-03-06T05:33:59.056373+00:00",
+                "last_updated": "2022-03-06T05:33:59.056373+00:00",
                 "context": {
-                    "id": "e6f971333eba83c5421cfe4bf7351749",
-                    "parent_id": null,
+                    "id": "2bf8055e232053e38e35e9606c6c5bb2",
+                    "parent_id": "5344cb75bba0f40519029576dbc40720",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "input_text.zz_dining_room_lights_controller_1_last_event",
-                "state": "{\"trigger_action\": \"checkin\", \"last_triggered\": \"2022-03-06 12:13:19.225528+08:00\"}",
+                "state": "{\"trigger_action\": \"checkin\", \"last_triggered\": \"2022-03-06 14:06:41.603890+08:00\"}",
                 "attributes": {
                     "editable": true,
                     "min": 0,
@@ -486,21 +486,21 @@
                     "mode": "text",
                     "friendly_name": "zz Dining Room Lights Controller 1 Last Event"
                 },
-                "last_changed": "2022-03-06T04:13:19.226519+00:00",
-                "last_updated": "2022-03-06T04:13:19.226519+00:00",
+                "last_changed": "2022-03-06T06:06:41.604942+00:00",
+                "last_updated": "2022-03-06T06:06:41.604942+00:00",
                 "context": {
-                    "id": "aa32cdca6b88253bcafbcd61a6a09a65",
-                    "parent_id": "37a4aeffd9e31b5ad35c310f640475d1",
+                    "id": "46623664184967b89b347799708198b8",
+                    "parent_id": "30824666786a4bcd69380048dda9363c",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "input_text.zz_dining_room_lights_controller_2_last_event",
-                "state": "{\"trigger_action\": \"checkin\", \"last_triggered\": \"2022-03-06 12:41:29.096953+08:00\"}",
+                "state": "{\"trigger_action\": \"checkin\", \"last_triggered\": \"2022-03-06 13:38:15.865889+08:00\"}",
                 "attributes": {
                     "editable": true,
                     "min": 0,
@@ -509,21 +509,21 @@
                     "mode": "text",
                     "friendly_name": "zz Dining Room Lights Controller 2 Last Event"
                 },
-                "last_changed": "2022-03-06T04:41:29.097858+00:00",
-                "last_updated": "2022-03-06T04:41:29.097858+00:00",
+                "last_changed": "2022-03-06T05:38:15.867097+00:00",
+                "last_updated": "2022-03-06T05:38:15.867097+00:00",
                 "context": {
-                    "id": "f81700ffe9e5fe46477b9e878456dbc2",
-                    "parent_id": "ca3e3b1031847e5b5de231dac4195b95",
+                    "id": "1594a0301aa998b1802c23bd7b8e5135",
+                    "parent_id": "8c8d387e4de5ab311cc66ef30fc1192a",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "input_text.zz_playroom_lights_controller_last_event",
-                "state": "{\"trigger_action\": \"checkin\", \"last_triggered\": \"2022-03-06 12:42:24.065583+08:00\"}",
+                "state": "{\"trigger_action\": \"checkin\", \"last_triggered\": \"2022-03-06 13:39:05.825850+08:00\"}",
                 "attributes": {
                     "editable": true,
                     "min": 0,
@@ -532,16 +532,16 @@
                     "mode": "text",
                     "friendly_name": "zz Playroom Lights Controller Last Event"
                 },
-                "last_changed": "2022-03-06T04:42:24.066324+00:00",
-                "last_updated": "2022-03-06T04:42:24.066324+00:00",
+                "last_changed": "2022-03-06T05:39:05.827495+00:00",
+                "last_updated": "2022-03-06T05:39:05.827495+00:00",
                 "context": {
-                    "id": "63044cf07d31bafaea8c864a62b37180",
-                    "parent_id": "67231309671598bf01bc73e28367bc75",
+                    "id": "7a707f2e059e82ca3fa364a9fa5623de",
+                    "parent_id": "033032581ed4deec621101a2bac10d36",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -564,7 +564,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -587,12 +587,12 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "input_text.zz_powder_room_lights_controller_last_event",
-                "state": "{\"trigger_action\": \"off\", \"last_triggered\": \"2022-03-06 12:37:30.495586+08:00\"}",
+                "state": "{\"trigger_action\": \"checkin\", \"last_triggered\": \"2022-03-06 14:21:14.717812+08:00\"}",
                 "attributes": {
                     "editable": true,
                     "min": 0,
@@ -601,21 +601,21 @@
                     "mode": "text",
                     "friendly_name": "zz Powder Room Lights Controller Last Event"
                 },
-                "last_changed": "2022-03-06T04:37:30.496302+00:00",
-                "last_updated": "2022-03-06T04:37:30.496302+00:00",
+                "last_changed": "2022-03-06T06:21:14.718803+00:00",
+                "last_updated": "2022-03-06T06:21:14.718803+00:00",
                 "context": {
-                    "id": "15036495746a71bee5926ac6011859d4",
-                    "parent_id": "8c6cc2635dd29b966fd39e28c5e11878",
+                    "id": "5105621672a3f55f6720cced6fe042ea",
+                    "parent_id": "0aa7d172f3727db8f7ad541c6e696b05",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "input_text.zz_eli_s_room_fan_controller_last_event",
-                "state": "{\"trigger_action\": \"checkin\", \"last_triggered\": \"2022-03-06 12:42:53.942145+08:00\"}",
+                "state": "{\"trigger_action\": \"checkin\", \"last_triggered\": \"2022-03-06 13:39:31.799009+08:00\"}",
                 "attributes": {
                     "editable": true,
                     "min": 0,
@@ -624,21 +624,21 @@
                     "mode": "text",
                     "friendly_name": "zz Eli's Room Fan Controller Last Event"
                 },
-                "last_changed": "2022-03-06T04:42:53.943102+00:00",
-                "last_updated": "2022-03-06T04:42:53.943102+00:00",
+                "last_changed": "2022-03-06T05:39:31.799889+00:00",
+                "last_updated": "2022-03-06T05:39:31.799889+00:00",
                 "context": {
-                    "id": "327299c0379686147000aa110a2fa2ff",
-                    "parent_id": "38752db48a84f44fed6c4af63fec3f99",
+                    "id": "3d9c6ea2cbba13d4e281c9bd26b4224b",
+                    "parent_id": "b05c37fd7ed5696c0fa692da4193e6bc",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "input_text.zz_eli_s_room_ac_controller_last_event",
-                "state": "{\"trigger_action\": \"checkin\", \"last_triggered\": \"2022-03-06 12:30:06.377785+08:00\"}",
+                "state": "{\"trigger_action\": \"checkin\", \"last_triggered\": \"2022-03-06 14:23:45.499315+08:00\"}",
                 "attributes": {
                     "editable": true,
                     "min": 0,
@@ -647,21 +647,21 @@
                     "mode": "text",
                     "friendly_name": "zz Eli's Room AC Controller Last Event"
                 },
-                "last_changed": "2022-03-06T04:30:06.378652+00:00",
-                "last_updated": "2022-03-06T04:30:06.378652+00:00",
+                "last_changed": "2022-03-06T06:23:45.501382+00:00",
+                "last_updated": "2022-03-06T06:23:45.501382+00:00",
                 "context": {
-                    "id": "932d6ad2f9e6f09a1682cdb121485d87",
-                    "parent_id": "b293c9c9951d88b500dfc0db7a900fcf",
+                    "id": "24db1eba663e4ef75d6470b7b190198c",
+                    "parent_id": "6425c1d5fa1d7d8f7452897fea2bac7c",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "input_text.zz_elena_s_room_fan_controller_last_event",
-                "state": "{\"trigger_action\": \"checkin\", \"last_triggered\": \"2022-03-06 12:50:07.352673+08:00\"}",
+                "state": "{\"trigger_action\": \"checkin\", \"last_triggered\": \"2022-03-06 13:46:45.599503+08:00\"}",
                 "attributes": {
                     "editable": true,
                     "min": 0,
@@ -670,16 +670,16 @@
                     "mode": "text",
                     "friendly_name": "zz Elena's Room Fan Controller Last Event"
                 },
-                "last_changed": "2022-03-06T04:50:07.354670+00:00",
-                "last_updated": "2022-03-06T04:50:07.354670+00:00",
+                "last_changed": "2022-03-06T05:46:45.601391+00:00",
+                "last_updated": "2022-03-06T05:46:45.601391+00:00",
                 "context": {
-                    "id": "68b9aa4ecc14739d07e538d6d7dd10d5",
-                    "parent_id": "0abd51e2402faf024e6d2831ccce31a5",
+                    "id": "9ee097050bbd5612b59670645507d60d",
+                    "parent_id": "e50395e76eb8f1d8145fc25d456bb66d",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -702,7 +702,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -725,7 +725,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -748,7 +748,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -767,7 +767,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -786,7 +786,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -796,16 +796,16 @@
                     "icon": "mdi:snowflake",
                     "friendly_name": "elenas_room_ac_switch"
                 },
-                "last_changed": "2022-03-06T01:22:17.999892+00:00",
-                "last_updated": "2022-03-06T01:22:17.999892+00:00",
+                "last_changed": "2022-03-06T05:33:59.072971+00:00",
+                "last_updated": "2022-03-06T05:33:59.072971+00:00",
                 "context": {
-                    "id": "5d0117d2aa67a3180b0409e8c6277a2b",
-                    "parent_id": "263a661d26ede6f5be753d2f40303792",
+                    "id": "2bf8055e232053e38e35e9606c6c5bb2",
+                    "parent_id": "5344cb75bba0f40519029576dbc40720",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -824,47 +824,47 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "input_boolean.dining_room_fan_power",
-                "state": "on",
+                "state": "off",
                 "attributes": {
                     "editable": true,
                     "icon": "mdi:fan",
                     "friendly_name": "Dining Room Fan Power"
                 },
-                "last_changed": "2022-03-06T01:12:15.512991+00:00",
-                "last_updated": "2022-03-06T01:12:15.512991+00:00",
+                "last_changed": "2022-03-06T05:34:02.845613+00:00",
+                "last_updated": "2022-03-06T05:34:02.845613+00:00",
                 "context": {
-                    "id": "fe78b38618d79f95c0489db575081bb7",
+                    "id": "8d160f03399c72bc230775a878e858b3",
                     "parent_id": null,
                     "user_id": "ad2bcce775894550affb6dfef93a2a36"
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "input_boolean.elenas_room_fan_power",
-                "state": "off",
+                "state": "on",
                 "attributes": {
                     "editable": true,
                     "icon": "mdi:fan",
                     "friendly_name": "Elena's Room Fan Power"
                 },
-                "last_changed": "2022-03-06T01:37:15.252096+00:00",
-                "last_updated": "2022-03-06T01:37:15.252096+00:00",
+                "last_changed": "2022-03-06T05:34:00.007265+00:00",
+                "last_updated": "2022-03-06T05:34:00.007265+00:00",
                 "context": {
-                    "id": "f596adc12d3e59fc917ea421a12e1a65",
+                    "id": "744bcd4522ec45ab911b00204ea32dd4",
                     "parent_id": null,
                     "user_id": "ad2bcce775894550affb6dfef93a2a36"
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -884,7 +884,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -904,7 +904,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -915,16 +915,16 @@
                     "icon": "mdi:snowflake",
                     "friendly_name": "Elena's Room AC Power"
                 },
-                "last_changed": "2022-03-06T01:22:17.998622+00:00",
-                "last_updated": "2022-03-06T01:22:17.998622+00:00",
+                "last_changed": "2022-03-06T05:33:59.070645+00:00",
+                "last_updated": "2022-03-06T05:33:59.070645+00:00",
                 "context": {
-                    "id": "5d0117d2aa67a3180b0409e8c6277a2b",
-                    "parent_id": "263a661d26ede6f5be753d2f40303792",
+                    "id": "2bf8055e232053e38e35e9606c6c5bb2",
+                    "parent_id": "5344cb75bba0f40519029576dbc40720",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -944,7 +944,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -964,7 +964,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -984,67 +984,67 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.pixel_4a_battery_level",
-                "state": "20",
+                "state": "78",
                 "attributes": {
                     "state_class": "measurement",
                     "unit_of_measurement": "%",
                     "device_class": "battery",
-                    "icon": "mdi:battery-20",
+                    "icon": "mdi:battery-70",
                     "friendly_name": "Pixel 4a Battery Level"
                 },
-                "last_changed": "2022-03-06T04:41:21.579465+00:00",
-                "last_updated": "2022-03-06T04:41:21.579465+00:00",
+                "last_changed": "2022-03-06T06:18:32.084278+00:00",
+                "last_updated": "2022-03-06T06:18:32.084278+00:00",
                 "context": {
-                    "id": "e47a5cf3f34c46c8deca61ee1d5fda6b",
+                    "id": "b4c7fa139fb9ef89b7add691a73eb706",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.pixel_4a_battery_state",
-                "state": "discharging",
+                "state": "charging",
                 "attributes": {
-                    "icon": "mdi:battery-minus",
+                    "icon": "mdi:battery-plus",
                     "friendly_name": "Pixel 4a Battery State"
                 },
-                "last_changed": "2022-03-06T01:26:31.130850+00:00",
-                "last_updated": "2022-03-06T01:26:31.130850+00:00",
+                "last_changed": "2022-03-06T05:33:46.420167+00:00",
+                "last_updated": "2022-03-06T05:33:46.420167+00:00",
                 "context": {
-                    "id": "2b5ed14015030fdc8c7a902f03f2335b",
+                    "id": "2259cf0459b497dffcfd7892595fa3d2",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.pixel_4a_charger_type",
-                "state": "none",
+                "state": "ac",
                 "attributes": {
-                    "icon": "mdi:battery",
+                    "icon": "mdi:power-plug",
                     "friendly_name": "Pixel 4a Charger Type"
                 },
-                "last_changed": "2022-03-06T01:26:25.922088+00:00",
-                "last_updated": "2022-03-06T01:26:25.922088+00:00",
+                "last_changed": "2022-03-06T05:33:46.420466+00:00",
+                "last_updated": "2022-03-06T05:33:46.420466+00:00",
                 "context": {
-                    "id": "ef5aaf3c6a80dbed9bb6a1f23931eacd",
+                    "id": "02192d8b162a602c4e87d8e61fc51691",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1063,12 +1063,12 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.pixel_4a_battery_temperature",
-                "state": "32.4",
+                "state": "39.1",
                 "attributes": {
                     "state_class": "measurement",
                     "unit_of_measurement": "\u00b0C",
@@ -1076,36 +1076,36 @@
                     "icon": "mdi:battery",
                     "friendly_name": "Pixel 4a Battery Temperature"
                 },
-                "last_changed": "2022-03-06T04:44:10.212145+00:00",
-                "last_updated": "2022-03-06T04:44:10.212145+00:00",
+                "last_changed": "2022-03-06T06:18:32.084441+00:00",
+                "last_updated": "2022-03-06T06:18:32.084441+00:00",
                 "context": {
-                    "id": "9db19d9af1d6c4ea1880a9b53ca1e8ca",
+                    "id": "dc7b77c1dd565ff93feb52c0b0e9674c",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "binary_sensor.pixel_4a_is_charging",
-                "state": "off",
+                "state": "on",
                 "attributes": {
                     "device_class": "plug",
-                    "icon": "mdi:power-plug-off",
+                    "icon": "mdi:power-plug",
                     "friendly_name": "Pixel 4a Is Charging"
                 },
-                "last_changed": "2022-03-06T01:26:31.131023+00:00",
-                "last_updated": "2022-03-06T01:26:31.131023+00:00",
+                "last_changed": "2022-03-06T05:33:46.420352+00:00",
+                "last_updated": "2022-03-06T05:33:46.420352+00:00",
                 "context": {
-                    "id": "362867e8a1e69525882e3cf1082e1b79",
+                    "id": "4f07175d154e752a02e4f18fb5e1a5f9",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1126,7 +1126,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1152,7 +1152,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1177,7 +1177,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1217,7 +1217,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1236,7 +1236,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1256,7 +1256,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1280,7 +1280,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1299,7 +1299,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1318,7 +1318,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1337,7 +1337,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1356,7 +1356,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1364,25 +1364,25 @@
                 "state": "home",
                 "attributes": {
                     "source_type": "gps",
-                    "latitude": 1.3154744,
-                    "longitude": 103.8803448,
-                    "gps_accuracy": 17,
+                    "latitude": 1.3158833,
+                    "longitude": 103.880097,
+                    "gps_accuracy": 24,
                     "altitude": 64,
-                    "course": 0,
+                    "course": 348,
                     "speed": 0,
-                    "vertical_accuracy": 1,
+                    "vertical_accuracy": 5,
                     "friendly_name": "Pixel 4a"
                 },
-                "last_changed": "2022-03-06T04:44:10.141519+00:00",
-                "last_updated": "2022-03-06T04:44:10.141519+00:00",
+                "last_changed": "2022-03-06T06:30:32.261778+00:00",
+                "last_updated": "2022-03-06T06:30:32.261778+00:00",
                 "context": {
-                    "id": "6fb0f4adf0eb2e747395d39b6bfd27ed",
+                    "id": "7078e9a9f867eb5488742ba646041113",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1407,7 +1407,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1426,7 +1426,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1445,7 +1445,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1464,7 +1464,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1486,7 +1486,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1508,36 +1508,36 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.elenas_room_ac_set_state",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-03-06T01:22:17.976564+00:00",
+                    "last_triggered": "2022-03-06T05:33:59.047931+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1642996756359",
                     "friendly_name": "Elena's Room AC Set State"
                 },
                 "last_changed": "2022-03-06T01:21:52.791863+00:00",
-                "last_updated": "2022-03-06T01:22:18.038155+00:00",
+                "last_updated": "2022-03-06T05:33:59.110998+00:00",
                 "context": {
-                    "id": "983f88b62bdab9b53ae45b2dc1c1f56a",
-                    "parent_id": "5d0117d2aa67a3180b0409e8c6277a2b",
+                    "id": "7afbea713bc1f94ca2e625d0d9d03d5c",
+                    "parent_id": "2bf8055e232053e38e35e9606c6c5bb2",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.dining_room_fan_set_state",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-03-06T01:12:17.087613+00:00",
+                    "last_triggered": "2022-03-06T05:34:02.848064+00:00",
                     "mode": "queued",
                     "current": 0,
                     "max": 10,
@@ -1545,15 +1545,15 @@
                     "friendly_name": "Dining Room Fan Set State"
                 },
                 "last_changed": "2022-03-06T01:21:52.792002+00:00",
-                "last_updated": "2022-03-06T01:21:52.792002+00:00",
+                "last_updated": "2022-03-06T05:34:03.286674+00:00",
                 "context": {
-                    "id": "0c5108be99083c0bddfc54f169423dcc",
-                    "parent_id": null,
+                    "id": "1770f54e01a03e0ebc2bc20fbc4ef165",
+                    "parent_id": "8d160f03399c72bc230775a878e858b3",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1576,95 +1576,95 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.elenas_room_fan_set_state",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-03-06T01:37:15.255044+00:00",
+                    "last_triggered": "2022-03-06T05:48:27.861968+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1643000778073",
                     "friendly_name": "Elena's Room Fan Set State"
                 },
                 "last_changed": "2022-03-06T01:21:52.792286+00:00",
-                "last_updated": "2022-03-06T01:37:16.149813+00:00",
+                "last_updated": "2022-03-06T05:48:28.765735+00:00",
                 "context": {
-                    "id": "399026a53701cd8f09b21eab36a3d3f1",
-                    "parent_id": "f596adc12d3e59fc917ea421a12e1a65",
+                    "id": "07467fd46487d9130f8a4dd053e5b7e4",
+                    "parent_id": "75395e39dab66ae7379529917b9f942c",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.dining_room_light_controller_1",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-03-06T04:13:19.222202+00:00",
+                    "last_triggered": "2022-03-06T06:06:41.600393+00:00",
                     "mode": "restart",
                     "current": 0,
                     "id": "1643640720985",
                     "friendly_name": "Dining Room Lights Controller 1"
                 },
                 "last_changed": "2022-03-06T01:21:52.792422+00:00",
-                "last_updated": "2022-03-06T04:13:19.228144+00:00",
+                "last_updated": "2022-03-06T06:06:41.607074+00:00",
                 "context": {
-                    "id": "aa32cdca6b88253bcafbcd61a6a09a65",
-                    "parent_id": "37a4aeffd9e31b5ad35c310f640475d1",
+                    "id": "46623664184967b89b347799708198b8",
+                    "parent_id": "30824666786a4bcd69380048dda9363c",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.dining_room_lights_controller_2",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-03-06T04:41:29.093464+00:00",
+                    "last_triggered": "2022-03-06T05:38:15.862005+00:00",
                     "mode": "restart",
                     "current": 0,
                     "id": "1643641285314",
                     "friendly_name": "Dining Room Lights Controller 2"
                 },
                 "last_changed": "2022-03-06T01:21:52.792576+00:00",
-                "last_updated": "2022-03-06T04:41:29.099982+00:00",
+                "last_updated": "2022-03-06T05:38:15.869335+00:00",
                 "context": {
-                    "id": "f81700ffe9e5fe46477b9e878456dbc2",
-                    "parent_id": "ca3e3b1031847e5b5de231dac4195b95",
+                    "id": "1594a0301aa998b1802c23bd7b8e5135",
+                    "parent_id": "8c8d387e4de5ab311cc66ef30fc1192a",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.playroom_lights_controller",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-03-06T04:42:24.062740+00:00",
+                    "last_triggered": "2022-03-06T05:39:05.822915+00:00",
                     "mode": "restart",
                     "current": 0,
                     "id": "1643641631013",
                     "friendly_name": "Playroom Lights Controller"
                 },
                 "last_changed": "2022-03-06T01:21:52.792715+00:00",
-                "last_updated": "2022-03-06T04:42:24.068802+00:00",
+                "last_updated": "2022-03-06T05:39:05.829711+00:00",
                 "context": {
-                    "id": "63044cf07d31bafaea8c864a62b37180",
-                    "parent_id": "67231309671598bf01bc73e28367bc75",
+                    "id": "7a707f2e059e82ca3fa364a9fa5623de",
+                    "parent_id": "033032581ed4deec621101a2bac10d36",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1686,29 +1686,29 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.hallway_motion",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-03-06T04:38:43.562587+00:00",
+                    "last_triggered": "2022-03-06T05:34:34.616404+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1643642651826",
                     "friendly_name": "Hallway Motion"
                 },
                 "last_changed": "2022-03-06T01:21:52.792975+00:00",
-                "last_updated": "2022-03-06T04:38:43.683273+00:00",
+                "last_updated": "2022-03-06T05:34:34.738560+00:00",
                 "context": {
-                    "id": "027161f6a4f10d3b04f47a862d389903",
-                    "parent_id": "c0a228c9b81a0f08447cdd7f11b33880",
+                    "id": "51ccd076db5a5f87c75a600afde1c6ce",
+                    "parent_id": "76ddc44ff107f85a9c965ad0b69ec140",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1730,7 +1730,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1752,117 +1752,117 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.powder_room_lights_controller",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-03-06T04:37:30.493103+00:00",
+                    "last_triggered": "2022-03-06T06:21:14.713820+00:00",
                     "mode": "restart",
                     "current": 0,
                     "id": "1643644178195",
                     "friendly_name": "Powder Room Lights Controller"
                 },
                 "last_changed": "2022-03-06T01:21:52.793342+00:00",
-                "last_updated": "2022-03-06T04:37:30.557295+00:00",
+                "last_updated": "2022-03-06T06:21:14.720667+00:00",
                 "context": {
-                    "id": "15036495746a71bee5926ac6011859d4",
-                    "parent_id": "8c6cc2635dd29b966fd39e28c5e11878",
+                    "id": "5105621672a3f55f6720cced6fe042ea",
+                    "parent_id": "0aa7d172f3727db8f7ad541c6e696b05",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.elis_room_fan_controller",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-03-06T04:42:53.937247+00:00",
+                    "last_triggered": "2022-03-06T05:39:31.796506+00:00",
                     "mode": "restart",
                     "current": 0,
                     "id": "1643644997118",
                     "friendly_name": "Eli's Room Fan Controller"
                 },
                 "last_changed": "2022-03-06T01:21:52.793469+00:00",
-                "last_updated": "2022-03-06T04:42:53.945229+00:00",
+                "last_updated": "2022-03-06T05:39:31.802320+00:00",
                 "context": {
-                    "id": "327299c0379686147000aa110a2fa2ff",
-                    "parent_id": "38752db48a84f44fed6c4af63fec3f99",
+                    "id": "3d9c6ea2cbba13d4e281c9bd26b4224b",
+                    "parent_id": "b05c37fd7ed5696c0fa692da4193e6bc",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.elis_room_ac_controller",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-03-06T04:30:06.374746+00:00",
+                    "last_triggered": "2022-03-06T06:23:45.496078+00:00",
                     "mode": "restart",
                     "current": 0,
                     "id": "1643645339926",
                     "friendly_name": "Eli's Room AC Controller"
                 },
                 "last_changed": "2022-03-06T01:21:52.793631+00:00",
-                "last_updated": "2022-03-06T04:30:06.380103+00:00",
+                "last_updated": "2022-03-06T06:23:45.503716+00:00",
                 "context": {
-                    "id": "932d6ad2f9e6f09a1682cdb121485d87",
-                    "parent_id": "b293c9c9951d88b500dfc0db7a900fcf",
+                    "id": "24db1eba663e4ef75d6470b7b190198c",
+                    "parent_id": "6425c1d5fa1d7d8f7452897fea2bac7c",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.elis_room_lights_controller",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-03-06T04:07:18.205568+00:00",
+                    "last_triggered": "2022-03-06T06:00:46.119183+00:00",
                     "mode": "restart",
                     "current": 0,
                     "id": "1643645667838",
                     "friendly_name": "Eli's Room Lights Controller"
                 },
                 "last_changed": "2022-03-06T01:21:52.793781+00:00",
-                "last_updated": "2022-03-06T04:07:18.209734+00:00",
+                "last_updated": "2022-03-06T06:00:46.122655+00:00",
                 "context": {
-                    "id": "40af18ea1aa81a8d073113f12a66cee1",
-                    "parent_id": "e7e466bddefdf2d8c6ea84cd69480287",
+                    "id": "6a8559a6e5be429236bcb4f1e3a111a7",
+                    "parent_id": "34fbc41235b52464c7d3395fd07257b1",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.elenas_room_fan_controller",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-03-06T04:50:07.349552+00:00",
+                    "last_triggered": "2022-03-06T05:46:45.596208+00:00",
                     "mode": "restart",
                     "current": 0,
                     "id": "1643645804516",
                     "friendly_name": "Elena's Room Fan Controller"
                 },
                 "last_changed": "2022-03-06T01:21:52.793895+00:00",
-                "last_updated": "2022-03-06T04:50:07.356948+00:00",
+                "last_updated": "2022-03-06T05:46:45.603656+00:00",
                 "context": {
-                    "id": "68b9aa4ecc14739d07e538d6d7dd10d5",
-                    "parent_id": "0abd51e2402faf024e6d2831ccce31a5",
+                    "id": "9ee097050bbd5612b59670645507d60d",
+                    "parent_id": "e50395e76eb8f1d8145fc25d456bb66d",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1884,7 +1884,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1906,7 +1906,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1928,7 +1928,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1950,7 +1950,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1972,7 +1972,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -1994,7 +1994,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2016,29 +2016,29 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.notify_when_ac_on_with_doors_open",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-03-06T01:22:35.667500+00:00",
+                    "last_triggered": "2022-03-06T05:33:59.064235+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1643979293415",
                     "friendly_name": "Notify When AC On With Doors Open"
                 },
                 "last_changed": "2022-03-06T01:21:52.795001+00:00",
-                "last_updated": "2022-03-06T01:22:36.082943+00:00",
+                "last_updated": "2022-03-06T05:34:00.107411+00:00",
                 "context": {
-                    "id": "f86795c082a6f5bd1df44a921c145867",
-                    "parent_id": "994d3a3fcf25fd4f9ced4ce832da898c",
+                    "id": "cc9ed1b4c4370105df45b5e6427c5998",
+                    "parent_id": "2bf8055e232053e38e35e9606c6c5bb2",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2060,7 +2060,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2082,7 +2082,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2104,7 +2104,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2126,7 +2126,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2151,7 +2151,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2176,7 +2176,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2201,7 +2201,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2226,7 +2226,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2251,7 +2251,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2276,7 +2276,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2301,7 +2301,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2326,7 +2326,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2351,7 +2351,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2361,16 +2361,16 @@
                     "device_class": "motion",
                     "friendly_name": "Hallway Motion"
                 },
-                "last_changed": "2022-03-06T04:38:43.561425+00:00",
-                "last_updated": "2022-03-06T04:38:43.561425+00:00",
+                "last_changed": "2022-03-06T05:34:34.615296+00:00",
+                "last_updated": "2022-03-06T05:34:34.615296+00:00",
                 "context": {
-                    "id": "c0a228c9b81a0f08447cdd7f11b33880",
+                    "id": "76ddc44ff107f85a9c965ad0b69ec140",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2392,7 +2392,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2417,7 +2417,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2442,7 +2442,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2467,7 +2467,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2492,7 +2492,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2517,7 +2517,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2538,7 +2538,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2561,28 +2561,28 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.dining_room_humidity",
-                "state": "85.0",
+                "state": "83.4",
                 "attributes": {
                     "state_class": "measurement",
                     "unit_of_measurement": "%",
                     "device_class": "humidity",
                     "friendly_name": "Dining Room Humidity"
                 },
-                "last_changed": "2022-03-06T04:48:09.282541+00:00",
-                "last_updated": "2022-03-06T04:48:09.282541+00:00",
+                "last_changed": "2022-03-06T06:27:17.984083+00:00",
+                "last_updated": "2022-03-06T06:27:17.984083+00:00",
                 "context": {
-                    "id": "ade14381c8cfcbabb4803da8e9c742cc",
+                    "id": "8da6b0348fea7972c31e2a2b36dbb5d4",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2604,28 +2604,28 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.dining_room_temperature",
-                "state": "27.4",
+                "state": "27.8",
                 "attributes": {
                     "state_class": "measurement",
                     "unit_of_measurement": "\u00b0C",
                     "device_class": "temperature",
                     "friendly_name": "Dining Room Temperature"
                 },
-                "last_changed": "2022-03-06T04:23:10.457396+00:00",
-                "last_updated": "2022-03-06T04:23:10.457396+00:00",
+                "last_changed": "2022-03-06T06:23:11.240785+00:00",
+                "last_updated": "2022-03-06T06:23:11.240785+00:00",
                 "context": {
-                    "id": "afbd0f18d8c37be925b697948a29d9f1",
+                    "id": "4a76455eaac8b3641c11422ac097bf33",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2649,7 +2649,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2668,7 +2668,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2690,7 +2690,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2714,7 +2714,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2738,7 +2738,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2762,7 +2762,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2786,7 +2786,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2810,7 +2810,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2831,7 +2831,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2853,28 +2853,28 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.elis_room_temperature",
-                "state": "27.8",
+                "state": "28.2",
                 "attributes": {
                     "state_class": "measurement",
                     "unit_of_measurement": "\u00b0C",
                     "device_class": "temperature",
                     "friendly_name": "Eli's Room Temperature"
                 },
-                "last_changed": "2022-03-06T04:59:49.244068+00:00",
-                "last_updated": "2022-03-06T04:59:49.244068+00:00",
+                "last_changed": "2022-03-06T06:14:50.005498+00:00",
+                "last_updated": "2022-03-06T06:14:50.005498+00:00",
                 "context": {
-                    "id": "25d1b8f0c285905c82e2067d27c0a994",
+                    "id": "e97d0cc8ec5b4eb918ddd722aa320f7b",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2898,7 +2898,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2922,7 +2922,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2946,7 +2946,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2970,7 +2970,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -2995,28 +2995,28 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.elenas_room_temperature",
-                "state": "27.4",
+                "state": "27.6",
                 "attributes": {
                     "state_class": "measurement",
                     "unit_of_measurement": "\u00b0C",
                     "device_class": "temperature",
                     "friendly_name": "Elena's Room Temperature"
                 },
-                "last_changed": "2022-03-06T05:01:25.955761+00:00",
-                "last_updated": "2022-03-06T05:01:25.955761+00:00",
+                "last_changed": "2022-03-06T06:16:26.803947+00:00",
+                "last_updated": "2022-03-06T06:16:26.803947+00:00",
                 "context": {
-                    "id": "64d3b2ba006de5ea260efadab0072c8d",
+                    "id": "ae4e0b24e6535e0d3fc277431b6e3f5d",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3038,7 +3038,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3061,7 +3061,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3080,7 +3080,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3102,7 +3102,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3121,7 +3121,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3143,7 +3143,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3162,7 +3162,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3184,7 +3184,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3203,7 +3203,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3225,7 +3225,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3247,7 +3247,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3271,7 +3271,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3295,7 +3295,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3314,7 +3314,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3336,7 +3336,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3355,7 +3355,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3377,7 +3377,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3396,7 +3396,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3415,7 +3415,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3434,7 +3434,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3453,7 +3453,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3472,7 +3472,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3491,7 +3491,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3510,7 +3510,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3529,7 +3529,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3548,7 +3548,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3567,7 +3567,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3586,7 +3586,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3605,7 +3605,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3624,7 +3624,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3643,7 +3643,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3664,7 +3664,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3683,7 +3683,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3702,7 +3702,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3721,7 +3721,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3740,7 +3740,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3759,7 +3759,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3778,7 +3778,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3797,7 +3797,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3816,7 +3816,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3835,7 +3835,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3854,7 +3854,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3875,7 +3875,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3894,7 +3894,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3913,7 +3913,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3932,7 +3932,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3951,7 +3951,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3970,7 +3970,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -3989,7 +3989,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4008,7 +4008,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4027,7 +4027,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4046,7 +4046,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4065,7 +4065,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4084,7 +4084,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4103,7 +4103,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4122,7 +4122,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4141,7 +4141,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4160,7 +4160,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4172,16 +4172,16 @@
                     "device_class": "temperature",
                     "friendly_name": "Powder Room Door Temperature"
                 },
-                "last_changed": "2022-03-05T23:38:34.005798+00:00",
-                "last_updated": "2022-03-05T23:38:34.005798+00:00",
+                "last_changed": "2022-03-06T06:20:29.328671+00:00",
+                "last_updated": "2022-03-06T06:20:29.328671+00:00",
                 "context": {
-                    "id": "0ac916d27fb7e742187892cd1fa57a04",
+                    "id": "568872d638856699ec3a4380e2fc25ee",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4200,7 +4200,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4219,7 +4219,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4238,7 +4238,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4257,28 +4257,28 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.yard_window_temperature",
-                "state": "30.0",
+                "state": "31.0",
                 "attributes": {
                     "state_class": "measurement",
                     "unit_of_measurement": "\u00b0C",
                     "device_class": "temperature",
                     "friendly_name": "Yard Window Temperature"
                 },
-                "last_changed": "2022-03-06T03:26:37.554021+00:00",
-                "last_updated": "2022-03-06T03:26:37.554021+00:00",
+                "last_changed": "2022-03-06T05:57:21.356467+00:00",
+                "last_updated": "2022-03-06T05:57:21.356467+00:00",
                 "context": {
-                    "id": "f334c86f0550ab797171c8286523255c",
+                    "id": "87f7d1a95b42fd2416f34dfca9b0384f",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4297,76 +4297,76 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "script.ac_set_state",
                 "state": "off",
                 "attributes": {
-                    "last_triggered": "2022-03-06T01:22:35.670967+00:00",
+                    "last_triggered": "2022-03-06T05:33:59.068736+00:00",
                     "mode": "parallel",
                     "current": 0,
                     "max": 10,
                     "icon": "mdi:snowflake",
                     "friendly_name": "AC Set State"
                 },
-                "last_changed": "2022-03-06T01:22:36.452381+00:00",
-                "last_updated": "2022-03-06T01:22:36.452381+00:00",
+                "last_changed": "2022-03-06T05:33:59.109270+00:00",
+                "last_updated": "2022-03-06T05:33:59.109270+00:00",
                 "context": {
-                    "id": "606299308f201a309d77b4c2b668587c",
-                    "parent_id": "994d3a3fcf25fd4f9ced4ce832da898c",
+                    "id": "2bf8055e232053e38e35e9606c6c5bb2",
+                    "parent_id": "5344cb75bba0f40519029576dbc40720",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "script.fan_set_state",
                 "state": "off",
                 "attributes": {
-                    "last_triggered": "2022-03-06T02:41:18.494615+00:00",
+                    "last_triggered": "2022-03-06T05:48:27.865657+00:00",
                     "mode": "queued",
                     "current": 0,
                     "max": 10,
                     "icon": "mdi:speedometer",
                     "friendly_name": "Fan Set State"
                 },
-                "last_changed": "2022-03-06T02:41:19.260897+00:00",
-                "last_updated": "2022-03-06T02:41:19.260897+00:00",
+                "last_changed": "2022-03-06T05:48:28.763787+00:00",
+                "last_updated": "2022-03-06T05:48:28.763787+00:00",
                 "context": {
-                    "id": "b3840fb6f7b641eb5ebb6501c73f280a",
-                    "parent_id": "85eee874251d505acefbce3be720682d",
+                    "id": "07467fd46487d9130f8a4dd053e5b7e4",
+                    "parent_id": "75395e39dab66ae7379529917b9f942c",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "script.fan_reverse_spin",
                 "state": "off",
                 "attributes": {
-                    "last_triggered": "2022-03-05T18:54:51.210001+00:00",
+                    "last_triggered": "2022-03-06T05:48:24.825813+00:00",
                     "mode": "queued",
                     "current": 0,
                     "max": 10,
                     "icon": "mdi:rotate-3d-variant",
                     "friendly_name": "Fan Reverse Spin"
                 },
-                "last_changed": "2022-03-05T18:54:51.704538+00:00",
-                "last_updated": "2022-03-05T18:54:51.704538+00:00",
+                "last_changed": "2022-03-06T05:48:25.720379+00:00",
+                "last_updated": "2022-03-06T05:48:25.720379+00:00",
                 "context": {
-                    "id": "79ab7754e1b0b81e5f51fd782fa174db",
+                    "id": "5382b3cd38ead1acebd4b835e8a162b5",
                     "parent_id": null,
-                    "user_id": "2651cb9042dd41acb0b54327457a9a14"
+                    "user_id": "ad2bcce775894550affb6dfef93a2a36"
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4388,7 +4388,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4410,29 +4410,29 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
                 "entity_id": "script.turn_off_dining_room",
                 "state": "off",
                 "attributes": {
-                    "last_triggered": "2022-03-05T14:31:16.548393+00:00",
+                    "last_triggered": "2022-03-06T05:34:02.841793+00:00",
                     "mode": "single",
                     "current": 0,
                     "icon": "mdi:power",
                     "friendly_name": "Turn Off Dining Room"
                 },
-                "last_changed": "2022-03-05T14:31:16.746295+00:00",
-                "last_updated": "2022-03-05T14:31:16.746295+00:00",
+                "last_changed": "2022-03-06T05:34:03.005945+00:00",
+                "last_updated": "2022-03-06T05:34:03.005945+00:00",
                 "context": {
-                    "id": "4f8851505f4c2fb7fb62af90b28638ff",
+                    "id": "8d160f03399c72bc230775a878e858b3",
                     "parent_id": null,
                     "user_id": "ad2bcce775894550affb6dfef93a2a36"
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4454,7 +4454,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4476,7 +4476,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4498,7 +4498,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4520,7 +4520,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4542,7 +4542,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4564,7 +4564,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {
@@ -4586,7 +4586,7 @@
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-06T05:01:53.013518+00:00"
+            "last_seen": "2022-03-06T06:31:53.020210+00:00"
         },
         {
             "state": {

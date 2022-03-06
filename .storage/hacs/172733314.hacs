@@ -15,7 +15,7 @@
         "description": "HACS gives you a powerful UI to handle downloads of all your custom needs.",
         "domain": "hacs",
         "domains": [],
-        "downloads": 41296,
+        "downloads": 41460,
         "etag_repository": "W/\"714ac150b9c329c57f2d0542ace8ccff305a595fe3c72658c60f926f46b7aef9\"",
         "file_name": "",
         "filename": "hacs.zip",
