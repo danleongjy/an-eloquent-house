@@ -1,0 +1,1938 @@
+{
+    "version": 1,
+    "minor_version": 3,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "88f3e93955911f63a48d2c0de1174ba3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "OS"
+                    ]
+                ],
+                "manufacturer": "Home Assistant",
+                "model": "Home Assistant Operating System",
+                "name": "Home Assistant Operating System",
+                "sw_version": "7.4",
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "8b70dff75ca15e2aadccc38a37e12023",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "be8dea240f342e76261a277fe8168222"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "met"
+                    ]
+                ],
+                "manufacturer": "Met.no",
+                "model": "Forecast",
+                "name": "Forecast",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "7b9484d1984944b8267dff53a4bbceac",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "https://www.met.no/en"
+            },
+            {
+                "config_entries": [
+                    "1f1b219f55ca3433014f95689dbc9803",
+                    "5d93d8c83f53e64b941406e7a7271a3b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "78:0f:77:b9:30:aa"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "broadlink",
+                        "780f77b930aa"
+                    ]
+                ],
+                "manufacturer": "Broadlink",
+                "model": "RM pro+",
+                "name": "Eli's Room Universal Remote",
+                "sw_version": 52,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "fd51735cd184216839e0ec48ff01bb70",
+                "via_device_id": null,
+                "area_id": "eli_s_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "5d93d8c83f53e64b941406e7a7271a3b",
+                    "87baef47363fe521d0084d83f506d42f"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "a0:43:b0:12:3d:de"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "broadlink",
+                        "a043b0123dde"
+                    ]
+                ],
+                "manufacturer": "Broadlink",
+                "model": "RM4 mini",
+                "name": "Elena's Room Universal Remote",
+                "sw_version": 52079,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "1690d33731e5489da342d6fed924add2",
+                "via_device_id": null,
+                "area_id": "elena_s_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "5d93d8c83f53e64b941406e7a7271a3b",
+                    "636773c40a7132a5fd52717244c85993"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "24:df:a7:4f:fb:39"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "broadlink",
+                        "24dfa74ffb39"
+                    ]
+                ],
+                "manufacturer": "Broadlink",
+                "model": "RM4C mini",
+                "name": "Dining Room Universal Remote",
+                "sw_version": 52078,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "678bcaed4629140908d8b0ca8e049f9e",
+                "via_device_id": null,
+                "area_id": "dining_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "88f3e93955911f63a48d2c0de1174ba3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "a0d7b954_vscode"
+                    ]
+                ],
+                "manufacturer": "Home Assistant Community Add-ons",
+                "model": "Home Assistant Add-on",
+                "name": "Studio Code Server",
+                "sw_version": "4.1.0",
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "5b7a85777b075f2a2924071c5db8b997",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "homeassistant://hassio/addon/a0d7b954_vscode"
+            },
+            {
+                "config_entries": [
+                    "494df773c25090ed3671b4d2cb60fdb7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hacs",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "manufacturer": "hacs.xyz",
+                "model": "",
+                "name": "HACS",
+                "sw_version": "1.23.0",
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "ba4fe9d7b1bbc06b53143899a36fb716",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "homeassistant://hacs"
+            },
+            {
+                "config_entries": [
+                    "88f3e93955911f63a48d2c0de1174ba3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "core_mariadb"
+                    ]
+                ],
+                "manufacturer": "Official add-ons",
+                "model": "Home Assistant Add-on",
+                "name": "MariaDB",
+                "sw_version": "2.4.0",
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "d6ff0decc3793bd3a63f3b4bcfa47dda",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "homeassistant://hassio/addon/core_mariadb"
+            },
+            {
+                "config_entries": [
+                    "88f3e93955911f63a48d2c0de1174ba3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "a0d7b954_ssh"
+                    ]
+                ],
+                "manufacturer": "Home Assistant Community Add-ons",
+                "model": "Home Assistant Add-on",
+                "name": "SSH & Web Terminal",
+                "sw_version": "10.0.2",
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "348c0b671278fbf0de7351c25b7f95dc",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "homeassistant://hassio/addon/a0d7b954_ssh"
+            },
+            {
+                "config_entries": [
+                    "88f3e93955911f63a48d2c0de1174ba3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "core_samba"
+                    ]
+                ],
+                "manufacturer": "Official add-ons",
+                "model": "Home Assistant Add-on",
+                "name": "Samba share",
+                "sw_version": "9.5.1",
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "f28b5f57b81f46adaf6e421b4c4e4ddf",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "homeassistant://hassio/addon/core_samba"
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:21:2e:ff:ff:06:d7:e6"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:21:2e:ff:ff:06:d7:e6"
+                    ]
+                ],
+                "manufacturer": "dresden elektronik",
+                "model": "ConBee II",
+                "name": "dresden elektronik ConBee II",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "2a7c49b8bb04303ca9a7609856049c08",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "dining_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "bc:33:ac:ff:fe:95:50:45"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "bc:33:ac:ff:fe:95:50:45"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI bulb GU10 WS 400lm",
+                "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
+                "sw_version": "0x20029623",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "b91b53c544a3fd255f58f8fb2425214a",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "dining_room",
+                "name_by_user": "Dining Room Bulb 2",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:19:ce:62"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:19:ce:62"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI bulb GU10 WS 400lm",
+                "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
+                "sw_version": "0x20029623",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "38fce4f13d803d7f422753b018849042",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "dining_room",
+                "name_by_user": "Dining Room Bulb 1",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "80:4b:50:ff:fe:fe:86:f0"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "80:4b:50:ff:fe:fe:86:f0"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI bulb GU10 WS 400lm",
+                "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
+                "sw_version": "0x20029623",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "8f55b3591bcf5292ddd1eb957a06ecbb",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "dining_room",
+                "name_by_user": "Dining Room Bulb 3",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:02:a9:0e"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:02:a9:0e"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI bulb GU10 WS 400lm",
+                "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
+                "sw_version": "0x20029623",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "68fe00b7c0ad89a05e1dc7714625a6e3",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "dining_room",
+                "name_by_user": "Dining Room Bulb 4",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:00:fe:63"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:00:fe:63"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI bulb GU10 WS 400lm",
+                "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
+                "sw_version": "0x20029623",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "96018f4c6c9fa34d2d3a76c6851ae5dd",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "playroom",
+                "name_by_user": "Playroom Bulb 1",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "80:4b:50:ff:fe:f3:b7:87"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "80:4b:50:ff:fe:f3:b7:87"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI bulb GU10 WS 400lm",
+                "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
+                "sw_version": "0x20029623",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "2db853366b1775779a8a94e680edc9ec",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "playroom",
+                "name_by_user": "Playroom Bulb 2",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "80:4b:50:ff:fe:ff:81:73"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "80:4b:50:ff:fe:ff:81:73"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI bulb GU10 WS 400lm",
+                "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
+                "sw_version": "0x20029623",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "824aa41c2a13f2c9d94fc2e131b4575c",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "playroom",
+                "name_by_user": "Playroom Bulb 3",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "80:4b:50:ff:fe:fc:85:be"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "80:4b:50:ff:fe:fc:85:be"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI bulb GU10 WS 400lm",
+                "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
+                "sw_version": "0x20029623",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "afda408ceaf7c4244cac3fd018a741f7",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "hallway",
+                "name_by_user": "Hallway Bulb 1",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:00:f8:d6"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:00:f8:d6"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI bulb GU10 WS 400lm",
+                "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
+                "sw_version": "0x20029623",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "5600465becd58a51c06b29678dc82991",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "hallway",
+                "name_by_user": "Hallway Bulb 2",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:12:4b:00:22:14:d2:48"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:12:4b:00:22:14:d2:48"
+                    ]
+                ],
+                "manufacturer": "eWeLink",
+                "model": "MS01",
+                "name": "eWeLink MS01",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "6e5f11040136d7cc173af1419ac931b4",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "hallway",
+                "name_by_user": "Hallway Motion",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:95:bc:5c"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:95:bc:5c"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI on/off switch",
+                "name": "IKEA of Sweden TRADFRI on/off switch",
+                "sw_version": "0x23079631",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "cea5083fc6a1972a0b57048ffa03cfd8",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "hallway",
+                "name_by_user": "Dining Room Lights Controller 2",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "80:4b:50:ff:fe:fe:b8:26"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "80:4b:50:ff:fe:fe:b8:26"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI bulb GU10 WS 400lm",
+                "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
+                "sw_version": "0x20029623",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "77cd8d76f6f7d32e5d054bf767686d1d",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "eli_s_room",
+                "name_by_user": "Eli's Room Bulb 2",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "80:4b:50:ff:fe:fa:91:80"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "80:4b:50:ff:fe:fa:91:80"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI bulb GU10 WS 400lm",
+                "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
+                "sw_version": "0x20029623",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "bdf9adbfe396bd8c79729d78794362d1",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "eli_s_room",
+                "name_by_user": "Eli's Room Bulb 1",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "80:4b:50:ff:fe:ff:8a:0a"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "80:4b:50:ff:fe:ff:8a:0a"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI bulb GU10 WS 400lm",
+                "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
+                "sw_version": "0x20029623",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "fc072fd7b2bb17425c94654709b1feae",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "eli_s_room",
+                "name_by_user": "Eli's Room Bulb 3",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:9c:06:da"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:9c:06:da"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI on/off switch",
+                "name": "IKEA of Sweden TRADFRI on/off switch",
+                "sw_version": "0x23079631",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "f70176647fea31ee95539e565e16e9be",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "eli_s_room",
+                "name_by_user": "Eli's Room Fan Controller",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:9f:10:05"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:9f:10:05"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI on/off switch",
+                "name": "IKEA of Sweden TRADFRI on/off switch",
+                "sw_version": "0x23079631",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "6e3bab771f635d9d237ea94a56bbf115",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "hallway",
+                "name_by_user": "Living Dining Room AC Controller 1",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "80:4b:50:ff:fe:fc:85:3f"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "80:4b:50:ff:fe:fc:85:3f"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI bulb GU10 WS 400lm",
+                "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
+                "sw_version": "0x20029623",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "6dcff9d064c54fe82d682ecbd2e05d86",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "elena_s_room",
+                "name_by_user": "Elena's Room Bulb 2",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "80:4b:50:ff:fe:fa:b0:28"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "80:4b:50:ff:fe:fa:b0:28"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI bulb GU10 WS 400lm",
+                "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
+                "sw_version": "0x20029623",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "e95e96f13401adce546971e1c5254832",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "elena_s_room",
+                "name_by_user": "Elena's Room Bulb 3",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:95:bb:ff"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:95:bb:ff"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI on/off switch",
+                "name": "IKEA of Sweden TRADFRI on/off switch",
+                "sw_version": "0x23079631",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "729379c869fac5a454929998eba2f3d2",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "eli_s_room",
+                "name_by_user": "Eli's Room AC Controller",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:12:4b:00:22:14:f6:01"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:12:4b:00:22:14:f6:01"
+                    ]
+                ],
+                "manufacturer": "eWeLink",
+                "model": "TH01",
+                "name": "eWeLink TH01",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "bb7b10ab6fcb92baef93cc32ab33b68b",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "elena_s_room",
+                "name_by_user": "Elena's Room Temperature Humidity",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:95:bb:e8"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:95:bb:e8"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI on/off switch",
+                "name": "IKEA of Sweden TRADFRI on/off switch",
+                "sw_version": "0x23079631",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "d6563b3c30e24806da5ef8823f3fcd03",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "elena_s_room",
+                "name_by_user": "Elena's Room Lights Controller",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:05:d6:b7"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:05:d6:b7"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI bulb E27 WW 806lm",
+                "name": "IKEA of Sweden TRADFRI bulb E27 WW 806lm",
+                "sw_version": "0x23086631",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "7ba33171a7196881c47052f6eb86ae34",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "junior_bathroom",
+                "name_by_user": "Junior Bathroom Pendant Light",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:12:4b:00:22:2e:96:cc"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:12:4b:00:22:2e:96:cc"
+                    ]
+                ],
+                "manufacturer": "eWeLink",
+                "model": "TH01",
+                "name": "eWeLink TH01",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "ed7a0f3e5988ae5799c9d5e67034909c",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "eli_s_room",
+                "name_by_user": "Eli's Room Temperature Humidity",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:9f:0f:e0"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:9f:0f:e0"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI on/off switch",
+                "name": "IKEA of Sweden TRADFRI on/off switch",
+                "sw_version": "0x23079631",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "0df2cd0b0fa9112188778c56db622911",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "dining_room",
+                "name_by_user": "Dining Room Lights Controller 1",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:12:4b:00:22:2e:99:11"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:12:4b:00:22:2e:99:11"
+                    ]
+                ],
+                "manufacturer": "eWeLink",
+                "model": "TH01",
+                "name": "eWeLink TH01",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "f3b2b75f7b31fb5a91e8a449f6714d1c",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "dining_room",
+                "name_by_user": "Dining Room Temperature Humidity",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:9c:0f:fc"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:9c:0f:fc"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI on/off switch",
+                "name": "IKEA of Sweden TRADFRI on/off switch",
+                "sw_version": "0x23079631",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "867b78e6f7808ffcceb260be52b0c174",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "playroom",
+                "name_by_user": "Playroom Lights Controller",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:12:4b:00:22:28:a3:51"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:12:4b:00:22:28:a3:51"
+                    ]
+                ],
+                "manufacturer": "eWeLink",
+                "model": "MSO1",
+                "name": "eWeLink MSO1",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "03468835a032021fe680721335c32cd5",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "playroom",
+                "name_by_user": "Playroom Motion",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:1b:9a:43"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:1b:9a:43"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI remote control",
+                "name": "IKEA of Sweden TRADFRI remote control",
+                "sw_version": "0x23080631",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "4f9d115057150510080b9cde7008bb35",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "eli_s_room",
+                "name_by_user": "Eli's Room Lights Controller",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:3b:78:94"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:3b:78:94"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI on/off switch",
+                "name": "IKEA of Sweden TRADFRI on/off switch",
+                "sw_version": "0x23079631",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "ea611248af61d7f5dc06e3a824288132",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "elena_s_room",
+                "name_by_user": "Elena's Room Fan Controller",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:9f:10:c9"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:9f:10:c9"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI on/off switch",
+                "name": "IKEA of Sweden TRADFRI on/off switch",
+                "sw_version": "0x23079631",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "4992a43f1eecbf448ac02a3c2601ab36",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "elena_s_room",
+                "name_by_user": "Elena's Room AC Controller",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "80:4b:50:ff:fe:f3:d3:e8"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "80:4b:50:ff:fe:f3:d3:e8"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI bulb GU10 WS 400lm",
+                "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
+                "sw_version": "0x20029623",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "7ee5c67d32c83441d269a0b900d08e20",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "elena_s_room",
+                "name_by_user": "Elena's Room Bulb 1",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:34:f7:7b"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:34:f7:7b"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI on/off switch",
+                "name": "IKEA of Sweden TRADFRI on/off switch",
+                "sw_version": "0x22010631",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "f084f2e55c0800941585a50dd83e5f47",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "junior_bathroom",
+                "name_by_user": "Junior Bathroom Lights Controller",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:37:50:2c"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:37:50:2c"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI on/off switch",
+                "name": "IKEA of Sweden TRADFRI on/off switch",
+                "sw_version": "0x23079631",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "8fd4f8715be89cc0f383c887c3fac892",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "powder_room",
+                "name_by_user": "Powder Room Lights Controller",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:24:15:e3"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:24:15:e3"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI bulb E27 WW 806lm",
+                "name": "IKEA of Sweden TRADFRI bulb E27 WW 806lm",
+                "sw_version": "0x23086631",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "3739789542016f6880b0c0e589de8e70",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "powder_room",
+                "name_by_user": "Powder Room Pendant Light",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:15:8d:00:07:08:77:2d"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:15:8d:00:07:08:77:2d"
+                    ]
+                ],
+                "manufacturer": "LUMI",
+                "model": "lumi.sensor_magnet.aq2",
+                "name": "LUMI lumi.sensor_magnet.aq2",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "bd198033321d47396b326bb21d0480b9",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "yard",
+                "name_by_user": "Yard Window",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:15:8d:00:07:06:dd:c8"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:15:8d:00:07:06:dd:c8"
+                    ]
+                ],
+                "manufacturer": "LUMI",
+                "model": "lumi.sensor_magnet.aq2",
+                "name": "LUMI lumi.sensor_magnet.aq2",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "0b47519b31f7456f4cafb9f84361de7a",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "eli_s_room",
+                "name_by_user": "Eli's Room Door",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:15:8d:00:07:08:74:11"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:15:8d:00:07:08:74:11"
+                    ]
+                ],
+                "manufacturer": "LUMI",
+                "model": "lumi.sensor_magnet.aq2",
+                "name": "LUMI lumi.sensor_magnet.aq2",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "ec07e7cc2ba58817099284c321a9f665",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "powder_room",
+                "name_by_user": "Powder Room Door",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:15:8d:00:07:08:78:c5"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:15:8d:00:07:08:78:c5"
+                    ]
+                ],
+                "manufacturer": "LUMI",
+                "model": "lumi.sensor_magnet.aq2",
+                "name": "LUMI lumi.sensor_magnet.aq2",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "1c67aa1100d19478436302b801137a23",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "elena_s_room",
+                "name_by_user": "Elena's Room Door",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "88f3e93955911f63a48d2c0de1174ba3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "core_duckdns"
+                    ]
+                ],
+                "manufacturer": "Official add-ons",
+                "model": "Home Assistant Add-on",
+                "name": "Duck DNS",
+                "sw_version": "1.14.0",
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "3309550a3da01a6880b728c9a0cf1329",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "homeassistant://hassio/addon/core_duckdns"
+            },
+            {
+                "config_entries": [
+                    "626dd05fccf647ecaf3ac10d6e9b2943"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "25c9161185156722"
+                    ]
+                ],
+                "manufacturer": "Google",
+                "model": "Pixel 4a",
+                "name": "Pixel 4a",
+                "sw_version": "31",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "7531f98344bf64dc08a4c3680cfccf3f",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "c18308bf2db8ad03ed3a8000c4365057"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "841B4E46-31FA-4E4E-8870-BC8E03FD0001"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone11,2",
+                "name": "Grace",
+                "sw_version": "15.3.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "07bbde26f19f72fca96dc188a3b86990",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "802e6f4adf6073b40a86717726d205f2"
+                ],
+                "connections": [
+                    [
+                        "upnp",
+                        "uuid:20323b5a-ec77-4ec4-98d8-573e89c309bb"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:20323b5a-ec77-4ec4-98d8-573e89c309bb"
+                    ]
+                ],
+                "manufacturer": "ASUSTeK Computer Inc.",
+                "model": "RT-AC1200G+",
+                "name": "RT-AC1200G+",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "3cc84c6ff16757c4b3de417d6f4390ea",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://192.168.18.1"
+            },
+            {
+                "config_entries": [
+                    "5d93d8c83f53e64b941406e7a7271a3b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "asuswrt",
+                        "AsusWRT"
+                    ]
+                ],
+                "manufacturer": "Asus",
+                "model": "RT-AC1200G",
+                "name": "192.168.18.1",
+                "sw_version": "3.0.0.4 (build 380)",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "a7c09cc9c09eaf1c3682d8da9f00b486",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://192.168.18.1"
+            },
+            {
+                "config_entries": [
+                    "0f7da89e8a05e3233737d46323a4b89f"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "smartthinq_sensors",
+                        "dc9e2886-e83d-13f8-841d-dc0398fce2da"
+                    ]
+                ],
+                "manufacturer": "LG",
+                "model": "F_V7_Y___W.B__QEUK-FL (WASHER)",
+                "name": "Washer",
+                "sw_version": "clip_hna_v1.9.161",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "6df504cede945e17983d6d5da8d390b6",
+                "via_device_id": null,
+                "area_id": "yard",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "9c1c894451da348ed3d526afacb614b1"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "neato",
+                        "OPS35216-8030DC5DF1B5"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "Pikachu",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "66b8717c80403646a19963712ff64e6f",
+                "via_device_id": null,
+                "area_id": "yard",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:9f:11:87"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:9f:11:87"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI on/off switch",
+                "name": "IKEA of Sweden TRADFRI on/off switch",
+                "sw_version": "0x23079631",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "2c65aa31e07cc74bcef34dfa0d22d784",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "dining_room",
+                "name_by_user": "Dining Room Fan Controller",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:44:9a:5b"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:44:9a:5b"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI Signal Repeater",
+                "name": "IKEA of Sweden TRADFRI Signal Repeater",
+                "sw_version": "0x22005631",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "2bf33bc6518f840e4f5529afac888ce7",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "playroom",
+                "name_by_user": "Playroom Repeater",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "ec:1b:bd:ff:fe:ed:c5:11"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "ec:1b:bd:ff:fe:ed:c5:11"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI Signal Repeater",
+                "name": "IKEA of Sweden TRADFRI Signal Repeater",
+                "sw_version": "0x22005631",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "8427db721596a2af4dcdb7052879b833",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "elena_s_room",
+                "name_by_user": "Elena's Room Repeater",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:12:4b:00:24:cd:0a:9c"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:12:4b:00:24:cd:0a:9c"
+                    ]
+                ],
+                "manufacturer": "eWeLink",
+                "model": "MS01",
+                "name": "eWeLink MS01",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "025088ad4e56336ce789c443375da5bd",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "junior_bathroom",
+                "name_by_user": "Junior Bathroom Motion",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:12:4b:00:24:cd:0c:f0"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:12:4b:00:24:cd:0c:f0"
+                    ]
+                ],
+                "manufacturer": "eWeLink",
+                "model": "MS01",
+                "name": "eWeLink MS01",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "656045ee1e65c2add5e5bebdcd2711bc",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "powder_room",
+                "name_by_user": "Powder Room Motion",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "88f3e93955911f63a48d2c0de1174ba3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "cebe7a76_hassio_google_drive_backup"
+                    ]
+                ],
+                "manufacturer": "Home Assistant Google Drive Backup Repository",
+                "model": "Home Assistant Add-on",
+                "name": "Home Assistant Google Drive Backup",
+                "sw_version": "0.105.2",
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "078ed16790fc0ca2b0dde7ac3fe9326d",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "homeassistant://hassio/addon/cebe7a76_hassio_google_drive_backup"
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:47:de:52"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:47:de:52"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI Signal Repeater",
+                "name": "IKEA of Sweden TRADFRI Signal Repeater",
+                "sw_version": "0x22005631",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "60f09509c650a1f6a61d76fbe546407d",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "hallway",
+                "name_by_user": "Hallway Repeater",
+                "disabled_by": null,
+                "configuration_url": null
+            }
+        ],
+        "deleted_devices": [
+            {
+                "config_entries": [
+                    "5d93d8c83f53e64b941406e7a7271a3b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "52:d1:72:c5:22:5c"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "fdb8656a20622fb8d3371971227b937e",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "5d93d8c83f53e64b941406e7a7271a3b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "d4:f5:47:9f:7d:a5"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "e9e5ec2b726ab1cf55796967c5c0a14e",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "5d93d8c83f53e64b941406e7a7271a3b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "fa:1a:e6:78:4a:06"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "2f1fd31452783eef5e68e2301fa55216",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "5d93d8c83f53e64b941406e7a7271a3b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "a2:0a:cb:c5:e1:5a"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "15bc85f2b47d5aa1037dee4d2b43094c",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "5d93d8c83f53e64b941406e7a7271a3b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "9c:b6:d0:8a:e7:3f"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "537f171d3b1b3fe0595dbe9527fdfa3c",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "5d93d8c83f53e64b941406e7a7271a3b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "50:8a:06:2a:6c:7b"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "05c24d4345366587edf930bf59189b1f",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "5d93d8c83f53e64b941406e7a7271a3b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "9e:52:08:6c:50:bc"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "ea0fefa01343ea375e837384c5d9122b",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "5d93d8c83f53e64b941406e7a7271a3b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:be:83:2a:55:3c"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "cf0f1806b1f445ea178892fd2980588d",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "5d93d8c83f53e64b941406e7a7271a3b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "c6:55:47:fc:c9:49"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "7df731d1835b7dce5220e36c6bdb6de1",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "5d93d8c83f53e64b941406e7a7271a3b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "dc:1b:a1:c2:36:f7"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "2c325c2defed6beb4e5fa2bd14818eb6",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "5d93d8c83f53e64b941406e7a7271a3b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "28:c2:dd:33:f1:77"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "11f1ff9e32ffb12e3f5a79795974de51",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "5d93d8c83f53e64b941406e7a7271a3b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "dc:03:98:fc:e2:da"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "e498e8bc9f495ccbd6ae4377e1f2070a",
+                "orphaned_timestamp": null
+            }
+        ]
+    }
+}

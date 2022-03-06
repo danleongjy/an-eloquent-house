@@ -1,0 +1,17 @@
+# Ignore auth data.
+.storage/auth
+.storage/auth_provider.homeassistant
+
+# Ignore folders
+.cloud
+.google.token
+
+# Ignore logs
+home-assistant.log
+home-assistant.log.1
+home-assistant.log.fault
+
+# Ensure these YAML files are ignored, otherwise your secret data/credentials will leak.
+ip_bans.yaml
+secrets.yaml
+known_devices.yaml

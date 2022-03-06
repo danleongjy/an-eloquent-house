@@ -1,0 +1,29 @@
+{
+    "version": 2,
+    "minor_version": 1,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "Daniel",
+                "user_id": "ad2bcce775894550affb6dfef93a2a36",
+                "device_trackers": [
+                    "device_tracker.pixel_4a",
+                    "device_tracker.simone",
+                    "device_tracker.simone_2"
+                ],
+                "id": "daniel",
+                "picture": null
+            },
+            {
+                "name": "Grace",
+                "device_trackers": [
+                    "device_tracker.grace"
+                ],
+                "user_id": "2651cb9042dd41acb0b54327457a9a14",
+                "picture": null,
+                "id": "grace"
+            }
+        ]
+    }
+}

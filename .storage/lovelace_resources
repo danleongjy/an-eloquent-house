@@ -1,0 +1,29 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "lovelace_resources",
+    "data": {
+        "items": [
+            {
+                "url": "/hacsfiles/swipe-card/swipe-card.js?hacstag=192732887400",
+                "type": "module",
+                "id": "5071914c55a9421e9e87eeb1d6dda175"
+            },
+            {
+                "url": "/hacsfiles/button-card/button-card.js?hacstag=146194325342",
+                "type": "module",
+                "id": "0b717c0a02e34f309bd7a9e47b42053e"
+            },
+            {
+                "url": "/hacsfiles/slider-button-card/slider-button-card.js?hacstag=3754399611103",
+                "type": "module",
+                "id": "5f711b66633143b2a345bcf944ade8b8"
+            },
+            {
+                "url": "/hacsfiles/lovelace-state-switch/state-switch.js?hacstag=158756598191",
+                "type": "module",
+                "id": "1b5e975b1f594a5b890c96dfd9922c89"
+            }
+        ]
+    }
+}
