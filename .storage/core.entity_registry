@@ -370,27 +370,6 @@
             {
                 "area_id": null,
                 "capabilities": null,
-                "config_entry_id": "494df773c25090ed3671b4d2cb60fdb7",
-                "device_class": null,
-                "device_id": "ba4fe9d7b1bbc06b53143899a36fb716",
-                "disabled_by": null,
-                "entity_category": null,
-                "entity_id": "sensor.hacs",
-                "icon": null,
-                "id": "77ce12ea7a9caf1ba5ec9833e971cc7f",
-                "name": null,
-                "options": {},
-                "original_device_class": null,
-                "original_icon": "hacs:hacs",
-                "original_name": "hacs",
-                "platform": "hacs",
-                "supported_features": 0,
-                "unique_id": "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd",
-                "unit_of_measurement": "pending update(s)"
-            },
-            {
-                "area_id": null,
-                "capabilities": null,
                 "config_entry_id": null,
                 "device_class": null,
                 "device_id": null,
@@ -3287,7 +3266,7 @@
                 "name": null,
                 "options": {},
                 "original_device_class": "battery",
-                "original_icon": "mdi:battery-70",
+                "original_icon": "mdi:battery-80",
                 "original_name": "Pixel 4a Battery Level",
                 "platform": "mobile_app",
                 "supported_features": 0,
@@ -3959,7 +3938,7 @@
                 "name": null,
                 "options": {},
                 "original_device_class": null,
-                "original_icon": "mdi:lan-disconnect",
+                "original_icon": "mdi:lan-connect",
                 "original_name": "wlan0",
                 "platform": "asuswrt",
                 "supported_features": 0,
@@ -4934,7 +4913,7 @@
                 "name": null,
                 "options": {},
                 "original_device_class": null,
-                "original_icon": "mdi:lan-connect",
+                "original_icon": "mdi:lan-disconnect",
                 "original_name": "URA-LF10024",
                 "platform": "asuswrt",
                 "supported_features": 0,
@@ -5463,7 +5442,7 @@
                 "name": null,
                 "options": {},
                 "original_device_class": null,
-                "original_icon": "mdi:lan-connect",
+                "original_icon": "mdi:lan-disconnect",
                 "original_name": "Graces-Air",
                 "platform": "asuswrt",
                 "supported_features": 0,
@@ -5554,10 +5533,8 @@
             {
                 "area_id": null,
                 "capabilities": {
-                    "min_mireds": 250,
-                    "max_mireds": 454,
                     "supported_color_modes": [
-                        "color_temp"
+                        "onoff"
                     ]
                 },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
@@ -9060,6 +9037,27 @@
                 "supported_features": 0,
                 "unique_id": "00:15:8d:00:07:08:77:2d-1-3",
                 "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": null,
+                "config_entry_id": "eacb2a11027e7e4cba60d97b5fb52e10",
+                "device_class": null,
+                "device_id": "ba4fe9d7b1bbc06b53143899a36fb716",
+                "disabled_by": null,
+                "entity_category": null,
+                "entity_id": "sensor.hacs",
+                "icon": null,
+                "id": "575e9b80ef34118e1e97a525e4b2b1ee",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": "hacs:hacs",
+                "original_name": "hacs",
+                "platform": "hacs",
+                "supported_features": 0,
+                "unique_id": "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd",
+                "unit_of_measurement": "pending update(s)"
             }
         ]
     }

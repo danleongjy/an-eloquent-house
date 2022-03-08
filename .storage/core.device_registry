@@ -53,8 +53,8 @@
             },
             {
                 "config_entries": [
-                    "1f1b219f55ca3433014f95689dbc9803",
-                    "5d93d8c83f53e64b941406e7a7271a3b"
+                    "5d93d8c83f53e64b941406e7a7271a3b",
+                    "1f1b219f55ca3433014f95689dbc9803"
                 ],
                 "connections": [
                     [
@@ -83,8 +83,8 @@
             },
             {
                 "config_entries": [
-                    "5d93d8c83f53e64b941406e7a7271a3b",
-                    "87baef47363fe521d0084d83f506d42f"
+                    "87baef47363fe521d0084d83f506d42f",
+                    "5d93d8c83f53e64b941406e7a7271a3b"
                 ],
                 "connections": [
                     [
@@ -164,30 +164,6 @@
                 "name_by_user": null,
                 "disabled_by": null,
                 "configuration_url": "homeassistant://hassio/addon/a0d7b954_vscode"
-            },
-            {
-                "config_entries": [
-                    "494df773c25090ed3671b4d2cb60fdb7"
-                ],
-                "connections": [],
-                "identifiers": [
-                    [
-                        "hacs",
-                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
-                    ]
-                ],
-                "manufacturer": "hacs.xyz",
-                "model": "",
-                "name": "HACS",
-                "sw_version": "1.23.0",
-                "hw_version": null,
-                "entry_type": "service",
-                "id": "ba4fe9d7b1bbc06b53143899a36fb716",
-                "via_device_id": null,
-                "area_id": null,
-                "name_by_user": null,
-                "disabled_by": null,
-                "configuration_url": "homeassistant://hacs"
             },
             {
                 "config_entries": [
@@ -1762,6 +1738,30 @@
                 "name_by_user": "Hallway Repeater",
                 "disabled_by": null,
                 "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "eacb2a11027e7e4cba60d97b5fb52e10"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hacs",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "manufacturer": "hacs.xyz",
+                "model": "",
+                "name": "HACS",
+                "sw_version": "1.23.0",
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "ba4fe9d7b1bbc06b53143899a36fb716",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "homeassistant://hacs"
             }
         ],
         "deleted_devices": [

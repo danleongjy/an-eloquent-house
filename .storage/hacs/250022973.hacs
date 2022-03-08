@@ -21,7 +21,7 @@
             "climate"
         ],
         "downloads": 0,
-        "etag_repository": "W/\"2a3b00570cb0bb9a521bce82c94b5fb96ae3018ca0dcae96ee371087ffd85252\"",
+        "etag_repository": "W/\"91263d8cf02e2becc7fa76cdc49e750165e6f0dd0fd679a0c00a2889bfa83ce7\"",
         "file_name": "",
         "filename": null,
         "first_install": false,
@@ -55,7 +55,7 @@
         ],
         "selected_tag": null,
         "show_beta": false,
-        "stargazers_count": 393,
+        "stargazers_count": 395,
         "topics": [
             "ac",
             "air-purifier",

@@ -20,8 +20,8 @@
             "input_boolean",
             "media_player"
         ],
-        "downloads": 17616,
-        "etag_repository": "W/\"5980dbea659bc39f9a438f376777d1149b1ba60da57044918ff5d9bde81658a2\"",
+        "downloads": 17745,
+        "etag_repository": "W/\"588ca2c528302187642abfb8f8b86adca17ad8cad7a7a8bf0afd01f788bd4f5d\"",
         "file_name": "slider-button-card.js",
         "filename": "slider-button-card.js",
         "first_install": false,
@@ -55,7 +55,7 @@
         ],
         "selected_tag": null,
         "show_beta": false,
-        "stargazers_count": 289,
+        "stargazers_count": 291,
         "topics": [
             "button-card",
             "card",
