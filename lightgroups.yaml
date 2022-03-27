@@ -19,6 +19,7 @@
   unique_id: light.junior_bathroom_lights
   entities:
     - light.junior_bathroom_pendant_light_entity
+    - light.junior_bathroom_ceiling_light_entity
 
 - platform: group
   name: Hallway Lights
@@ -43,3 +44,4 @@
     - light.playroom_bulb_1_entity
     - light.playroom_bulb_2_entity
     - light.playroom_bulb_3_entity
+    - light.yard_light_entity

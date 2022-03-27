@@ -32,16 +32,6 @@
                 "id": "eli_s_room_fan_speed"
             },
             {
-                "min": 29.0,
-                "max": 30.0,
-                "name": "Living Dining Room Dummy Temp",
-                "icon": "mdi:temperature-celsius",
-                "unit_of_measurement": "deg C",
-                "step": 1.0,
-                "mode": "slider",
-                "id": "living_dining_room_dummy_temp"
-            },
-            {
                 "min": 0.0,
                 "max": 100.0,
                 "name": "Living Room Fan Speed",

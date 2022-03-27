@@ -13,6 +13,7 @@ tts:
 # MariaDB
 recorder:
   db_url: !secret mariadb_url
+  purge_keep_days: 14
 
 # Neato
 neato:

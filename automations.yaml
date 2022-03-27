@@ -486,6 +486,7 @@
       - service: light.turn_off
         target:
           entity_id: light.dining_room_lights
+        data: {}
       action_button_down_long:
       - service: light.turn_on
         target:
@@ -496,6 +497,11 @@
       button_up_long_max_loop_repeats: 50
       button_down_long_loop: true
       button_down_long_max_loop_repeats: 50
+      action_button_down_double:
+      - service: script.turn_off_all
+        data: {}
+      button_down_double_press: true
+      helper_double_press_delay: 1000
 - id: '1643641285314'
   alias: Dining Room Lights Controller 2
   description: Control the Dining Room Lights
@@ -509,7 +515,7 @@
       - choose:
         - conditions:
           - condition: time
-            after: input_datetime.sleep_hours_start
+            after: input_datetime.wind_down
             before: input_datetime.lights_auto_control_end
           sequence:
           - service: light.turn_on
@@ -533,6 +539,7 @@
       - service: light.turn_off
         target:
           entity_id: light.dining_room_lights
+        data: {}
       action_button_down_long:
       - service: light.turn_on
         target:
@@ -789,7 +796,7 @@
       - choose:
         - conditions:
           - condition: time
-            after: input_datetime.sleep_hours_start
+            after: input_datetime.wind_down
             before: input_datetime.lights_auto_control_end
           sequence:
           - service: light.turn_on
@@ -813,6 +820,7 @@
       - service: light.turn_off
         target:
           entity_id: light.powder_room_pendant_light_entity
+        data: {}
       action_button_down_long:
       - service: light.turn_on
         target:
@@ -967,53 +975,6 @@
         data: {}
         target:
           entity_id: fan.elenas_room_fan
-- id: '1643646078210'
-  alias: Elena's Room Lights Controller
-  description: Control Elena's Room Lights
-  use_blueprint:
-    path: EPMatt/ikea_e1743.yaml
-    input:
-      integration: ZHA
-      controller_device: d6563b3c30e24806da5ef8823f3fcd03
-      helper_last_controller_event: input_text.zz_elena_s_room_lights_controller_last_event
-      action_button_up_short:
-      - choose:
-        - conditions:
-          - condition: time
-            after: input_datetime.elenas_bedtime
-            before: input_datetime.lights_auto_control_end
-          sequence:
-          - service: light.turn_on
-            target:
-              entity_id: light.elenas_room_lights
-            data:
-              brightness_pct: 5
-        default:
-        - service: light.turn_on
-          target:
-            entity_id: light.elenas_room_lights
-          data:
-            brightness_pct: 100
-      action_button_up_long:
-      - service: light.turn_on
-        target:
-          entity_id: light.elenas_room_lights
-        data:
-          brightness_step_pct: 10
-      action_button_down_short:
-      - service: light.turn_off
-        target:
-          entity_id: light.elenas_room_lights
-      action_button_down_long:
-      - service: light.turn_on
-        target:
-          entity_id: light.elenas_room_lights
-        data:
-          brightness_step_pct: -10
-      button_up_long_loop: true
-      button_up_long_max_loop_repeats: 50
-      button_down_long_loop: true
-      button_down_long_max_loop_repeats: 50
 - id: '1643646271389'
   alias: Elena's Room AC Controller
   description: Control Elena's Room AC
@@ -1304,7 +1265,7 @@
       sequence:
       - service: notify.mobile_app_pixel_4a
         data:
-          message: AC on with doors oipen
+          message: AC on with doors open
           title: Please close the doors
           data:
             persistent: true
@@ -1477,3 +1438,11 @@
           entity_id: switch.lights_auto_control
     default: []
   mode: single
+- id: '1648365105505'
+  alias: Elena's Room Lights Controller
+  description: Control Elena's Room Lights
+  use_blueprint:
+    path: niro1987/zha_ikea_tradfri_5button_remote_white.yaml
+    input:
+      remote: 4887aacb6003bfff53e588f01fce030f
+      light: light.elenas_room_lights

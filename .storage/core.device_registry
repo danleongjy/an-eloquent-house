@@ -53,8 +53,8 @@
             },
             {
                 "config_entries": [
-                    "5d93d8c83f53e64b941406e7a7271a3b",
-                    "1f1b219f55ca3433014f95689dbc9803"
+                    "1f1b219f55ca3433014f95689dbc9803",
+                    "5d93d8c83f53e64b941406e7a7271a3b"
                 ],
                 "connections": [
                     [
@@ -113,8 +113,8 @@
             },
             {
                 "config_entries": [
-                    "5d93d8c83f53e64b941406e7a7271a3b",
-                    "636773c40a7132a5fd52717244c85993"
+                    "636773c40a7132a5fd52717244c85993",
+                    "5d93d8c83f53e64b941406e7a7271a3b"
                 ],
                 "connections": [
                     [
@@ -203,7 +203,7 @@
                 "manufacturer": "Home Assistant Community Add-ons",
                 "model": "Home Assistant Add-on",
                 "name": "SSH & Web Terminal",
-                "sw_version": "10.0.2",
+                "sw_version": "10.1.1",
                 "hw_version": null,
                 "entry_type": "service",
                 "id": "348c0b671278fbf0de7351c25b7f95dc",
@@ -853,35 +853,6 @@
                 "connections": [
                     [
                         "zigbee",
-                        "84:fd:27:ff:fe:95:bb:e8"
-                    ]
-                ],
-                "identifiers": [
-                    [
-                        "zha",
-                        "84:fd:27:ff:fe:95:bb:e8"
-                    ]
-                ],
-                "manufacturer": "IKEA of Sweden",
-                "model": "TRADFRI on/off switch",
-                "name": "IKEA of Sweden TRADFRI on/off switch",
-                "sw_version": "0x23079631",
-                "hw_version": null,
-                "entry_type": null,
-                "id": "d6563b3c30e24806da5ef8823f3fcd03",
-                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
-                "area_id": "elena_s_room",
-                "name_by_user": "Elena's Room Lights Controller",
-                "disabled_by": null,
-                "configuration_url": null
-            },
-            {
-                "config_entries": [
-                    "395f0b844af6c3a5beb9f0256227de9a"
-                ],
-                "connections": [
-                    [
-                        "zigbee",
                         "84:fd:27:ff:fe:05:d6:b7"
                     ]
                 ],
@@ -1406,7 +1377,7 @@
                 "manufacturer": "Google",
                 "model": "Pixel 4a",
                 "name": "Pixel 4a",
-                "sw_version": "31",
+                "sw_version": "32",
                 "hw_version": null,
                 "entry_type": null,
                 "id": "7531f98344bf64dc08a4c3680cfccf3f",
@@ -1697,7 +1668,7 @@
                         "cebe7a76_hassio_google_drive_backup"
                     ]
                 ],
-                "manufacturer": "Home Assistant Google Drive Backup Repository",
+                "manufacturer": "cebe7a76",
                 "model": "Home Assistant Add-on",
                 "name": "Home Assistant Google Drive Backup",
                 "sw_version": "0.105.2",
@@ -1762,6 +1733,93 @@
                 "name_by_user": null,
                 "disabled_by": null,
                 "configuration_url": "homeassistant://hacs"
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "80:4b:50:ff:fe:58:fa:20"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "80:4b:50:ff:fe:58:fa:20"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "GUNNARP panel round",
+                "name": "IKEA of Sweden GUNNARP panel round",
+                "sw_version": "0x21022631",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "ff6d84cb7d67e28c33690ea08f6b571b",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "yard",
+                "name_by_user": "Yard Light",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "80:4b:50:ff:fe:56:18:a6"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "80:4b:50:ff:fe:56:18:a6"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "GUNNARP panel round",
+                "name": "IKEA of Sweden GUNNARP panel round",
+                "sw_version": "0x21022631",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "98183520cc180bf52f048d7566497cf4",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "junior_bathroom",
+                "name_by_user": "Junior Bathroom Ceiling Light",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:ae:54:b3"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:ae:54:b3"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI remote control",
+                "name": "IKEA of Sweden TRADFRI remote control",
+                "sw_version": "0x23014631",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "4887aacb6003bfff53e588f01fce030f",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "elena_s_room",
+                "name_by_user": "Elena's Room Lights Controller",
+                "disabled_by": null,
+                "configuration_url": null
             }
         ],
         "deleted_devices": [
@@ -1931,6 +1989,25 @@
                 ],
                 "identifiers": [],
                 "id": "e498e8bc9f495ccbd6ae4377e1f2070a",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:95:bb:e8"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:95:bb:e8"
+                    ]
+                ],
+                "id": "d6563b3c30e24806da5ef8823f3fcd03",
                 "orphaned_timestamp": null
             }
         ]

@@ -274,7 +274,11 @@ set_recommended_scene_in_elenas_room:
     target:
       entity_id: fan.elenas_room_fan
     data:
-      percentage: 50
+      percentage: '{{ state_attr(''binary_sensor.recommended_scene_in_elenas_room'',
+
+        ''fan_speed'') }}
+
+        '
   - choose:
     - conditions:
       - condition: state
