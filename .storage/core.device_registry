@@ -113,8 +113,8 @@
             },
             {
                 "config_entries": [
-                    "636773c40a7132a5fd52717244c85993",
-                    "5d93d8c83f53e64b941406e7a7271a3b"
+                    "5d93d8c83f53e64b941406e7a7271a3b",
+                    "636773c40a7132a5fd52717244c85993"
                 ],
                 "connections": [
                     [
@@ -1818,6 +1818,64 @@
                 "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
                 "area_id": "elena_s_room",
                 "name_by_user": "Elena's Room Lights Controller",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:fd:27:ff:fe:42:26:88"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "84:fd:27:ff:fe:42:26:88"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI bulb E27 WS opal 1000lm",
+                "name": "IKEA of Sweden TRADFRI bulb E27 WS opal 1000lm",
+                "sw_version": "0x20022623",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "242129cc8771a47993af788662141d33",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "dining_room",
+                "name_by_user": "Dining Room Pendant Light",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:12:4b:00:24:5d:12:76"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:12:4b:00:24:5d:12:76"
+                    ]
+                ],
+                "manufacturer": "eWeLink",
+                "model": "DS01",
+                "name": "eWeLink DS01",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "44ae2a2899e9bb3205426e375261a177",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "junior_bathroom",
+                "name_by_user": "Junior Bathroom Door",
                 "disabled_by": null,
                 "configuration_url": null
             }

@@ -704,13 +704,39 @@
                                     }
                                 },
                                 {
-                                    "type": "custom:button-card",
-                                    "icon": "mdi:shower-head",
-                                    "template": "square_cell",
-                                    "tap_action": {
-                                        "action": "call-service",
-                                        "service": "script.turn_off_junior_bathroom"
-                                    }
+                                    "type": "custom:swipe-card",
+                                    "start_card": 1,
+                                    "reset_after": 10,
+                                    "cards": [
+                                        {
+                                            "type": "custom:button-card",
+                                            "icon": "mdi:shower-head",
+                                            "template": "square_cell",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.turn_off_junior_bathroom"
+                                            },
+                                            "styles": {
+                                                "card": [
+                                                    {
+                                                        "background-color": "[[[\n  if (states['binary_sensor.ac_on_with_door_open_at_junior_bathroom'].state == 'on')\n    return '#9e110d';\n  else\n    return 'var(--secondary-background-color)';\n]]]\n"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "type": "custom:button-card",
+                                            "entity": "binary_sensor.junior_bathroom_door",
+                                            "template": "square_cell",
+                                            "styles": {
+                                                "card": [
+                                                    {
+                                                        "background-color": "[[[\n  if (states['binary_sensor.ac_on_with_door_open_at_junior_bathroom'].state == 'on')\n    return '#9e110d';\n  else\n    return 'var(--secondary-background-color)';\n]]]\n"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "custom:state-switch",
@@ -956,9 +982,57 @@
                                     }
                                 },
                                 {
-                                    "type": "custom:button-card",
-                                    "icon": "mdi:lightbulb",
-                                    "template": "square_cell"
+                                    "type": "custom:state-switch",
+                                    "entity": "light.yard_light_entity",
+                                    "default": "disabled",
+                                    "states": {
+                                        "disabled": {
+                                            "type": "custom:button-card",
+                                            "icon": "mdi:lightbulb-off",
+                                            "template": "square_cell"
+                                        },
+                                        "off": {
+                                            "type": "custom:button-card",
+                                            "entity": "light.yard_light_entity",
+                                            "template": "square_cell",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        "on": {
+                                            "type": "custom:slider-button-card",
+                                            "entity": "light.yard_light_entity",
+                                            "slider": {
+                                                "direction": "bottom-top",
+                                                "background": "solid",
+                                                "use_state_color": false,
+                                                "use_percentage_bg_opacity": false,
+                                                "show_track": false,
+                                                "toggle_on_click": false,
+                                                "force_square": true
+                                            },
+                                            "show_name": false,
+                                            "show_state": false,
+                                            "compact": true,
+                                            "icon": {
+                                                "show": true,
+                                                "use_state_color": true,
+                                                "tap_action": {
+                                                    "action": "more-info"
+                                                },
+                                                "icon": ""
+                                            },
+                                            "action_button": {
+                                                "mode": "toggle",
+                                                "icon": "mdi:power",
+                                                "show": false
+                                            }
+                                        },
+                                        "show_spinner": true,
+                                        "tap_action": {
+                                            "action": "toggle"
+                                        }
+                                    }
                                 },
                                 {
                                     "type": "custom:button-card",
@@ -1158,9 +1232,57 @@
                                     }
                                 },
                                 {
-                                    "type": "custom:button-card",
-                                    "icon": "mdi:ceiling-light",
-                                    "template": "square_cell"
+                                    "type": "custom:state-switch",
+                                    "entity": "light.dining_room_pendant_light_entity",
+                                    "default": "disabled",
+                                    "states": {
+                                        "disabled": {
+                                            "type": "custom:button-card",
+                                            "icon": "mdi:lightbulb-group-off",
+                                            "template": "square_cell"
+                                        },
+                                        "off": {
+                                            "type": "custom:button-card",
+                                            "entity": "light.dining_room_pendant_light_entity",
+                                            "template": "square_cell",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        "on": {
+                                            "type": "custom:slider-button-card",
+                                            "entity": "light.dining_room_pendant_light_entity",
+                                            "slider": {
+                                                "direction": "bottom-top",
+                                                "background": "solid",
+                                                "use_state_color": false,
+                                                "use_percentage_bg_opacity": false,
+                                                "show_track": false,
+                                                "toggle_on_click": false,
+                                                "force_square": true
+                                            },
+                                            "show_name": false,
+                                            "show_state": false,
+                                            "compact": true,
+                                            "icon": {
+                                                "show": true,
+                                                "use_state_color": true,
+                                                "tap_action": {
+                                                    "action": "more-info"
+                                                },
+                                                "icon": ""
+                                            },
+                                            "action_button": {
+                                                "mode": "toggle",
+                                                "icon": "mdi:power",
+                                                "show": false
+                                            }
+                                        },
+                                        "show_spinner": true,
+                                        "tap_action": {
+                                            "action": "toggle"
+                                        }
+                                    }
                                 },
                                 {
                                     "type": "custom:button-card",
@@ -1268,7 +1390,7 @@
                                 },
                                 {
                                     "type": "custom:button-card",
-                                    "icon": "mdi:lightbulb",
+                                    "icon": "mdi:light-recessed",
                                     "template": "square_cell"
                                 },
                                 {

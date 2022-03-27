@@ -10,7 +10,7 @@
             "category": "integration",
             "description": "HACS gives you a powerful UI to handle downloads of all your custom needs.",
             "domain": "hacs",
-            "downloads": 60089,
+            "downloads": 60331,
             "etag_repository": "W/\"4c6cec6b5c56c4a9a3809587d8abe6b29f3c50d27372a87a5c1b662cdbab1896\"",
             "full_name": "hacs/integration",
             "first_install": false,
@@ -43,7 +43,7 @@
                 "python"
             ],
             "version_installed": "1.23.0",
-            "last_fetched": 1648351199.859654
+            "last_fetched": 1648366103.716115
         },
         "162468030": {
             "authors": [],
@@ -19275,7 +19275,7 @@
             "description": "HomeAssistant custom integration for SmartThinQ LG devices configurable with Lovelace User Interface.",
             "domain": "smartthinq_sensors",
             "downloads": 0,
-            "etag_repository": "W/\"da13f5961f54bda2dee8a9616710f02743c1ff9be4b9e263b948c24dca15b9d9\"",
+            "etag_repository": "W/\"e165dcf8143bf02d4548677adf7f3f3b218e20e1cc4ba5fa287a734848088d6f\"",
             "full_name": "ollo69/ha-smartthinq-sensors",
             "first_install": false,
             "installed_commit": "edb39ab",
@@ -19300,7 +19300,7 @@
             "releases": true,
             "selected_tag": null,
             "show_beta": false,
-            "stars": 402,
+            "stars": 403,
             "topics": [
                 "ac",
                 "air-purifier",
@@ -19321,7 +19321,7 @@
                 "washer"
             ],
             "version_installed": "v0.12.10",
-            "last_fetched": 1648351199.744838
+            "last_fetched": 1648366103.637672
         },
         "340596609": {
             "authors": [
@@ -27277,7 +27277,7 @@
             "stars": 92,
             "topics": [],
             "version_installed": "v4.0.0",
-            "last_fetched": 1648351199.587038
+            "last_fetched": 1648366103.523866
         },
         "192732636": {
             "authors": [],
@@ -27512,7 +27512,7 @@
             "category": "plugin",
             "description": "\u2747\ufe0f Lovelace button-card for home assistant",
             "domain": "",
-            "downloads": 87878,
+            "downloads": 87902,
             "etag_repository": "W/\"5bed312a0f28b1f7a5887ee7b493872df385f863b2b2140be5c2c6bb8318a46a\"",
             "full_name": "custom-cards/button-card",
             "first_install": false,
@@ -27541,7 +27541,7 @@
                 "lovelace-ui"
             ],
             "version_installed": "v3.4.2",
-            "last_fetched": 1648351199.845686
+            "last_fetched": 1648366103.702619
         },
         "142545838": {
             "authors": [],
@@ -31770,7 +31770,7 @@
             "category": "plugin",
             "description": "A button card with integrated slider",
             "domain": "",
-            "downloads": 18890,
+            "downloads": 18898,
             "etag_repository": "W/\"34be820908a95e7134c0e76c781af225a126c10fa084af4f35af86e2b89d88b9\"",
             "full_name": "mattieha/slider-button-card",
             "first_install": false,
@@ -31808,7 +31808,7 @@
                 "slider"
             ],
             "version_installed": "v1.10.3",
-            "last_fetched": 1648351199.699507
+            "last_fetched": 1648366103.629682
         },
         "256292682": {
             "authors": [],
@@ -33679,7 +33679,7 @@
             "stars": 209,
             "topics": [],
             "version_installed": "1.9.3",
-            "last_fetched": 1648351199.605769
+            "last_fetched": 1648366103.583317
         },
         "231674882": {
             "authors": [],
