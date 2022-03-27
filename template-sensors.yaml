@@ -16,6 +16,13 @@
       total_doors_closed: "{{ is_state('binary_sensor.powder_room_door', 'off') + is_state('binary_sensor.junior_bathroom_door', 'off') + is_state('binary_sensor.elenas_room_door', 'off') + is_state('binary_sensor.elis_room_door', 'off') }}/4"
       total_doors: "4"
 
+  - name: AC On With Door Open at Dining Room
+    unique_id: binary_sensor.ac_on_with_door_open_at_dining_room
+    state: "{{ is_state('binary_sensor.main_door','on') and is_state('climate.living_dining_room_ac','cool') }}"
+    attributes:
+      yard_door: "{{ states('binary_sensor.main_door') }}"
+      living_dining_room_ac: " {{ states('climate.living_dining_room_ac') }}"
+
   - name: AC On With Window Open at Yard
     unique_id: binary_sensor.ac_on_with_window_open_at_yard
     state: "{{ is_state('binary_sensor.yard_window','on') and is_state('climate.living_dining_room_ac','cool') }}"
@@ -85,6 +92,7 @@
          or is_state('binary_sensor.ac_on_with_door_open_at_elis_room', 'on') 
          or is_state('binary_sensor.ac_on_with_door_open_at_powder_room', 'on')
          or is_state('binary_sensor.ac_on_with_door_open_at_junior_bathroom', 'on')
+         or is_state('binary_sensor.ac_on_with_door_open_at_dining_room', 'on')
          or is_state('binary_sensor.ac_on_with_window_open_at_yard', 'on') %}
         on
       {% else %}
@@ -95,6 +103,7 @@
       elis_room_door: "{{ states('binary_sensor.elis_room_door') }}"
       powder_room_door: "{{ states('binary_sensor.powder_room_door') }}"
       junior_bathroom_door: "{{ states('binary_sensor.junior_bathroom_door') }}"
+      main_door: "{{ states('binary_sensor.main_door') }}"
       yard_window: "{{ states('binary_sensor.yard_window') }}"
       elenas_room_ac: "{{ states('climate.elenas_room_ac') }}"
       elis_room_ac: "{{ states('climate.elis_room_ac') }}"

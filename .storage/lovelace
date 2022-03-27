@@ -1051,6 +1051,25 @@
                                             "tap_action": {
                                                 "action": "call-service",
                                                 "service": "script.turn_off_dining_room"
+                                            },
+                                            "styles": {
+                                                "card": [
+                                                    {
+                                                        "background-color": "[[[\n  if (states['binary_sensor.ac_on_with_door_open_at_dining_room'].state == 'on')\n    return '#9e110d';\n  else\n    return 'var(--secondary-background-color)';\n]]]\n"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "type": "custom:button-card",
+                                            "entity": "binary_sensor.main_door",
+                                            "template": "square_cell",
+                                            "styles": {
+                                                "card": [
+                                                    {
+                                                        "background-color": "[[[\n  if (states['binary_sensor.ac_on_with_door_open_at_dining_room'].state == 'on')\n    return '#9e110d';\n  else\n    return 'var(--secondary-background-color)';\n]]]\n"
+                                                    }
+                                                ]
                                             }
                                         },
                                         {

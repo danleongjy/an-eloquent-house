@@ -1878,6 +1878,35 @@
                 "name_by_user": "Junior Bathroom Door",
                 "disabled_by": null,
                 "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:12:4b:00:24:5d:14:0a"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:12:4b:00:24:5d:14:0a"
+                    ]
+                ],
+                "manufacturer": "eWeLink",
+                "model": "DS01",
+                "name": "eWeLink DS01",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "c688b84ce52b1eeb1537d53f3923a15d",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "dining_room",
+                "name_by_user": "Main Door",
+                "disabled_by": null,
+                "configuration_url": null
             }
         ],
         "deleted_devices": [
