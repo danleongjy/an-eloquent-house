@@ -21,7 +21,7 @@
             "climate"
         ],
         "downloads": 0,
-        "etag_repository": "W/\"e165dcf8143bf02d4548677adf7f3f3b218e20e1cc4ba5fa287a734848088d6f\"",
+        "etag_repository": "W/\"9d21bcdfc75ef36ef5ce0a00eb30dda4241b05a4877b00bac25e592e0587c42c\"",
         "file_name": "",
         "filename": null,
         "first_install": false,
@@ -34,8 +34,8 @@
         "id": "250022973",
         "iot_class": "cloud_poll",
         "installed": true,
-        "installed_commit": "edb39ab",
-        "installed_version": "v0.12.10",
+        "installed_commit": "c8611f7",
+        "installed_version": "v0.12.12",
         "open_issues": 41,
         "last_commit": "c8611f7",
         "last_version": "v0.12.12",
@@ -55,7 +55,7 @@
         ],
         "selected_tag": null,
         "show_beta": false,
-        "stargazers_count": 403,
+        "stargazers_count": 404,
         "topics": [
             "ac",
             "air-purifier",

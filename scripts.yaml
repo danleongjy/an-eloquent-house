@@ -165,12 +165,17 @@ turn_off_dining_room:
   - service: fan.turn_off
     target:
       entity_id: fan.dining_room_fan
+    data: {}
   - service: climate.turn_off
     target:
       entity_id: climate.living_dining_room_ac
+    data: {}
   - service: light.turn_off
     target:
-      entity_id: light.dining_room_lights
+      entity_id:
+      - light.dining_room_lights
+      - light.dining_room_pendant_light_entity
+    data: {}
   mode: single
   alias: Turn Off Dining Room
   icon: mdi:power
@@ -178,7 +183,10 @@ turn_off_playroom:
   sequence:
   - service: light.turn_off
     target:
-      entity_id: light.playroom_lights
+      entity_id:
+      - light.playroom_lights
+      - light.yard_light_entity
+    data: {}
   mode: single
   alias: Turn Off Playroom
   icon: mdi:power
@@ -209,42 +217,49 @@ turn_off_hallway:
 turn_off_all:
   sequence:
   - service: script.turn_off_elenas_room
-  - delay:
-      hours: 0
-      minutes: 0
-      seconds: 0
-      milliseconds: 300
-  - service: script.turn_off_junior_bathroom
+    data: {}
   - delay:
       hours: 0
       minutes: 0
       seconds: 0
       milliseconds: 300
   - service: script.turn_off_elis_room
+    data: {}
   - delay:
       hours: 0
       minutes: 0
       seconds: 0
       milliseconds: 300
+  - service: script.turn_off_junior_bathroom
+    data: {}
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 0
+      milliseconds: 100
   - service: script.turn_off_powder_room
+    data: {}
   - delay:
       hours: 0
       minutes: 0
       seconds: 0
-      milliseconds: 300
+      milliseconds: 100
   - service: script.turn_off_hallway
+    data: {}
   - delay:
       hours: 0
       minutes: 0
       seconds: 0
       milliseconds: 300
   - service: script.turn_off_playroom
+    data: {}
   - delay:
       hours: 0
       minutes: 0
       seconds: 0
       milliseconds: 300
   - service: script.turn_off_dining_room
+    data: {}
   mode: single
   alias: Turn Off All
   icon: mdi:home-export-outline

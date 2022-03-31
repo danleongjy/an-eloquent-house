@@ -853,6 +853,13 @@
                                             "label": "...",
                                             "show_label": true
                                         },
+                                        "Delay Set": {
+                                            "type": "custom:button-card",
+                                            "entity": "sensor.washer",
+                                            "template": "square_cell",
+                                            "label": "[[[\n  return (states['sensor.washer_status'].attributes.washer_reserve_time);\n]]]\n",
+                                            "show_label": true
+                                        },
                                         "Washing": {
                                             "type": "custom:button-card",
                                             "entity": "sensor.washer",

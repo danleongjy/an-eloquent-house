@@ -3222,7 +3222,7 @@
                 "name": null,
                 "options": {},
                 "original_device_class": "battery",
-                "original_icon": "mdi:battery-80",
+                "original_icon": "mdi:battery-50",
                 "original_name": "Pixel 4a Battery Level",
                 "platform": "mobile_app",
                 "supported_features": 0,
@@ -4869,7 +4869,7 @@
                 "name": null,
                 "options": {},
                 "original_device_class": null,
-                "original_icon": "mdi:lan-disconnect",
+                "original_icon": "mdi:lan-connect",
                 "original_name": "URA-LF10024",
                 "platform": "asuswrt",
                 "supported_features": 0,
@@ -4913,7 +4913,7 @@
                 "name": null,
                 "options": {},
                 "original_device_class": null,
-                "original_icon": "mdi:lan-connect",
+                "original_icon": "mdi:lan-disconnect",
                 "original_name": "DESKTOP-UT48GB7",
                 "platform": "asuswrt",
                 "supported_features": 0,
@@ -5468,8 +5468,10 @@
             {
                 "area_id": null,
                 "capabilities": {
+                    "min_mireds": 250,
+                    "max_mireds": 454,
                     "supported_color_modes": [
-                        "onoff"
+                        "color_temp"
                     ]
                 },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",

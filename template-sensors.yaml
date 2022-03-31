@@ -208,6 +208,7 @@
       washer_power: "{{ states('sensor.washer') }}"
       washer_run_state: "{{ state_attr('sensor.washer', 'run_state') }}"
       washer_remaining_time: "{{ state_attr('sensor.washer', 'remain_time')[:4] }}"
+      washer_reserve_time: "{{ state_attr('sensor.washer', 'reserve_time')[:4] }}"
 
   - name: Elena's Room AC Status
     unique_id: sensor.elenas_room_ac_status

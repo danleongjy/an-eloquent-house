@@ -250,7 +250,7 @@
           sequence:
           - service: fan.set_percentage
             data:
-              percentage: 66
+              percentage: 100
             target:
               entity_id: fan.dining_room_fan
           - service: fan.turn_off
@@ -273,7 +273,7 @@
       sequence:
       - service: fan.set_percentage
         data:
-          percentage: 66
+          percentage: 100
         target:
           entity_id: fan.dining_room_fan
       - service: script.fan_set_state
@@ -1361,7 +1361,7 @@
     to: 'off'
     for:
       hours: 0
-      minutes: 15
+      minutes: 1
       seconds: 0
   condition: []
   action:
@@ -1394,6 +1394,7 @@
       - service: light.turn_off
         target:
           entity_id: light.powder_room_pendant_light_entity
+        data: {}
     default: []
   mode: single
 - id: '1644147041887'
