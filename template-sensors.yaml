@@ -109,6 +109,21 @@
       elis_room_ac: "{{ states('climate.elis_room_ac') }}"
       living_dining_room_ac: "{{ states('climate.living_dining_room_ac') }}"
 
+  - name: Vacuum Running with Bathroom Doors Open
+    unique_id: binary_sensor.vacuum_running_with_bathroom_doors_open
+    state: >
+      {% if is_state('vacuum.pikachu', 'cleaning')
+         and (is_state('binary_sensor.powder_room_door', 'on') or 
+              is_state('binary_sensor.junior_bathroom_door', 'on')) %}
+        on
+      {% else %}
+        off
+      {% endif %}
+    attributes:
+      vacuum: "{{ states('vacuum.pikachu') }}"
+      junior_bathroom_door: "{{ states('binary_sensor.junior_bathroom_door') }}"
+      powder_room_door: "{{ states('binary_sensor.powder_room_door') }}"
+      
   - name: Recommended Scene in Elena's Room
     unique_id: binary_sensor.recommended_scene_in_elenas_room
     state: >

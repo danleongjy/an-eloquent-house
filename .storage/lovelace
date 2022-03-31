@@ -631,7 +631,7 @@
                                             "styles": {
                                                 "card": [
                                                     {
-                                                        "background-color": "[[[\n  if (states['binary_sensor.ac_on_with_door_open_at_powder_room'].state == 'on')\n    return '#9e110d';\n  else\n    return 'var(--secondary-background-color)';\n]]]\n"
+                                                        "background-color": "[[[\n  if ((states['binary_sensor.ac_on_with_door_open_at_powder_room'].state == 'on')\n      || (states['binary_sensor.vacuum_running_with_bathroom_doors_open'].state == 'on'\n          && states['binary_sensor.powder_room_door'].state == 'on'))\n    return '#9e110d';\n  else\n    return 'var(--secondary-background-color)';\n]]]\n"
                                                     }
                                                 ]
                                             }
@@ -719,7 +719,7 @@
                                             "styles": {
                                                 "card": [
                                                     {
-                                                        "background-color": "[[[\n  if (states['binary_sensor.ac_on_with_door_open_at_junior_bathroom'].state == 'on')\n    return '#9e110d';\n  else\n    return 'var(--secondary-background-color)';\n]]]\n"
+                                                        "background-color": "[[[\n  if ((states['binary_sensor.ac_on_with_door_open_at_junior_bathroom'].state == 'on')\n      || (states['binary_sensor.vacuum_running_with_bathroom_doors_open'].state == 'on'\n          && states['binary_sensor.junior_bathroom_door'].state == 'on'))\n    return '#9e110d';\n  else\n    return 'var(--secondary-background-color)';\n]]]\n"
                                                     }
                                                 ]
                                             }
@@ -1641,9 +1641,31 @@
                                     }
                                 },
                                 {
-                                    "type": "custom:button-card",
-                                    "icon": "mdi:water-boiler",
-                                    "template": "square_cell"
+                                    "type": "custom:state-switch",
+                                    "entity": "switch.water_heater",
+                                    "default": "disabled",
+                                    "states": {
+                                        "disabled": {
+                                            "type": "custom:button-card",
+                                            "icon": "mdi:water-boiler-off"
+                                        },
+                                        "off": {
+                                            "type": "custom:button-card",
+                                            "entity": "switch.water_heater",
+                                            "template": "square_cell",
+                                            "double_tap_action": {
+                                                "action": "more-info"
+                                            }
+                                        },
+                                        "on": {
+                                            "type": "custom:button-card",
+                                            "entity": "switch.water_heater",
+                                            "template": "square_cell",
+                                            "double_tap_action": {
+                                                "action": "more-info"
+                                            }
+                                        }
+                                    }
                                 }
                             ],
                             "columns": 6,

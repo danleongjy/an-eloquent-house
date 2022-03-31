@@ -1483,3 +1483,63 @@
     input:
       remote: 4887aacb6003bfff53e588f01fce030f
       light: light.elenas_room_lights
+- id: '1648699866610'
+  alias: Notify When Vacuum Running with Bathroom Doors Open
+  description: Send a persistent notification if the vacuum is cleaning when bathroom
+    doors are open, pause the vacuum after 1min if doors are still open, and dismiss
+    the notification when vacuum stops cleaning or bathroom doors are closed
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.vacuum_running_with_bathroom_doors_open
+    id: error_state
+    to: 'on'
+  - platform: state
+    entity_id: binary_sensor.vacuum_running_with_bathroom_doors_open
+    id: error_cleared
+    to: 'off'
+  condition: []
+  action:
+  - choose:
+    - conditions:
+      - condition: trigger
+        id: error_cleared
+      sequence:
+      - service: notify.mobile_app_pixel_4a
+        data:
+          message: clear_notification
+          data:
+            tag: vacuum_running_with_bathroom_doors_open
+      - service: notify.mobile_app_grace
+        data:
+          message: clear_notification
+          data:
+            tag: vacuum_running_with_bathroom_doors_open
+    default:
+    - service: notify.mobile_app_pixel_4a
+      data:
+        message: Otherwise, vacuum will pause at {{ ((now() + timedelta(minutes =
+          1)).time() | string)[:5] }}.
+        title: Please close bathroom doors
+        data:
+          persistent: true
+          tag: vacuum_running_with_bathroom_doors_open
+    - service: notify.mobile_app_grace
+      data:
+        message: Otherwise, vacuum will pause at {{ ((now() + timedelta(minutes =
+          1)).time() | string)[:5] }}.
+        title: Please close bathroom doors
+        data:
+          tag: vacuum_running_with_bathroom_doors_open
+    - delay:
+        hours: 0
+        minutes: 1
+        seconds: 0
+        milliseconds: 0
+    - condition: state
+      entity_id: binary_sensor.vacuum_running_with_bathroom_doors_open
+      state: 'on'
+    - service: vacuum.pause
+      data: {}
+      target:
+        entity_id: vacuum.pikachu
+  mode: parallel
