@@ -24,7 +24,7 @@
             "switch"
         ],
         "downloads": 0,
-        "etag_repository": "W/\"a7e4a0b617fe073426721af07722c08e6296082900c83b572185eea496679d68\"",
+        "etag_repository": "W/\"419a6ae84b889ff5d4ab400a60190399f1ac2853a6a3801d1231844c5d14439f\"",
         "file_name": "",
         "filename": null,
         "first_install": false,
@@ -60,7 +60,7 @@
         ],
         "selected_tag": null,
         "show_beta": false,
-        "stargazers_count": 1008,
+        "stargazers_count": 1009,
         "topics": [
             "localtuya",
             "tuya",

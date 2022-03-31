@@ -1,0 +1,7 @@
+- platform: history_stats
+  name: Water Heating
+  entity_id: switch.water_heater
+  state: "on"
+  type: ratio
+  start: "{{ now() - timedelta(minutes = states('input_number.hot_water_preheat') | int) }}"
+  end: "{{ now() }}"

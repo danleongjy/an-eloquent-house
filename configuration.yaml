@@ -30,6 +30,7 @@ fan: !include fans.yaml
 climate: !include aircons.yaml
 light: !include lightgroups.yaml
 template: !include template-sensors.yaml
+sensor: !include sensors.yaml
 
 zha:
   zigpy_config:

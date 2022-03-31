@@ -39,6 +39,26 @@
                 "step": 16.0,
                 "mode": "slider",
                 "id": "living_room_fan_speed"
+            },
+            {
+                "min": 0.0,
+                "max": 1440.0,
+                "name": "Hot Water Availability",
+                "icon": "mdi:water-boiler",
+                "mode": "box",
+                "unit_of_measurement": "min",
+                "step": 1.0,
+                "id": "hot_water_availability"
+            },
+            {
+                "min": 0.0,
+                "max": 1440.0,
+                "name": "Hot Water Preheat",
+                "icon": "mdi:water-boiler",
+                "mode": "box",
+                "unit_of_measurement": "min",
+                "step": 1.0,
+                "id": "hot_water_preheat"
             }
         ]
     }

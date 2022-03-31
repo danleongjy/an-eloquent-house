@@ -59,6 +59,27 @@
                 "has_time": true,
                 "has_date": false,
                 "id": "wind_down"
+            },
+            {
+                "has_time": true,
+                "has_date": false,
+                "name": "Hot Water Availability in Mornings",
+                "icon": "mdi:water-boiler",
+                "id": "hot_water_availability_in_morning"
+            },
+            {
+                "name": "Hot Water Availability in Afternoons",
+                "has_date": false,
+                "icon": "mdi:water-boiler",
+                "has_time": true,
+                "id": "hot_water_availability_in_afternoon"
+            },
+            {
+                "name": "Hot Water Availability in Evenings",
+                "has_date": false,
+                "icon": "mdi:water-boiler",
+                "has_time": true,
+                "id": "hot_water_availability_in_evening"
             }
         ]
     }

@@ -1543,3 +1543,28 @@
       target:
         entity_id: vacuum.pikachu
   mode: parallel
+- id: '1648707378149'
+  alias: Water Heater Auto Control
+  description: Turn on water heater for preheat before availability times and turn
+    off water heater after availability duration
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.water_heater_turn_on
+  condition: []
+  action:
+  - choose:
+    - conditions:
+      - condition: state
+        entity_id: binary_sensor.water_heater_turn_on
+        state: 'on'
+      sequence:
+      - service: switch.turn_on
+        data: {}
+        target:
+          entity_id: switch.water_heater
+    default:
+    - service: switch.turn_off
+      data: {}
+      target:
+        entity_id: switch.water_heater
+  mode: single

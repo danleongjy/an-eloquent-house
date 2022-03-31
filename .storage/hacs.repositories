@@ -10,7 +10,7 @@
             "category": "integration",
             "description": "HACS gives you a powerful UI to handle downloads of all your custom needs.",
             "domain": "hacs",
-            "downloads": 12136,
+            "downloads": 12602,
             "etag_repository": "W/\"930abfbed109ace797cc48195a882ff0950143228112f64362b9414cba1b7d4f\"",
             "full_name": "hacs/integration",
             "first_install": false,
@@ -43,7 +43,7 @@
                 "python"
             ],
             "version_installed": "1.24.0",
-            "last_fetched": 1648693614.119439
+            "last_fetched": 1648709367.562353
         },
         "162468030": {
             "authors": [],
@@ -19323,7 +19323,7 @@
                 "washer"
             ],
             "version_installed": "v0.12.12",
-            "last_fetched": 1648693614.002107
+            "last_fetched": 1648709367.367167
         },
         "340596609": {
             "authors": [
@@ -21426,7 +21426,7 @@
             "description": "local handling for Tuya devices",
             "domain": "localtuya",
             "downloads": 0,
-            "etag_repository": "W/\"a7e4a0b617fe073426721af07722c08e6296082900c83b572185eea496679d68\"",
+            "etag_repository": "W/\"419a6ae84b889ff5d4ab400a60190399f1ac2853a6a3801d1231844c5d14439f\"",
             "full_name": "rospogrigio/localtuya",
             "first_install": false,
             "installed_commit": "1f8f605",
@@ -21454,14 +21454,14 @@
             "releases": true,
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1008,
+            "stars": 1009,
             "topics": [
                 "localtuya",
                 "tuya",
                 "tuya-api"
             ],
             "version_installed": "v3.2.4",
-            "last_fetched": 1648693613.966714
+            "last_fetched": 1648709367.259788
         },
         "366911690": {
             "authors": [
@@ -27277,7 +27277,7 @@
             "stars": 92,
             "topics": [],
             "version_installed": "v4.0.0",
-            "last_fetched": 1648693613.821118
+            "last_fetched": 1648709367.098817
         },
         "192732636": {
             "authors": [],
@@ -27513,7 +27513,7 @@
             "category": "plugin",
             "description": "\u2747\ufe0f Lovelace button-card for home assistant",
             "domain": "",
-            "downloads": 89259,
+            "downloads": 89304,
             "etag_repository": "W/\"a6f98216e258ccc684a653aee22ac3ab9cfac2ddc2cde6b4c9d0f38c3c59b3ad\"",
             "full_name": "custom-cards/button-card",
             "first_install": false,
@@ -27542,7 +27542,7 @@
                 "lovelace-ui"
             ],
             "version_installed": "v3.4.2",
-            "last_fetched": 1648693614.027143
+            "last_fetched": 1648709367.347571
         },
         "142545838": {
             "authors": [],
@@ -31772,7 +31772,7 @@
             "category": "plugin",
             "description": "A button card with integrated slider",
             "domain": "",
-            "downloads": 19114,
+            "downloads": 19121,
             "etag_repository": "W/\"2a32191dbc45760282a57e1c2b6936448bd904b02778163232220defa0a0d0aa\"",
             "full_name": "mattieha/slider-button-card",
             "first_install": false,
@@ -31810,7 +31810,7 @@
                 "slider"
             ],
             "version_installed": "v1.10.3",
-            "last_fetched": 1648693613.955238
+            "last_fetched": 1648709367.328503
         },
         "256292682": {
             "authors": [],
@@ -33682,7 +33682,7 @@
             "stars": 211,
             "topics": [],
             "version_installed": "1.9.3",
-            "last_fetched": 1648693613.907134
+            "last_fetched": 1648709367.231692
         },
         "231674882": {
             "authors": [],
