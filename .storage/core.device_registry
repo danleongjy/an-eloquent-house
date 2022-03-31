@@ -1907,6 +1907,54 @@
                 "name_by_user": "Main Door",
                 "disabled_by": null,
                 "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "e5a199551cd330621c9a6694a24ded5f"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "localtuya",
+                        "local_bf22a4c8423caa06adhaxl"
+                    ]
+                ],
+                "manufacturer": "Unknown",
+                "model": "key7axydcvmea3x9",
+                "name": "Water Heater",
+                "sw_version": "3.3",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "97b098790883d12386a7d3e2011a85ab",
+                "via_device_id": null,
+                "area_id": "powder_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "c9ebf6984fb4f35fdca0bc9e0bd67bab"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "localtuya",
+                        "local_bfaefaea0d2d4841080trj"
+                    ]
+                ],
+                "manufacturer": "Unknown",
+                "model": "keyjup78v54myhan",
+                "name": "Dishwasher",
+                "sw_version": "3.3",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "38da319797b5ed6e974b9c0912320fde",
+                "via_device_id": null,
+                "area_id": "kitchen",
+                "name_by_user": "Dishwasher Switch",
+                "disabled_by": null,
+                "configuration_url": null
             }
         ],
         "deleted_devices": [
