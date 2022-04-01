@@ -10,8 +10,8 @@
             "category": "integration",
             "description": "HACS gives you a powerful UI to handle downloads of all your custom needs.",
             "domain": "hacs",
-            "downloads": 12602,
-            "etag_repository": "W/\"930abfbed109ace797cc48195a882ff0950143228112f64362b9414cba1b7d4f\"",
+            "downloads": 14798,
+            "etag_repository": "W/\"a67025751030cd2f99a979a11cc46bd6b4b31c72f25d1f459865091fbbef7fed\"",
             "full_name": "hacs/integration",
             "first_install": false,
             "installed_commit": "8bf63ac",
@@ -43,7 +43,7 @@
                 "python"
             ],
             "version_installed": "1.24.0",
-            "last_fetched": 1648709367.562353
+            "last_fetched": 1648777539.906074
         },
         "162468030": {
             "authors": [],
@@ -19277,7 +19277,7 @@
             "description": "HomeAssistant custom integration for SmartThinQ LG devices configurable with Lovelace User Interface.",
             "domain": "smartthinq_sensors",
             "downloads": 0,
-            "etag_repository": "W/\"9d21bcdfc75ef36ef5ce0a00eb30dda4241b05a4877b00bac25e592e0587c42c\"",
+            "etag_repository": "W/\"65b6e6fb947d29213df4ac49b905f48f3d77cfe341b59d80afef4f156c7df941\"",
             "full_name": "ollo69/ha-smartthinq-sensors",
             "first_install": false,
             "installed_commit": "c8611f7",
@@ -19302,7 +19302,7 @@
             "releases": true,
             "selected_tag": null,
             "show_beta": false,
-            "stars": 404,
+            "stars": 406,
             "topics": [
                 "ac",
                 "air-purifier",
@@ -19323,7 +19323,7 @@
                 "washer"
             ],
             "version_installed": "v0.12.12",
-            "last_fetched": 1648709367.367167
+            "last_fetched": 1648777539.728383
         },
         "340596609": {
             "authors": [
@@ -21431,9 +21431,9 @@
             "first_install": false,
             "installed_commit": "1f8f605",
             "installed": true,
-            "last_commit": "1f8f605",
+            "last_commit": "471704e",
             "last_release_tag": "v3.2.4",
-            "last_updated": "2022-03-30T10:13:57Z",
+            "last_updated": "2022-03-31T19:31:49Z",
             "name": "localtuya",
             "new": false,
             "repository_manifest": {
@@ -21461,7 +21461,7 @@
                 "tuya-api"
             ],
             "version_installed": "v3.2.4",
-            "last_fetched": 1648709367.259788
+            "last_fetched": 1648777539.795489
         },
         "366911690": {
             "authors": [
@@ -27277,7 +27277,7 @@
             "stars": 92,
             "topics": [],
             "version_installed": "v4.0.0",
-            "last_fetched": 1648709367.098817
+            "last_fetched": 1648777539.675371
         },
         "192732636": {
             "authors": [],
@@ -27513,7 +27513,7 @@
             "category": "plugin",
             "description": "\u2747\ufe0f Lovelace button-card for home assistant",
             "domain": "",
-            "downloads": 89304,
+            "downloads": 89589,
             "etag_repository": "W/\"a6f98216e258ccc684a653aee22ac3ab9cfac2ddc2cde6b4c9d0f38c3c59b3ad\"",
             "full_name": "custom-cards/button-card",
             "first_install": false,
@@ -27542,7 +27542,7 @@
                 "lovelace-ui"
             ],
             "version_installed": "v3.4.2",
-            "last_fetched": 1648709367.347571
+            "last_fetched": 1648777539.816671
         },
         "142545838": {
             "authors": [],
@@ -31772,8 +31772,8 @@
             "category": "plugin",
             "description": "A button card with integrated slider",
             "domain": "",
-            "downloads": 19121,
-            "etag_repository": "W/\"2a32191dbc45760282a57e1c2b6936448bd904b02778163232220defa0a0d0aa\"",
+            "downloads": 19176,
+            "etag_repository": "W/\"4cf961440dfb6fed982b6a7aebfbd7bbe33c3b65e4ee7ee02af0244406f74b7f\"",
             "full_name": "mattieha/slider-button-card",
             "first_install": false,
             "installed_commit": "877bc94",
@@ -31799,7 +31799,7 @@
             "releases": true,
             "selected_tag": null,
             "show_beta": false,
-            "stars": 302,
+            "stars": 304,
             "topics": [
                 "button-card",
                 "card",
@@ -31810,7 +31810,7 @@
                 "slider"
             ],
             "version_installed": "v1.10.3",
-            "last_fetched": 1648709367.328503
+            "last_fetched": 1648777539.799894
         },
         "256292682": {
             "authors": [],
@@ -33682,7 +33682,7 @@
             "stars": 211,
             "topics": [],
             "version_installed": "1.9.3",
-            "last_fetched": 1648709367.231692
+            "last_fetched": 1648777539.653997
         },
         "231674882": {
             "authors": [],

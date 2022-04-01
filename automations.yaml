@@ -1568,3 +1568,103 @@
       target:
         entity_id: switch.water_heater
   mode: single
+- id: '1648712039256'
+  alias: Water Heating
+  description: Track the heating status of the water in the heater
+  trigger:
+  - platform: time_pattern
+    minutes: /1
+  condition: []
+  action:
+  - choose:
+    - conditions:
+      - condition: state
+        entity_id: switch.water_heater
+        state: 'on'
+      sequence:
+      - condition: numeric_state
+        entity_id: input_number.water_heating
+        below: '100'
+      - service: input_number.set_value
+        data_template:
+          entity_id: input_number.water_heating
+          value: '{{ states(''input_number.water_heating'') | int + 100 / states(''input_number.hot_water_preheat'')
+            | int }}'
+    - conditions:
+      - condition: state
+        entity_id: switch.water_heater
+        state: 'off'
+      sequence:
+      - condition: numeric_state
+        entity_id: input_number.water_heating
+        above: '0'
+      - service: input_number.set_value
+        data_template:
+          entity_id: input_number.water_heating
+          value: '{{ states(''input_number.water_heating'') | int - 0.83333 }}'
+    default: []
+  mode: single
+- id: '1648783441110'
+  alias: Dishwasher Cooldown Timer
+  description: Keep track of the time since dishwasher finished washing to cool down
+    the load
+  trigger:
+  - platform: time_pattern
+    id: decrement
+    minutes: /1
+  - platform: state
+    entity_id: sensor.dishwasher
+    attribute: dishwasher_status
+    to: washing
+    id: wash_start
+  condition: []
+  action:
+  - choose:
+    - conditions:
+      - condition: trigger
+        id: wash_start
+      sequence:
+      - service: input_number.set_value
+        data:
+          value: 30
+        target:
+          entity_id: input_number.dishwasher_cooldown_time
+    - conditions:
+      - condition: trigger
+        id: decrement
+      sequence:
+      - condition: and
+        conditions:
+        - condition: numeric_state
+          entity_id: input_number.dishwasher_cooldown_time
+          above: '0'
+        - condition: not
+          conditions:
+          - condition: state
+            entity_id: sensor.dishwasher
+            attribute: dishwasher_status
+            state: washing
+      - service: input_number.decrement
+        data: {}
+        target:
+          entity_id: input_number.dishwasher_cooldown_time
+    default: []
+  mode: single
+- id: '1648784734226'
+  alias: Notify When Dishwasher Cooldown Completed
+  description: Send a notification when dishwasher cooldown is complete
+  trigger:
+  - platform: numeric_state
+    entity_id: input_number.dishwasher_cooldown_time
+    below: '1'
+  condition: []
+  action:
+  - service: notify.mobile_app_pixel_4a
+    data:
+      message: Dishwasher cooled down at {{ (now().time()| string)[:5] }}.
+      title: Please open dishwasher
+  - service: notify.mobile_app_grace
+    data:
+      title: Please open dishwasher
+      message: Dishwasher cooled down at {{ (now().time()| string)[:5] }}.
+  mode: single

@@ -83,8 +83,8 @@
             },
             {
                 "config_entries": [
-                    "87baef47363fe521d0084d83f506d42f",
-                    "5d93d8c83f53e64b941406e7a7271a3b"
+                    "5d93d8c83f53e64b941406e7a7271a3b",
+                    "87baef47363fe521d0084d83f506d42f"
                 ],
                 "connections": [
                     [
@@ -1248,7 +1248,7 @@
                 "id": "bd198033321d47396b326bb21d0480b9",
                 "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
                 "area_id": "yard",
-                "name_by_user": "Yard Window",
+                "name_by_user": "Yard Window 1",
                 "disabled_by": null,
                 "configuration_url": null
             },
@@ -1305,8 +1305,8 @@
                 "entry_type": null,
                 "id": "ec07e7cc2ba58817099284c321a9f665",
                 "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
-                "area_id": "powder_room",
-                "name_by_user": "Powder Room Door",
+                "area_id": "yard",
+                "name_by_user": "Yard Window 2",
                 "disabled_by": null,
                 "configuration_url": null
             },
@@ -1953,6 +1953,35 @@
                 "via_device_id": null,
                 "area_id": "kitchen",
                 "name_by_user": "Dishwasher Switch",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:12:4b:00:24:5c:55:6a"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:12:4b:00:24:5c:55:6a"
+                    ]
+                ],
+                "manufacturer": "eWeLink",
+                "model": "DS01",
+                "name": "eWeLink DS01",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "d08cd36db06518041e77ec16770524c3",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "powder_room",
+                "name_by_user": "Powder Room Door",
                 "disabled_by": null,
                 "configuration_url": null
             }

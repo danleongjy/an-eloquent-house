@@ -59,6 +59,26 @@
                 "unit_of_measurement": "min",
                 "step": 1.0,
                 "id": "hot_water_preheat"
+            },
+            {
+                "min": -5.0,
+                "max": 105.0,
+                "name": "Water Heating",
+                "icon": "mdi:water-boiler",
+                "unit_of_measurement": "%",
+                "step": 1.0,
+                "mode": "slider",
+                "id": "water_heating"
+            },
+            {
+                "min": 0.0,
+                "max": 30.0,
+                "name": "Dishwasher Cooldown Time",
+                "icon": "mdi:dishwasher",
+                "unit_of_measurement": "min",
+                "step": 1.0,
+                "mode": "box",
+                "id": "dishwasher_cooldown_time"
             }
         ]
     }

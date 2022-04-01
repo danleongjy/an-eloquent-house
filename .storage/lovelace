@@ -552,6 +552,8 @@
                                             "type": "custom:button-card",
                                             "entity": "binary_sensor.hallway_doors",
                                             "template": "square_cell",
+                                            "label": "[[[\n  if (states['binary_sensor.hallway_doors'].attributes.total_doors_open == '0/4')\n    return ''\n  else\n    return (states['binary_sensor.hallway_doors'].attributes.total_doors_open)\n]]]\n",
+                                            "show_label": true,
                                             "styles": {
                                                 "card": [
                                                     {
@@ -816,6 +818,8 @@
                                             "type": "custom:button-card",
                                             "entity": "binary_sensor.yard_window",
                                             "template": "square_cell",
+                                            "label": "[[[\n  if (states['binary_sensor.yard_window'].attributes.total_panes_open == '0/2')\n    return ''\n  else\n    return (states['binary_sensor.yard_window'].attributes.total_panes_open)\n]]]\n",
+                                            "show_label": true,
                                             "styles": {
                                                 "card": [
                                                     {
@@ -1043,8 +1047,7 @@
                                 },
                                 {
                                     "type": "custom:button-card",
-                                    "icon": "mdi:blinds",
-                                    "template": "square_cell"
+                                    "color_type": "blank-card"
                                 },
                                 {
                                     "type": "custom:swipe-card",
@@ -1401,9 +1404,30 @@
                                     "template": "square_cell"
                                 },
                                 {
-                                    "type": "custom:button-card",
-                                    "icon": "mdi:dishwasher",
-                                    "template": "square_cell"
+                                    "type": "custom:state-switch",
+                                    "entity": "sensor.dishwasher",
+                                    "default": "disabled",
+                                    "states": {
+                                        "disabled": {
+                                            "type": "custom:button-card",
+                                            "icon": "mdi:dishwasher-off",
+                                            "template": "square_cell"
+                                        },
+                                        "off": {
+                                            "type": "custom:button-card",
+                                            "entity": "sensor.dishwasher",
+                                            "label": "[[[\n  if (parseInt(states['sensor.dishwasher'].attributes.cooldown) >= 10)\n    return '0:' + states['sensor.dishwasher'].attributes.cooldown\n  else if (parseInt(states['sensor.dishwasher'].attributes.cooldown) > 0)\n    return '0:0' + states['sensor.dishwasher'].attributes.cooldown\n  else\n    return ''\n]]]\n",
+                                            "show_label": true,
+                                            "template": "square_cell"
+                                        },
+                                        "on": {
+                                            "type": "custom:button-card",
+                                            "entity": "sensor.dishwasher",
+                                            "template": "square_cell",
+                                            "label": "[[[\n  if (states['sensor.dishwasher'].attributes.dishwasher_status == 'washing')\n    return 'Wash'\n  else if (states['sensor.dishwasher'].attributes.cooldown != '0')\n    return '0:' + states['sensor.dishwasher'].attributes.cooldown\n  else if (states['sensor.dishwasher'].attributes.dishwasher_status == 'standby')\n    return '...'\n  else\n    return ''\n]]]\n",
+                                            "show_label": true
+                                        }
+                                    }
                                 },
                                 {
                                     "type": "custom:button-card",
@@ -1653,6 +1677,8 @@
                                             "type": "custom:button-card",
                                             "entity": "switch.water_heater",
                                             "template": "square_cell",
+                                            "label": "[[[ \n  if (parseInt(states['input_number.water_heating'].state) > 0)\n    return Math.round(states['input_number.water_heating'].state, 0) + \"%\" \n  else\n    return ''\n]]]\n",
+                                            "show_label": true,
                                             "double_tap_action": {
                                                 "action": "more-info"
                                             }
@@ -1661,7 +1687,7 @@
                                             "type": "custom:button-card",
                                             "entity": "switch.water_heater",
                                             "template": "square_cell",
-                                            "label": "[[[ \n  if (parseInt(states['sensor.water_heating'].state) < 100)\n    return states['sensor.water_heating'].state + \"%\" \n  else\n    return ''\n]]]\n",
+                                            "label": "[[[ \n  if (parseInt(states['input_number.water_heating'].state) < 100)\n    return Math.round(states['input_number.water_heating'].state, 0) + \"%\" \n  else\n    return ''\n]]]\n",
                                             "show_label": true,
                                             "double_tap_action": {
                                                 "action": "more-info"
