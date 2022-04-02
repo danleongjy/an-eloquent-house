@@ -1062,6 +1062,10 @@
                                                 "action": "call-service",
                                                 "service": "script.turn_off_dining_room"
                                             },
+                                            "double_tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.set_recommended_scene_in_dining_room"
+                                            },
                                             "styles": {
                                                 "card": [
                                                     {
@@ -1512,11 +1516,14 @@
                                 },
                                 {
                                     "type": "custom:button-card",
-                                    "entity": "script.turn_off_all",
+                                    "entity": "binary_sensor.all_off",
                                     "template": "square_cell",
                                     "tap_action": {
                                         "action": "call-service",
                                         "service": "script.turn_off_all"
+                                    },
+                                    "double_tap_action": {
+                                        "action": "more-info"
                                     }
                                 },
                                 {

@@ -10,15 +10,15 @@
             "category": "integration",
             "description": "HACS gives you a powerful UI to handle downloads of all your custom needs.",
             "domain": "hacs",
-            "downloads": 14798,
-            "etag_repository": "W/\"a67025751030cd2f99a979a11cc46bd6b4b31c72f25d1f459865091fbbef7fed\"",
+            "downloads": 828,
+            "etag_repository": "W/\"39a2b842d74b42579583b4c35e896d7130b682259b46dd21a4cf444b0bb0aac1\"",
             "full_name": "hacs/integration",
             "first_install": false,
             "installed_commit": "8bf63ac",
             "installed": true,
-            "last_commit": "8bf63ac",
-            "last_release_tag": "1.24.0",
-            "last_updated": "2022-03-28T09:00:28Z",
+            "last_commit": "69972a5",
+            "last_release_tag": "1.24.1",
+            "last_updated": "2022-04-01T19:34:12Z",
             "name": "hacs",
             "new": false,
             "repository_manifest": {
@@ -32,7 +32,7 @@
             "releases": true,
             "selected_tag": null,
             "show_beta": false,
-            "stars": 2386,
+            "stars": 2390,
             "topics": [
                 "community",
                 "hacktoberfest",
@@ -43,7 +43,7 @@
                 "python"
             ],
             "version_installed": "1.24.0",
-            "last_fetched": 1648777539.906074
+            "last_fetched": 1648857482.661792
         },
         "162468030": {
             "authors": [],
@@ -19323,7 +19323,7 @@
                 "washer"
             ],
             "version_installed": "v0.12.12",
-            "last_fetched": 1648777539.728383
+            "last_fetched": 1648857482.580281
         },
         "340596609": {
             "authors": [
@@ -21426,7 +21426,7 @@
             "description": "local handling for Tuya devices",
             "domain": "localtuya",
             "downloads": 0,
-            "etag_repository": "W/\"419a6ae84b889ff5d4ab400a60190399f1ac2853a6a3801d1231844c5d14439f\"",
+            "etag_repository": "W/\"2524aeaaad5b5e6477c006f636e9d8c6a2ef0736b651f455b8c3e02a5bac6206\"",
             "full_name": "rospogrigio/localtuya",
             "first_install": false,
             "installed_commit": "1f8f605",
@@ -21454,14 +21454,14 @@
             "releases": true,
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1009,
+            "stars": 1011,
             "topics": [
                 "localtuya",
                 "tuya",
                 "tuya-api"
             ],
             "version_installed": "v3.2.4",
-            "last_fetched": 1648777539.795489
+            "last_fetched": 1648857483.594606
         },
         "366911690": {
             "authors": [
@@ -27277,7 +27277,7 @@
             "stars": 92,
             "topics": [],
             "version_installed": "v4.0.0",
-            "last_fetched": 1648777539.675371
+            "last_fetched": 1648857482.421927
         },
         "192732636": {
             "authors": [],
@@ -27513,8 +27513,8 @@
             "category": "plugin",
             "description": "\u2747\ufe0f Lovelace button-card for home assistant",
             "domain": "",
-            "downloads": 89589,
-            "etag_repository": "W/\"a6f98216e258ccc684a653aee22ac3ab9cfac2ddc2cde6b4c9d0f38c3c59b3ad\"",
+            "downloads": 89928,
+            "etag_repository": "W/\"37cbc3d04713430098845cff5bd2e4cb9c8a4f220673483639bfd6d7861a6d64\"",
             "full_name": "custom-cards/button-card",
             "first_install": false,
             "installed_commit": "29b10a6",
@@ -27533,7 +27533,7 @@
             "releases": true,
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1060,
+            "stars": 1061,
             "topics": [
                 "home-assistant",
                 "home-assistant-custom",
@@ -27542,7 +27542,7 @@
                 "lovelace-ui"
             ],
             "version_installed": "v3.4.2",
-            "last_fetched": 1648777539.816671
+            "last_fetched": 1648857482.866179
         },
         "142545838": {
             "authors": [],
@@ -31772,8 +31772,8 @@
             "category": "plugin",
             "description": "A button card with integrated slider",
             "domain": "",
-            "downloads": 19176,
-            "etag_repository": "W/\"4cf961440dfb6fed982b6a7aebfbd7bbe33c3b65e4ee7ee02af0244406f74b7f\"",
+            "downloads": 19244,
+            "etag_repository": "W/\"4f8e47f0d750b55c3d019bd4326aad77f0fc6bf36c896cb3ae5be557f1748375\"",
             "full_name": "mattieha/slider-button-card",
             "first_install": false,
             "installed_commit": "877bc94",
@@ -31810,7 +31810,7 @@
                 "slider"
             ],
             "version_installed": "v1.10.3",
-            "last_fetched": 1648777539.799894
+            "last_fetched": 1648857482.542126
         },
         "256292682": {
             "authors": [],
@@ -33682,7 +33682,7 @@
             "stars": 211,
             "topics": [],
             "version_installed": "1.9.3",
-            "last_fetched": 1648777539.653997
+            "last_fetched": 1648857482.457058
         },
         "231674882": {
             "authors": [],

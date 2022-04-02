@@ -61,8 +61,8 @@
                 "id": "hot_water_preheat"
             },
             {
-                "min": -5.0,
-                "max": 105.0,
+                "min": 0.0,
+                "max": 100.0,
                 "name": "Water Heating",
                 "icon": "mdi:water-boiler",
                 "unit_of_measurement": "%",

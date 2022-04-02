@@ -250,7 +250,8 @@
           sequence:
           - service: fan.set_percentage
             data:
-              percentage: 100
+              percentage: '{{ state_attr("binary_sensor.recommended_scene_in_dining_room",
+                "fan_speed") | int }}'
             target:
               entity_id: fan.dining_room_fan
           - service: fan.turn_off
@@ -273,7 +274,8 @@
       sequence:
       - service: fan.set_percentage
         data:
-          percentage: 100
+          percentage: '{{ state_attr("binary_sensor.recommended_scene_in_dining_room",
+            "fan_speed") | int }}'
         target:
           entity_id: fan.dining_room_fan
       - service: script.fan_set_state
@@ -1558,6 +1560,9 @@
         entity_id: binary_sensor.water_heater_turn_on
         state: 'on'
       sequence:
+      - condition: state
+        entity_id: binary_sensor.all_off
+        state: 'off'
       - service: switch.turn_on
         data: {}
         target:
@@ -1582,26 +1587,48 @@
         entity_id: switch.water_heater
         state: 'on'
       sequence:
-      - condition: numeric_state
-        entity_id: input_number.water_heating
-        below: '100'
-      - service: input_number.set_value
-        data_template:
-          entity_id: input_number.water_heating
-          value: '{{ states(''input_number.water_heating'') | int + 100 / states(''input_number.hot_water_preheat'')
-            | int }}'
+      - choose:
+        - conditions:
+          - condition: numeric_state
+            entity_id: input_number.water_heating
+            above: '100'
+            value_template: '{{ state.state | float + 100 / states(''input_number.hot_water_preheat'')
+              | float }}'
+          sequence:
+          - service: input_number.set_value
+            data:
+              value: 100
+            target:
+              entity_id: input_number.water_heating
+        default:
+        - service: input_number.set_value
+          data_template:
+            entity_id: input_number.water_heating
+            value: '{{ states(''input_number.water_heating'') | int + 100 / states(''input_number.hot_water_preheat'')
+              | int }}'
     - conditions:
       - condition: state
         entity_id: switch.water_heater
         state: 'off'
       sequence:
-      - condition: numeric_state
-        entity_id: input_number.water_heating
-        above: '0'
-      - service: input_number.set_value
-        data_template:
-          entity_id: input_number.water_heating
-          value: '{{ states(''input_number.water_heating'') | int - 0.83333 }}'
+      - choose:
+        - conditions:
+          - condition: numeric_state
+            entity_id: input_number.water_heating
+            value_template: '{{ state.state | float - 100 / 120 }}'
+            below: '0'
+          sequence:
+          - service: input_number.set_value
+            data:
+              value: 0
+            target:
+              entity_id: input_number.water_heating
+        default:
+        - service: input_number.set_value
+          data_template:
+            entity_id: input_number.water_heating
+            value: '{{ states(''input_number.water_heating'') | float - 100 / 120
+              }}'
     default: []
   mode: single
 - id: '1648783441110'
@@ -1667,4 +1694,23 @@
     data:
       title: Please open dishwasher
       message: Dishwasher cooled down at {{ (now().time()| string)[:5] }}.
+  mode: single
+- id: '1648798677481'
+  alias: Coming Home
+  description: Set light, fan and AC levels in the Dining Room when coming home
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.main_door
+    to: 'on'
+  condition:
+  - condition: state
+    entity_id: binary_sensor.all_off
+    state: 'on'
+    for:
+      hours: 0
+      minutes: 5
+      seconds: 0
+  action:
+  - service: script.set_recommended_scene_in_dining_room
+    data: {}
   mode: single
