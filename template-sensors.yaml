@@ -316,7 +316,7 @@
       fan_speed: >
         {% if is_state('binary_sensor.hallway_doors','off')
            and is_state('binary_sensor.yard_window','off')
-           and is_state('binary_sensor.main_door', off) %}
+           and is_state('binary_sensor.main_door', 'off') %}
           33
         {% else %}
           100
@@ -324,7 +324,7 @@
       ac_state: >
         {% if is_state('binary_sensor.hallway_doors','off')
            and is_state('binary_sensor.yard_window','off')
-           and is_state('binary_sensor.main_door', off) %}
+           and is_state('binary_sensor.main_door', 'off') %}
           cool
         {% else %}
           off

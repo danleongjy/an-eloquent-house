@@ -1,0 +1,23 @@
+project_id: an-eloquent-house
+service_account: 
+  private_key: !secret google_assistant_privkey
+  client_email: !secret google_assistant_serviceacct
+report_state: true
+expose_by_default: true
+exposed_domains:
+  - fan
+  - light
+  - climate
+  - vacuum
+entity_config:
+  switch.water_heater:
+    name: Water Heater
+    room: Powder Room
+  script.turn_off_all:
+    name: Turn Off All
+  script.set_recommended_scene_in_elenas_room:
+    name: Set Recommended Scene in Elena's Room
+  script.set_recommended_scene_in_elis_room:
+    name: Set Recommended Scene in Eli's Room
+  script.set_recommended_scene_in_dining_room:
+    name: Set Recommended Scene in Dining Room

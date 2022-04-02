@@ -15,8 +15,8 @@
         "description": "HACS gives you a powerful UI to handle downloads of all your custom needs.",
         "domain": "hacs",
         "domains": [],
-        "downloads": 828,
-        "etag_repository": "W/\"39a2b842d74b42579583b4c35e896d7130b682259b46dd21a4cf444b0bb0aac1\"",
+        "downloads": 17002,
+        "etag_repository": "W/\"bf96e028fa7f8ca610a1d9450935fdf86134dbce6fdf6856f20c14d95a9e5ece\"",
         "file_name": "",
         "filename": "hacs.zip",
         "first_install": false,
@@ -33,7 +33,7 @@
         "installed_version": "1.24.0",
         "open_issues": 3,
         "last_commit": "69972a5",
-        "last_version": "1.24.1",
+        "last_version": "1.24.0",
         "last_updated": "2022-04-01T19:34:12Z",
         "manifest_name": "HACS",
         "new": false,
@@ -42,15 +42,15 @@
         "releases": true,
         "render_readme": false,
         "published_tags": [
-            "1.24.1",
             "1.24.0",
             "1.23.0",
             "1.22.0",
-            "1.21.0"
+            "1.21.0",
+            "1.20.0"
         ],
         "selected_tag": null,
         "show_beta": false,
-        "stargazers_count": 2390,
+        "stargazers_count": 2391,
         "topics": [
             "community",
             "hacktoberfest",

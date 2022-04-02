@@ -31,6 +31,8 @@ climate: !include aircons.yaml
 light: !include lightgroups.yaml
 template: !include template-sensors.yaml
 
+google_assistant: !include google_assistant.yaml
+
 zha:
   zigpy_config:
     network:
