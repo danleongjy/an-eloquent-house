@@ -319,7 +319,7 @@
            and is_state('binary_sensor.main_door', 'off') %}
           33
         {% else %}
-          100
+          66
         {% endif %}
       ac_state: >
         {% if is_state('binary_sensor.hallway_doors','off')

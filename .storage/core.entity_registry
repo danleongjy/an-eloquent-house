@@ -434,7 +434,7 @@
                 "original_icon": null,
                 "original_name": "Dining Room Fan",
                 "platform": "template",
-                "supported_features": 1,
+                "supported_features": 5,
                 "unique_id": "fan.dining_room_fan",
                 "unit_of_measurement": null
             },
@@ -463,7 +463,7 @@
                 "original_icon": null,
                 "original_name": "Eli's Room Fan",
                 "platform": "template",
-                "supported_features": 1,
+                "supported_features": 5,
                 "unique_id": "fan.elis_room_fan",
                 "unit_of_measurement": null
             },
@@ -492,7 +492,7 @@
                 "original_icon": null,
                 "original_name": "Elena's Room Fan",
                 "platform": "template",
-                "supported_features": 1,
+                "supported_features": 5,
                 "unique_id": "fan.elenas_room_fan",
                 "unit_of_measurement": null
             },
@@ -3134,7 +3134,7 @@
                 "name": null,
                 "options": {},
                 "original_device_class": "battery",
-                "original_icon": "mdi:battery-50",
+                "original_icon": "mdi:battery-30",
                 "original_name": "Pixel 4a Battery Level",
                 "platform": "mobile_app",
                 "supported_features": 0,
@@ -5294,139 +5294,6 @@
                 "platform": "asuswrt",
                 "supported_features": 0,
                 "unique_id": "b0:be:83:2a:55:3c",
-                "unit_of_measurement": null
-            },
-            {
-                "area_id": null,
-                "capabilities": {
-                    "min_mireds": 250,
-                    "max_mireds": 454,
-                    "supported_color_modes": [
-                        "color_temp"
-                    ]
-                },
-                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
-                "device_class": null,
-                "device_id": "2a7c49b8bb04303ca9a7609856049c08",
-                "disabled_by": null,
-                "entity_category": null,
-                "entity_id": "light.elena_s_room_lights_zha_group_0x0002",
-                "icon": null,
-                "id": "2a6d67f7186d4be47bcf5a8b77c2ebe4",
-                "name": null,
-                "options": {},
-                "original_device_class": null,
-                "original_icon": null,
-                "original_name": "Elena's Room Lights_zha_group_0x0002",
-                "platform": "zha",
-                "supported_features": 43,
-                "unique_id": "light_zha_group_0x0002",
-                "unit_of_measurement": null
-            },
-            {
-                "area_id": null,
-                "capabilities": {
-                    "min_mireds": 250,
-                    "max_mireds": 454,
-                    "supported_color_modes": [
-                        "color_temp"
-                    ]
-                },
-                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
-                "device_class": null,
-                "device_id": "2a7c49b8bb04303ca9a7609856049c08",
-                "disabled_by": null,
-                "entity_category": null,
-                "entity_id": "light.eli_s_room_lights_zha_group_0x0003",
-                "icon": null,
-                "id": "39cae98e903bf1879a5ec3e2929ad024",
-                "name": null,
-                "options": {},
-                "original_device_class": null,
-                "original_icon": null,
-                "original_name": "Eli's Room Lights_zha_group_0x0003",
-                "platform": "zha",
-                "supported_features": 43,
-                "unique_id": "light_zha_group_0x0003",
-                "unit_of_measurement": null
-            },
-            {
-                "area_id": null,
-                "capabilities": {
-                    "min_mireds": 250,
-                    "max_mireds": 454,
-                    "supported_color_modes": [
-                        "color_temp"
-                    ]
-                },
-                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
-                "device_class": null,
-                "device_id": "2a7c49b8bb04303ca9a7609856049c08",
-                "disabled_by": null,
-                "entity_category": null,
-                "entity_id": "light.hallway_lights_zha_group_0x0004",
-                "icon": null,
-                "id": "99415a6c52fd64f6b071f11d7533c804",
-                "name": null,
-                "options": {},
-                "original_device_class": null,
-                "original_icon": null,
-                "original_name": "Hallway Lights_zha_group_0x0004",
-                "platform": "zha",
-                "supported_features": 43,
-                "unique_id": "light_zha_group_0x0004",
-                "unit_of_measurement": null
-            },
-            {
-                "area_id": null,
-                "capabilities": {
-                    "supported_color_modes": [
-                        "onoff"
-                    ]
-                },
-                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
-                "device_class": null,
-                "device_id": "2a7c49b8bb04303ca9a7609856049c08",
-                "disabled_by": null,
-                "entity_category": null,
-                "entity_id": "light.dining_room_lights_zha_group_0x0005",
-                "icon": null,
-                "id": "935c06742ab33a877d60389433c56c98",
-                "name": null,
-                "options": {},
-                "original_device_class": null,
-                "original_icon": null,
-                "original_name": "Dining Room Lights_zha_group_0x0005",
-                "platform": "zha",
-                "supported_features": 43,
-                "unique_id": "light_zha_group_0x0005",
-                "unit_of_measurement": null
-            },
-            {
-                "area_id": null,
-                "capabilities": {
-                    "min_mireds": 250,
-                    "max_mireds": 454,
-                    "supported_color_modes": [
-                        "color_temp"
-                    ]
-                },
-                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
-                "device_class": null,
-                "device_id": "2a7c49b8bb04303ca9a7609856049c08",
-                "disabled_by": null,
-                "entity_category": null,
-                "entity_id": "light.playroom_lights_zha_group_0x0006",
-                "icon": null,
-                "id": "e5171b07e1f5ca4ac4a9652a4b0e5247",
-                "name": null,
-                "options": {},
-                "original_device_class": null,
-                "original_icon": null,
-                "original_name": "Playroom Lights_zha_group_0x0006",
-                "platform": "zha",
-                "supported_features": 43,
-                "unique_id": "light_zha_group_0x0006",
                 "unit_of_measurement": null
             },
             {
@@ -7822,77 +7689,6 @@
             {
                 "area_id": null,
                 "capabilities": null,
-                "config_entry_id": null,
-                "device_class": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_category": null,
-                "entity_id": "input_boolean.living_room_fan_power",
-                "icon": null,
-                "id": "e13f5a553e0b89f82f2f36032915ddf0",
-                "name": null,
-                "options": {},
-                "original_device_class": null,
-                "original_icon": "mdi:fan",
-                "original_name": "Living Room Fan Power",
-                "platform": "input_boolean",
-                "supported_features": 0,
-                "unique_id": "living_room_fan_power",
-                "unit_of_measurement": null
-            },
-            {
-                "area_id": null,
-                "capabilities": null,
-                "config_entry_id": null,
-                "device_class": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_category": null,
-                "entity_id": "input_number.living_room_fan_speed",
-                "icon": null,
-                "id": "06d81ebddde384c68f77805cd065f930",
-                "name": null,
-                "options": {},
-                "original_device_class": null,
-                "original_icon": "mdi:speedometer",
-                "original_name": "Living Room Fan Speed",
-                "platform": "input_number",
-                "supported_features": 0,
-                "unique_id": "living_room_fan_speed",
-                "unit_of_measurement": null
-            },
-            {
-                "area_id": null,
-                "capabilities": {
-                    "speed_list": [
-                        "off",
-                        "low",
-                        "medium",
-                        "high"
-                    ],
-                    "preset_modes": null
-                },
-                "config_entry_id": null,
-                "device_class": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_category": null,
-                "entity_id": "fan.living_room_fan",
-                "icon": null,
-                "id": "8551ee9745ed56516b96853d8c6d4724",
-                "name": null,
-                "options": {},
-                "original_device_class": null,
-                "original_icon": null,
-                "original_name": "Living Room Fan",
-                "platform": "template",
-                "supported_features": 1,
-                "unique_id": "fan.living_room_fan",
-                "unit_of_measurement": null
-            },
-            {
-                "area_id": null,
-                "capabilities": null,
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": "update",
                 "device_id": "38fce4f13d803d7f422753b018849042",
@@ -10203,6 +9999,84 @@
                 "platform": "template",
                 "supported_features": 0,
                 "unique_id": "binary_sensor.all_off",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "forward",
+                        "reverse"
+                    ]
+                },
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_category": null,
+                "entity_id": "input_select.dining_room_fan_direction",
+                "icon": null,
+                "id": "f8d337ddaad003a26f0fb5955bfd6707",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": "mdi:rotate-3d-variant",
+                "original_name": "Dining Room Fan Direction",
+                "platform": "input_select",
+                "supported_features": 0,
+                "unique_id": "dining_room_fan_direction",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "forward",
+                        "reverse"
+                    ]
+                },
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_category": null,
+                "entity_id": "input_select.elis_room_fan_direction",
+                "icon": null,
+                "id": "e80552477825c236a8127e34e2107b94",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": "mdi:rotate-3d-variant",
+                "original_name": "Eli's Room Fan Direction",
+                "platform": "input_select",
+                "supported_features": 0,
+                "unique_id": "eli_s_room_fan_direction",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "forward",
+                        "reverse"
+                    ]
+                },
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_category": null,
+                "entity_id": "input_select.elenas_room_fan_direction",
+                "icon": null,
+                "id": "1f00706bcc3a54406620f6329ba16be6",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": "mdi:rotate-3d-variant",
+                "original_name": "Elena's Room Fan Direction",
+                "platform": "input_select",
+                "supported_features": 0,
+                "unique_id": "elena_s_room_fan_direction",
                 "unit_of_measurement": null
             }
         ]

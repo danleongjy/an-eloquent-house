@@ -1,31 +1,11 @@
 - platform: template
   fans:
-    living_room_fan:
-      friendly_name: "Living Room Fan"
-      unique_id: fan.living_room_fan
-      value_template: "{{ states('input_boolean.living_room_fan_power') }}"
-      percentage_template: "{{ states('input_number.living_room_fan_speed') | int }}"
-      turn_on:
-        service: input_boolean.turn_on
-        target:
-          entity_id: input_boolean.living_room_fan_power
-      turn_off:
-        service: input_boolean.turn_off
-        target:
-          entity_id: input_boolean.living_room_fan_power
-      set_percentage:
-        service: input_number.set_value
-        target:
-          entity_id: input_number.living_room_fan_speed
-        data:
-          value: "{{ percentage }}"
-      speed_count: 6
-
     dining_room_fan:
       friendly_name: "Dining Room Fan"
       unique_id: fan.dining_room_fan
       value_template: "{{ states('input_boolean.dining_room_fan_power') }}"
       percentage_template: "{{ states('input_number.dining_room_fan_speed') | int }}"
+      direction_template: "{{ states('input_select.dining_room_fan_direction') }}"
       turn_on:
         service: input_boolean.turn_on
         target:
@@ -40,13 +20,18 @@
           entity_id: input_number.dining_room_fan_speed
         data:
           value: "{{ percentage }}"
+      set_direction:
+        service: script.fan_reverse_spin
+        data:
+          target_fan: Dining Room Fan
       speed_count: 6
-
+      
     elis_room_fan:
       friendly_name: "Eli's Room Fan"
       unique_id: fan.elis_room_fan
       value_template: "{{ states('input_boolean.elis_room_fan_power') }}"
       percentage_template: "{{ states('input_number.elis_room_fan_speed') | int }}"
+      direction_template: "{{ states('input_select.elis_room_fan_direction') }}"
       turn_on:
         service: input_boolean.turn_on
         target:
@@ -61,6 +46,10 @@
           entity_id: input_number.elis_room_fan_speed
         data:
           value: "{{ percentage }}"
+      set_direction:
+        service: script.fan_reverse_spin
+        data:
+          target_fan: Eli's Room Fan
       speed_count: 6
 
     elenas_room_fan:
@@ -68,6 +57,7 @@
       unique_id: fan.elenas_room_fan
       value_template: "{{ states('input_boolean.elenas_room_fan_power') }}"
       percentage_template: "{{ states('input_number.elenas_room_fan_speed') | int }}"
+      direction_template: "{{ states('input_select.elenas_room_fan_direction') }}"
       turn_on:
         service: input_boolean.turn_on
         target:
@@ -82,4 +72,8 @@
           entity_id: input_number.elenas_room_fan_speed
         data:
           value: "{{ percentage }}"
+      set_direction:
+        service: script.fan_reverse_spin
+        data:
+          target_fan: Elena's Room Fan
       speed_count: 6

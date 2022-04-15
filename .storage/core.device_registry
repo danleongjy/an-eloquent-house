@@ -2173,6 +2173,18 @@
                 ],
                 "id": "d6563b3c30e24806da5ef8823f3fcd03",
                 "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "localtuya",
+                        "local_bf67d5c3a79b9f8337kcfd"
+                    ]
+                ],
+                "id": "94fa5ec55f4f454118af815f105e37ef",
+                "orphaned_timestamp": 1649990508.1195414
             }
         ]
     }

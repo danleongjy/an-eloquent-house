@@ -380,6 +380,7 @@
           target_fan_power: false
     default: []
   mode: single
+  max_exceeded: silent
 - id: '1643000778073'
   alias: Elena's Room Fan Set State
   description: Set Elena's Room Fan power and speed
@@ -1195,34 +1196,48 @@
           entity_id:
           - automation.elenas_room_ac_auto_control
           - automation.elis_room_ac_auto_control
+        data: {}
       - service: climate.turn_off
         target:
           entity_id:
           - climate.elenas_room_ac
           - climate.elis_room_ac
+        data: {}
     - conditions:
       - condition: trigger
         id: start
       sequence:
       - choose:
         - conditions:
-          - condition: state
-            entity_id: fan.elenas_room_fan
-            state: 'on'
+          - condition: or
+            conditions:
+            - condition: state
+              entity_id: fan.elenas_room_fan
+              state: 'on'
+            - condition: state
+              entity_id: climate.elenas_room_ac
+              state: cool
           sequence:
           - service: automation.turn_on
             target:
               entity_id: automation.elenas_room_ac_auto_control
+            data: {}
         default: []
       - choose:
         - conditions:
-          - condition: state
-            entity_id: fan.elis_room_fan
-            state: 'on'
+          - condition: or
+            conditions:
+            - condition: state
+              entity_id: fan.elis_room_fan
+              state: 'on'
+            - condition: state
+              entity_id: climate.elis_room_ac
+              state: cool
           sequence:
           - service: automation.turn_on
             target:
               entity_id: automation.elis_room_ac_auto_control
+            data: {}
         default: []
     default: []
   mode: single
@@ -1653,7 +1668,7 @@
       sequence:
       - service: input_number.set_value
         data:
-          value: 30
+          value: 40
         target:
           entity_id: input_number.dishwasher_cooldown_time
     - conditions:

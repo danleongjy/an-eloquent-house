@@ -114,6 +114,18 @@ fan_reverse_spin:
 
         '
       command: Reverse
+  - service: input_select.select_option
+    target:
+      entity_id: "{% set fan_direction = \n  { \"Elena's Room Fan\": \"input_select.elenas_room_fan_direction\"\
+        ,\n    \"Eli's Room Fan\": \"input_select.elis_room_fan_direction\",\n   \
+        \ \"Dining Room Fan\": \"input_select.dining_room_fan_direction\"\n  } %}\n\
+        {{ fan_direction[target_fan] }}\n"
+    data:
+      option: "{% set fan_direction = \n  { \"Elena's Room Fan\": \"input_select.elenas_room_fan_direction\"\
+        ,\n    \"Eli's Room Fan\": \"input_select.elis_room_fan_direction\",\n   \
+        \ \"Dining Room Fan\": \"input_select.dining_room_fan_direction\"\n  } %}\n\
+        {% if states(fan_direction[target_fan]) == 'forward' %}\n  reverse\n{% else\
+        \ %}\n  forward\n{% endif %}\n"
   mode: queued
   icon: mdi:rotate-3d-variant
   max: 10

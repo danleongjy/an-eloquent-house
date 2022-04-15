@@ -33,15 +33,6 @@
             },
             {
                 "min": 0.0,
-                "max": 100.0,
-                "name": "Living Room Fan Speed",
-                "icon": "mdi:speedometer",
-                "step": 16.0,
-                "mode": "slider",
-                "id": "living_room_fan_speed"
-            },
-            {
-                "min": 0.0,
                 "max": 1440.0,
                 "name": "Hot Water Availability",
                 "icon": "mdi:water-boiler",
@@ -72,7 +63,7 @@
             },
             {
                 "min": 0.0,
-                "max": 30.0,
+                "max": 1440.0,
                 "name": "Dishwasher Cooldown Time",
                 "icon": "mdi:dishwasher",
                 "unit_of_measurement": "min",

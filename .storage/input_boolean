@@ -38,11 +38,6 @@
                 "name": "Lights Auto Control Enabled",
                 "icon": "mdi:lightbulb-auto",
                 "id": "lights_auto_control_enabled"
-            },
-            {
-                "name": "Living Room Fan Power",
-                "icon": "mdi:fan",
-                "id": "living_room_fan_power"
             }
         ]
     }
