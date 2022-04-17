@@ -21,7 +21,7 @@
             "climate"
         ],
         "downloads": 0,
-        "etag_repository": "W/\"4ca95d1995fd52d78bfa6943aeaebc80ef951dc1565ff17c362a865240668b3c\"",
+        "etag_repository": "W/\"94e6e22e5edcc0617d30fb860eb8b3654248584d705996fdba2508e57cf3d4ef\"",
         "file_name": "",
         "filename": null,
         "first_install": false,
@@ -36,7 +36,7 @@
         "installed": true,
         "installed_commit": "c8611f7",
         "installed_version": "v0.12.12",
-        "open_issues": 44,
+        "open_issues": 45,
         "last_commit": "c8611f7",
         "last_version": "v0.12.12",
         "last_updated": "2022-04-11T00:52:03Z",
@@ -55,7 +55,7 @@
         ],
         "selected_tag": null,
         "show_beta": false,
-        "stargazers_count": 412,
+        "stargazers_count": 413,
         "topics": [
             "ac",
             "air-purifier",

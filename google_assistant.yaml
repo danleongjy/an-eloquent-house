@@ -6,13 +6,49 @@ report_state: true
 expose_by_default: true
 exposed_domains:
   - fan
-  - light
   - climate
   - vacuum
 entity_config:
+  light.elenas_room_lights:
+    name: Elena's Room Lights
+    room: Elena's Room
+  light.elis_room_lights:
+    name: Eli's Room Lights
+    room: Eli's Room
+  light.junior_bathroom_lights:
+    name: Junior Bathroom Lights
+    room: Junior Bathroom
+  light.powder_room_pendant_light_entity:
+    name: Powder Room Pendant Light
+    room: Powder Room
+    aliases:
+      - Powder Room Light
+  light.hallways_lights:
+    name: Hallway Lights
+    room: Hallway
+    aliases:
+      - Corridor Lights
+  light.dining_room_lights:
+    name: Dining Room Lights
+    room: Dining Room
+  light.dining_room_pendant_light_entity:
+    name: Dining Room Pendant Light
+    room: Dining Room
+    aliases:
+      - Dining Table Light
+      - Dining Room Hanging Light
+      - Dining Table Hanging Light
+  light.playroom_lights:
+    name: Playroom Lights
+    room: Playroom
+  light.yard_light_entity:
+    name: Yard Light
+    room: Yard
+
   switch.water_heater:
     name: Water Heater
     room: Powder Room
+    
   script.turn_off_all:
     name: Turn Off All
   script.set_recommended_scene_in_elenas_room:

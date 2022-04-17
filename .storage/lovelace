@@ -85,42 +85,87 @@
                                         "off": {
                                             "type": "custom:button-card",
                                             "entity": "fan.elenas_room_fan",
+                                            "icon": "[[[ if (states['fan.elenas_room_fan'].attributes.direction == 'forward') return 'mdi:fan-chevron-down'; else return 'mdi:fan-chevron-up' ]]]",
                                             "template": "square_cell"
                                         },
                                         "on": {
-                                            "type": "custom:slider-button-card",
-                                            "entity": "fan.elenas_room_fan",
-                                            "slider": {
-                                                "direction": "bottom-top",
-                                                "background": "solid",
-                                                "use_state_color": false,
-                                                "use_percentage_bg_opacity": false,
-                                                "show_track": false,
-                                                "toggle_on_click": false,
-                                                "force_square": true
-                                            },
-                                            "show_name": false,
-                                            "show_state": false,
-                                            "compact": true,
-                                            "icon": {
-                                                "show": true,
-                                                "use_state_color": true,
-                                                "tap_action": {
-                                                    "action": "call-service",
-                                                    "service": "script.fan_reverse_spin",
-                                                    "service_data": {
-                                                        "target_fan": "Elena's Room Fan"
+                                            "type": "custom:state-switch",
+                                            "entity": "input_select.elenas_room_fan_direction",
+                                            "default": "forward",
+                                            "states": {
+                                                "forward": {
+                                                    "type": "custom:slider-button-card",
+                                                    "entity": "fan.elenas_room_fan",
+                                                    "slider": {
+                                                        "direction": "bottom-top",
+                                                        "background": "solid",
+                                                        "use_state_color": false,
+                                                        "use_percentage_bg_opacity": false,
+                                                        "show_track": false,
+                                                        "toggle_on_click": false,
+                                                        "force_square": true
+                                                    },
+                                                    "show_name": false,
+                                                    "show_state": false,
+                                                    "compact": true,
+                                                    "icon": {
+                                                        "show": true,
+                                                        "use_state_color": true,
+                                                        "tap_action": {
+                                                            "action": "call-service",
+                                                            "service": "script.fan_reverse_spin",
+                                                            "service_data": {
+                                                                "target_fan": "Elena's Room Fan"
+                                                            }
+                                                        },
+                                                        "icon": "mdi:fan-chevron-down"
+                                                    },
+                                                    "action_button": {
+                                                        "mode": "toggle",
+                                                        "icon": "mdi:power",
+                                                        "show": false,
+                                                        "show_spinner": true,
+                                                        "tap_action": {
+                                                            "action": "toggle"
+                                                        }
                                                     }
                                                 },
-                                                "icon": ""
-                                            },
-                                            "action_button": {
-                                                "mode": "toggle",
-                                                "icon": "mdi:power",
-                                                "show": false,
-                                                "show_spinner": true,
-                                                "tap_action": {
-                                                    "action": "toggle"
+                                                "reverse": {
+                                                    "type": "custom:slider-button-card",
+                                                    "entity": "fan.elenas_room_fan",
+                                                    "slider": {
+                                                        "direction": "bottom-top",
+                                                        "background": "solid",
+                                                        "use_state_color": false,
+                                                        "use_percentage_bg_opacity": false,
+                                                        "show_track": false,
+                                                        "toggle_on_click": false,
+                                                        "force_square": true
+                                                    },
+                                                    "show_name": false,
+                                                    "show_state": false,
+                                                    "compact": true,
+                                                    "icon": {
+                                                        "show": true,
+                                                        "use_state_color": true,
+                                                        "tap_action": {
+                                                            "action": "call-service",
+                                                            "service": "script.fan_reverse_spin",
+                                                            "service_data": {
+                                                                "target_fan": "Elena's Room Fan"
+                                                            }
+                                                        },
+                                                        "icon": "mdi:fan-chevron-up"
+                                                    },
+                                                    "action_button": {
+                                                        "mode": "toggle",
+                                                        "icon": "mdi:power",
+                                                        "show": false,
+                                                        "show_spinner": true,
+                                                        "tap_action": {
+                                                            "action": "toggle"
+                                                        }
+                                                    }
                                                 }
                                             }
                                         }
@@ -339,42 +384,87 @@
                                         "off": {
                                             "type": "custom:button-card",
                                             "entity": "fan.elis_room_fan",
+                                            "icon": "[[[ if (states['fan.elis_room_fan'].attributes.direction == 'forward') return 'mdi:fan-chevron-down'; else return 'mdi:fan-chevron-up' ]]]",
                                             "template": "square_cell"
                                         },
                                         "on": {
-                                            "type": "custom:slider-button-card",
-                                            "entity": "fan.elis_room_fan",
-                                            "slider": {
-                                                "direction": "bottom-top",
-                                                "background": "solid",
-                                                "use_state_color": false,
-                                                "use_percentage_bg_opacity": false,
-                                                "show_track": false,
-                                                "toggle_on_click": false,
-                                                "force_square": true
-                                            },
-                                            "show_name": false,
-                                            "show_state": false,
-                                            "compact": true,
-                                            "icon": {
-                                                "show": true,
-                                                "use_state_color": true,
-                                                "tap_action": {
-                                                    "action": "call-service",
-                                                    "service": "script.fan_reverse_spin",
-                                                    "service_data": {
-                                                        "target_fan": "Eli's Room Fan"
+                                            "type": "custom:state-switch",
+                                            "entity": "input_select.elis_room_fan_direction",
+                                            "default": "forward",
+                                            "states": {
+                                                "forward": {
+                                                    "type": "custom:slider-button-card",
+                                                    "entity": "fan.elis_room_fan",
+                                                    "slider": {
+                                                        "direction": "bottom-top",
+                                                        "background": "solid",
+                                                        "use_state_color": false,
+                                                        "use_percentage_bg_opacity": false,
+                                                        "show_track": false,
+                                                        "toggle_on_click": false,
+                                                        "force_square": true
+                                                    },
+                                                    "show_name": false,
+                                                    "show_state": false,
+                                                    "compact": true,
+                                                    "icon": {
+                                                        "show": true,
+                                                        "use_state_color": true,
+                                                        "tap_action": {
+                                                            "action": "call-service",
+                                                            "service": "script.fan_reverse_spin",
+                                                            "service_data": {
+                                                                "target_fan": "Eli's Room Fan"
+                                                            }
+                                                        },
+                                                        "icon": "mdi:fan-chevron-down"
+                                                    },
+                                                    "action_button": {
+                                                        "mode": "toggle",
+                                                        "icon": "mdi:power",
+                                                        "show": false,
+                                                        "show_spinner": true,
+                                                        "tap_action": {
+                                                            "action": "toggle"
+                                                        }
                                                     }
                                                 },
-                                                "icon": ""
-                                            },
-                                            "action_button": {
-                                                "mode": "toggle",
-                                                "icon": "mdi:power",
-                                                "show": false,
-                                                "show_spinner": true,
-                                                "tap_action": {
-                                                    "action": "toggle"
+                                                "reverse": {
+                                                    "type": "custom:slider-button-card",
+                                                    "entity": "fan.elis_room_fan",
+                                                    "slider": {
+                                                        "direction": "bottom-top",
+                                                        "background": "solid",
+                                                        "use_state_color": false,
+                                                        "use_percentage_bg_opacity": false,
+                                                        "show_track": false,
+                                                        "toggle_on_click": false,
+                                                        "force_square": true
+                                                    },
+                                                    "show_name": false,
+                                                    "show_state": false,
+                                                    "compact": true,
+                                                    "icon": {
+                                                        "show": true,
+                                                        "use_state_color": true,
+                                                        "tap_action": {
+                                                            "action": "call-service",
+                                                            "service": "script.fan_reverse_spin",
+                                                            "service_data": {
+                                                                "target_fan": "Eli's Room Fan"
+                                                            }
+                                                        },
+                                                        "icon": "mdi:fan-chevron-up"
+                                                    },
+                                                    "action_button": {
+                                                        "mode": "toggle",
+                                                        "icon": "mdi:power",
+                                                        "show": false,
+                                                        "show_spinner": true,
+                                                        "tap_action": {
+                                                            "action": "toggle"
+                                                        }
+                                                    }
                                                 }
                                             }
                                         }
@@ -1113,42 +1203,87 @@
                                         "off": {
                                             "type": "custom:button-card",
                                             "entity": "fan.dining_room_fan",
+                                            "icon": "[[[ if (states['fan.dining_room_fan'].attributes.direction == 'forward') return 'mdi:fan-chevron-down'; else return 'mdi:fan-chevron-up' ]]]",
                                             "template": "square_cell"
                                         },
                                         "on": {
-                                            "type": "custom:slider-button-card",
-                                            "entity": "fan.dining_room_fan",
-                                            "slider": {
-                                                "direction": "bottom-top",
-                                                "background": "solid",
-                                                "use_state_color": false,
-                                                "use_percentage_bg_opacity": false,
-                                                "show_track": false,
-                                                "toggle_on_click": false,
-                                                "force_square": true
-                                            },
-                                            "show_name": false,
-                                            "show_state": false,
-                                            "compact": true,
-                                            "icon": {
-                                                "show": true,
-                                                "use_state_color": true,
-                                                "tap_action": {
-                                                    "action": "call-service",
-                                                    "service": "script.fan_reverse_spin",
-                                                    "service_data": {
-                                                        "target_fan": "Dining Room Fan"
+                                            "type": "custom:state-switch",
+                                            "entity": "input_select.dining_room_fan_direction",
+                                            "default": "forward",
+                                            "states": {
+                                                "forward": {
+                                                    "type": "custom:slider-button-card",
+                                                    "entity": "fan.dining_room_fan",
+                                                    "slider": {
+                                                        "direction": "bottom-top",
+                                                        "background": "solid",
+                                                        "use_state_color": false,
+                                                        "use_percentage_bg_opacity": false,
+                                                        "show_track": false,
+                                                        "toggle_on_click": false,
+                                                        "force_square": true
+                                                    },
+                                                    "show_name": false,
+                                                    "show_state": false,
+                                                    "compact": true,
+                                                    "icon": {
+                                                        "show": true,
+                                                        "use_state_color": true,
+                                                        "tap_action": {
+                                                            "action": "call-service",
+                                                            "service": "script.fan_reverse_spin",
+                                                            "service_data": {
+                                                                "target_fan": "Dining Room Fan"
+                                                            }
+                                                        },
+                                                        "icon": "mdi:fan-chevron-down"
+                                                    },
+                                                    "action_button": {
+                                                        "mode": "toggle",
+                                                        "icon": "mdi:power",
+                                                        "show": false,
+                                                        "show_spinner": true,
+                                                        "tap_action": {
+                                                            "action": "toggle"
+                                                        }
                                                     }
                                                 },
-                                                "icon": ""
-                                            },
-                                            "action_button": {
-                                                "mode": "toggle",
-                                                "icon": "mdi:power",
-                                                "show": false,
-                                                "show_spinner": true,
-                                                "tap_action": {
-                                                    "action": "toggle"
+                                                "reverse": {
+                                                    "type": "custom:slider-button-card",
+                                                    "entity": "fan.dining_room_fan",
+                                                    "slider": {
+                                                        "direction": "bottom-top",
+                                                        "background": "solid",
+                                                        "use_state_color": false,
+                                                        "use_percentage_bg_opacity": false,
+                                                        "show_track": false,
+                                                        "toggle_on_click": false,
+                                                        "force_square": true
+                                                    },
+                                                    "show_name": false,
+                                                    "show_state": false,
+                                                    "compact": true,
+                                                    "icon": {
+                                                        "show": true,
+                                                        "use_state_color": true,
+                                                        "tap_action": {
+                                                            "action": "call-service",
+                                                            "service": "script.fan_reverse_spin",
+                                                            "service_data": {
+                                                                "target_fan": "Dining Room Fan"
+                                                            }
+                                                        },
+                                                        "icon": "mdi:fan-chevron-up"
+                                                    },
+                                                    "action_button": {
+                                                        "mode": "toggle",
+                                                        "icon": "mdi:power",
+                                                        "show": false,
+                                                        "show_spinner": true,
+                                                        "tap_action": {
+                                                            "action": "toggle"
+                                                        }
+                                                    }
                                                 }
                                             }
                                         }
@@ -1428,7 +1563,7 @@
                                             "type": "custom:button-card",
                                             "entity": "sensor.dishwasher",
                                             "template": "square_cell",
-                                            "label": "[[[\n  if (states['sensor.dishwasher'].attributes.dishwasher_status == 'washing')\n    return 'Wash'\n  else if (states['sensor.dishwasher'].attributes.cooldown != '0')\n    return '0:' + states['sensor.dishwasher'].attributes.cooldown\n  else if (states['sensor.dishwasher'].attributes.dishwasher_status == 'standby')\n    return '...'\n  else\n    return ''\n]]]\n",
+                                            "label": "[[[\n  if (states['sensor.dishwasher'].attributes.dishwasher_status == 'washing')\n    return 'Wash'\n  else if (parseInt(states['sensor.dishwasher'].attributes.cooldown) >= 10)\n    return '0:' + states['sensor.dishwasher'].attributes.cooldown\n  else if (parseInt(states['sensor.dishwasher'].attributes.cooldown) > 0)\n    return '0:0' + states['sensor.dishwasher'].attributes.cooldown\n  else if (states['sensor.dishwasher'].attributes.dishwasher_status == 'standby')\n    return '...'\n  else\n    return ''\n]]]\n",
                                             "show_label": true
                                         }
                                     }

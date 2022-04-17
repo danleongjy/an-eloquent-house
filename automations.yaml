@@ -298,6 +298,7 @@
           target_fan_power: false
     default: []
   mode: single
+  max_exceeded: silent
 - id: '1642998485292'
   alias: Eli's Room Fan Set State
   description: Set Eli's Room Fan power and speed

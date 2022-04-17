@@ -20,8 +20,8 @@
             "input_boolean",
             "media_player"
         ],
-        "downloads": 19946,
-        "etag_repository": "W/\"428b2f687cada9f6652a3a7564aad5decb9f17fd8b462349ed4b77686d5bbd00\"",
+        "downloads": 1159,
+        "etag_repository": "W/\"9dcf3107fa6d230a61ea56f46bd1d8442f55ee6864fd2a53770a5aa6fa926aa0\"",
         "file_name": "slider-button-card.js",
         "filename": "slider-button-card.js",
         "first_install": false,
@@ -36,9 +36,9 @@
         "installed": true,
         "installed_commit": "877bc94",
         "installed_version": "v1.10.3",
-        "open_issues": 87,
+        "open_issues": 88,
         "last_commit": "877bc94",
-        "last_version": "v1.10.3",
+        "last_version": "v1.10.2",
         "last_updated": "2022-04-14T22:14:47Z",
         "manifest_name": null,
         "new": false,
@@ -47,15 +47,15 @@
         "releases": true,
         "render_readme": true,
         "published_tags": [
-            "v1.10.3",
             "v1.10.2",
             "v1.10.1",
             "v1.10.0",
-            "v1.9.0"
+            "v1.9.0",
+            "v1.8.0"
         ],
         "selected_tag": null,
         "show_beta": false,
-        "stargazers_count": 308,
+        "stargazers_count": 309,
         "topics": [
             "button-card",
             "card",
