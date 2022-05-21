@@ -7,11 +7,11 @@ ac_set_state:
       selector:
         select:
           options:
-          - Living Dining Room AC
+          - Dining Room AC
           - Eli's Room AC
           - Elena's Room AC
       required: true
-      default: Living Dining Room AC
+      default: Dining Room AC
     target_ac_power:
       name: Target AC Power
       description: Whether the AC is on or off
@@ -35,8 +35,8 @@ ac_set_state:
   - service: remote.send_command
     target:
       entity_id: "{% set universal_remote = \n  { \"Elena's Room AC\": \"remote.elenas_room_universal_remote\"\
-        ,\n    \"Eli's Room AC\": \"remote.elis_room_universal_remote\",\n    \"Living\
-        \ Dining Room AC\": \"remote.dining_room_universal_remote\",\n  } %}\n{{ universal_remote[target_ac]\
+        ,\n    \"Eli's Room AC\": \"remote.elis_room_universal_remote\",\n    \"Dining\
+        \ Room AC\": \"remote.dining_room_universal_remote\",\n  } %}\n{{ universal_remote[target_ac]\
         \ }}\n"
     data:
       device: '{{ target_ac }}'
@@ -179,9 +179,9 @@ turn_off_dining_room:
       entity_id: fan.dining_room_fan
     data: {}
   - service: climate.turn_off
-    target:
-      entity_id: climate.living_dining_room_ac
     data: {}
+    target:
+      entity_id: climate.dining_room_ac
   - service: light.turn_off
     target:
       entity_id:
@@ -434,11 +434,11 @@ set_recommended_scene_in_dining_room:
       - service: climate.turn_on
         data: {}
         target:
-          entity_id: climate.living_dining_room_ac
+          entity_id: climate.dining_room_ac
     default:
     - service: climate.turn_off
       data: {}
       target:
-        entity_id: climate.living_dining_room_ac
+        entity_id: climate.dining_room_ac
   mode: single
   icon: mdi:magic-staff

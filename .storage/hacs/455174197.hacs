@@ -1,0 +1,61 @@
+{
+    "version": "6",
+    "minor_version": 1,
+    "key": "hacs/455174197.hacs",
+    "data": {
+        "archived": false,
+        "authors": [
+            "@dummylabs"
+        ],
+        "category": "integration",
+        "content_in_root": false,
+        "country": [],
+        "config_flow": true,
+        "default_branch": "main",
+        "description": "Home Assistant custom integration to keep track of missing entities and services in your config files",
+        "domain": "watchman",
+        "domains": [],
+        "downloads": 0,
+        "etag_repository": "W/\"2d301d8fcbd2aef0a60b69dc86d2d9b3789a4b60986a1cfacf91197f899946ba\"",
+        "file_name": "",
+        "filename": null,
+        "first_install": false,
+        "fork": false,
+        "full_name": "dummylabs/thewatchman",
+        "hacs": null,
+        "hide": false,
+        "hide_default_branch": false,
+        "homeassistant": null,
+        "id": "455174197",
+        "iot_class": null,
+        "installed": true,
+        "installed_commit": "6328bb3",
+        "installed_version": "v.0.5.2",
+        "open_issues": 11,
+        "last_commit": "b0581e8",
+        "last_version": "v0.5.3",
+        "last_updated": "2022-05-13T10:06:55Z",
+        "manifest_name": "Watchman",
+        "new": false,
+        "persistent_directory": null,
+        "pushed_at": "2022-05-13T10:06:55",
+        "releases": true,
+        "render_readme": true,
+        "published_tags": [
+            "v0.5.3",
+            "v.0.5.2",
+            "v0.5.1",
+            "v0.5.0",
+            "v0.4.0"
+        ],
+        "selected_tag": null,
+        "show_beta": false,
+        "stargazers_count": 102,
+        "topics": [
+            "automation",
+            "home-assistant",
+            "homeassistant"
+        ],
+        "zip_release": false
+    }
+}

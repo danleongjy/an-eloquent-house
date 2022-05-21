@@ -18,7 +18,7 @@
                 "manufacturer": "Home Assistant",
                 "model": "Home Assistant Operating System",
                 "name": "Home Assistant Operating System",
-                "sw_version": "7.5",
+                "sw_version": "7.6",
                 "hw_version": null,
                 "entry_type": "service",
                 "id": "8b70dff75ca15e2aadccc38a37e12023",
@@ -53,8 +53,8 @@
             },
             {
                 "config_entries": [
-                    "5d93d8c83f53e64b941406e7a7271a3b",
-                    "1f1b219f55ca3433014f95689dbc9803"
+                    "1f1b219f55ca3433014f95689dbc9803",
+                    "5d93d8c83f53e64b941406e7a7271a3b"
                 ],
                 "connections": [
                     [
@@ -113,8 +113,8 @@
             },
             {
                 "config_entries": [
-                    "636773c40a7132a5fd52717244c85993",
-                    "5d93d8c83f53e64b941406e7a7271a3b"
+                    "5d93d8c83f53e64b941406e7a7271a3b",
+                    "636773c40a7132a5fd52717244c85993"
                 ],
                 "connections": [
                     [
@@ -155,7 +155,7 @@
                 "manufacturer": "Home Assistant Community Add-ons",
                 "model": "Home Assistant Add-on",
                 "name": "Studio Code Server",
-                "sw_version": "4.2.0",
+                "sw_version": "5.0.4",
                 "hw_version": null,
                 "entry_type": "service",
                 "id": "5b7a85777b075f2a2924071c5db8b997",
@@ -203,7 +203,7 @@
                 "manufacturer": "Home Assistant Community Add-ons",
                 "model": "Home Assistant Add-on",
                 "name": "SSH & Web Terminal",
-                "sw_version": "10.1.1",
+                "sw_version": "10.1.3",
                 "hw_version": null,
                 "entry_type": "service",
                 "id": "348c0b671278fbf0de7351c25b7f95dc",
@@ -227,7 +227,7 @@
                 "manufacturer": "Official add-ons",
                 "model": "Home Assistant Add-on",
                 "name": "Samba share",
-                "sw_version": "9.5.1",
+                "sw_version": "9.6.1",
                 "hw_version": null,
                 "entry_type": "service",
                 "id": "f28b5f57b81f46adaf6e421b4c4e4ddf",
@@ -1401,7 +1401,7 @@
                 "manufacturer": "Apple",
                 "model": "iPhone11,2",
                 "name": "Grace",
-                "sw_version": "15.3.1",
+                "sw_version": "15.4.1",
                 "hw_version": null,
                 "entry_type": null,
                 "id": "07bbde26f19f72fca96dc188a3b86990",
@@ -1437,7 +1437,7 @@
                 "via_device_id": null,
                 "area_id": null,
                 "name_by_user": null,
-                "disabled_by": null,
+                "disabled_by": "config_entry",
                 "configuration_url": "http://192.168.18.1"
             },
             {
@@ -1724,7 +1724,7 @@
                 "manufacturer": "hacs.xyz",
                 "model": "",
                 "name": "HACS",
-                "sw_version": "1.24.0",
+                "sw_version": "1.24.4",
                 "hw_version": null,
                 "entry_type": "service",
                 "id": "ba4fe9d7b1bbc06b53143899a36fb716",
@@ -1934,30 +1934,6 @@
             },
             {
                 "config_entries": [
-                    "c9ebf6984fb4f35fdca0bc9e0bd67bab"
-                ],
-                "connections": [],
-                "identifiers": [
-                    [
-                        "localtuya",
-                        "local_bfaefaea0d2d4841080trj"
-                    ]
-                ],
-                "manufacturer": "Unknown",
-                "model": "keyjup78v54myhan",
-                "name": "Dishwasher",
-                "sw_version": "3.3",
-                "hw_version": null,
-                "entry_type": null,
-                "id": "38da319797b5ed6e974b9c0912320fde",
-                "via_device_id": null,
-                "area_id": "kitchen",
-                "name_by_user": "Dishwasher Switch",
-                "disabled_by": null,
-                "configuration_url": null
-            },
-            {
-                "config_entries": [
                     "395f0b844af6c3a5beb9f0256227de9a"
                 ],
                 "connections": [
@@ -1984,6 +1960,103 @@
                 "name_by_user": "Powder Room Door",
                 "disabled_by": null,
                 "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "88f3e93955911f63a48d2c0de1174ba3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "core"
+                    ]
+                ],
+                "manufacturer": "Home Assistant",
+                "model": "Home Assistant Core",
+                "name": "Home Assistant Core",
+                "sw_version": "2022.4.7",
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "9a67e6e754c4e53a547e9472719f8bc2",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "88f3e93955911f63a48d2c0de1174ba3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "supervisor"
+                    ]
+                ],
+                "manufacturer": "Home Assistant",
+                "model": "Home Assistant Supervisor",
+                "name": "Home Assistant Supervisor",
+                "sw_version": "2022.05.2",
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "1fc81e04ab27d3ffabab7adecc68cdd8",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "88f3e93955911f63a48d2c0de1174ba3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "core_mosquitto"
+                    ]
+                ],
+                "manufacturer": "Official add-ons",
+                "model": "Home Assistant Add-on",
+                "name": "Mosquitto broker",
+                "sw_version": "6.1.2",
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "82e1f12c77a2794efb8f3e050b5de1fc",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "homeassistant://hassio/addon/core_mosquitto"
+            },
+            {
+                "config_entries": [
+                    "5d93d8c83f53e64b941406e7a7271a3b",
+                    "6a48e197010ac762b768f2e81ae53f3d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "4c:eb:d6:0f:ff:96"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Tasmota",
+                "model": "PG04-UK16A-TAS",
+                "name": "Dishwasher",
+                "sw_version": "11.1.0",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "2c9d75a725911ad6752e48b9a0742257",
+                "via_device_id": null,
+                "area_id": "kitchen",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://192.168.18.31/"
             }
         ],
         "deleted_devices": [
@@ -2180,11 +2253,11 @@
                 "identifiers": [
                     [
                         "localtuya",
-                        "local_bf67d5c3a79b9f8337kcfd"
+                        "local_bfaefaea0d2d4841080trj"
                     ]
                 ],
-                "id": "94fa5ec55f4f454118af815f105e37ef",
-                "orphaned_timestamp": 1649990508.1195414
+                "id": "38da319797b5ed6e974b9c0912320fde",
+                "orphaned_timestamp": 1652098087.9051278
             }
         ]
     }

@@ -1,17 +1,17 @@
 - id: '1642993601811'
-  alias: Living Dining Room AC Set State
-  description: Set the Living Dining Room AC power and temperature
+  alias: Dining Room AC Set State
+  description: Set the Dining Room AC power and temperature
   trigger:
   - platform: state
-    entity_id: climate.living_dining_room_ac
+    entity_id: climate.dining_room_ac
     id: cooling
     to: cool
   - platform: state
-    entity_id: climate.living_dining_room_ac
+    entity_id: climate.dining_room_ac
     id: power_off
     from: cool
   - platform: state
-    entity_id: climate.living_dining_room_ac
+    entity_id: climate.dining_room_ac
     id: temperature_changed
     attribute: temperature
   condition: []
@@ -23,8 +23,8 @@
       sequence:
       - service: script.ac_set_state
         data:
-          target_ac: Living Dining Room AC
-          target_ac_temp: '{{ state_attr("climate.living_dining_room_ac", "temperature")
+          target_ac: Dining Room AC
+          target_ac_temp: '{{ state_attr("climate.dining_room_ac", "temperature")
             }}'
     - conditions:
       - condition: trigger
@@ -32,7 +32,7 @@
       sequence:
       - service: script.ac_set_state
         data:
-          target_ac: Living Dining Room AC
+          target_ac: Dining Room AC
           target_ac_power: false
     - conditions:
       - condition: trigger
@@ -41,32 +41,32 @@
       - choose:
         - conditions:
           - condition: numeric_state
-            entity_id: climate.living_dining_room_ac
+            entity_id: climate.dining_room_ac
             attribute: temperature
             below: '24'
           sequence:
           - service: climate.set_temperature
-            target:
-              entity_id: climate.living_dining_room_ac
             data:
               temperature: 27
-          - service: climate.turn_off
             target:
-              entity_id: climate.living_dining_room_ac
+              entity_id: climate.dining_room_ac
+          - service: climate.turn_off
             data: {}
+            target:
+              entity_id: climate.dining_room_ac
           - service: script.ac_set_state
             data:
-              target_ac: Living Dining Room AC
+              target_ac: Dining Room AC
               target_ac_power: false
         default:
         - service: climate.turn_on
-          target:
-            entity_id: climate.living_dining_room_ac
           data: {}
+          target:
+            entity_id: climate.dining_room_ac
         - service: script.ac_set_state
           data:
-            target_ac: Living Dining Room AC
-            target_ac_temp: '{{ state_attr("climate.living_dining_room_ac", "temperature")
+            target_ac: Dining Room AC
+            target_ac_temp: '{{ state_attr("climate.dining_room_ac", "temperature")
               }}'
     default: []
   mode: single
@@ -672,6 +672,22 @@
             - sun
             after: input_datetime.wind_down
           sequence:
+          - condition: and
+            conditions:
+            - condition: state
+              entity_id: light.playroom_lights
+              state: 'off'
+              for:
+                hours: 0
+                minutes: 0
+                seconds: 2
+            - condition: state
+              entity_id: light.yard_light_entity
+              state: 'off'
+              for:
+                hours: 0
+                minutes: 0
+                seconds: 2
           - service: light.turn_on
             target:
               entity_id:
@@ -680,6 +696,22 @@
             data:
               brightness_pct: 5
         default:
+        - condition: and
+          conditions:
+          - condition: state
+            entity_id: light.playroom_lights
+            state: 'off'
+            for:
+              hours: 0
+              minutes: 0
+              seconds: 2
+          - condition: state
+            entity_id: light.yard_light_entity
+            state: 'off'
+            for:
+              hours: 0
+              minutes: 0
+              seconds: 2
         - service: light.turn_on
           target:
             entity_id:
@@ -751,7 +783,7 @@
   mode: single
 - id: '1643643181661'
   alias: Living Dining Room AC Controller 1
-  description: Control the Living Dining Room AC
+  description: Control the Living & Dining Room ACs
   use_blueprint:
     path: EPMatt/ikea_e1743.yaml
     input:
@@ -760,28 +792,30 @@
       helper_last_controller_event: input_text.zz_living_dining_room_ac_controller_1_last_event
       action_button_up_short:
       - service: climate.turn_on
+        data: {}
         target:
-          entity_id: climate.living_dining_room_ac
+          entity_id: climate.dining_room_ac
       action_button_up_long:
       - service: climate.set_temperature
         target:
-          entity_id: climate.living_dining_room_ac
+          entity_id: climate.dining_room_ac
         data:
-          temperature: "{% if state_attr('climate.living_dining_room_ac', 'temperature')\
-            \ < 27 %}\n  {{ state_attr('climate.living_dining_room_ac', 'temperature')\
-            \ + 1 }}\n{% else %}\n  27\n{% endif %}\n"
+          temperature: "{% if state_attr('climate.dining_room_ac', 'temperature')\
+            \ < 27 %}\n  {{ state_attr('climate.dining_room_ac', 'temperature') +\
+            \ 1 }}\n{% else %}\n  27\n{% endif %}\n"
       action_button_down_short:
       - service: climate.turn_off
+        data: {}
         target:
-          entity_id: climate.living_dining_room_ac
+          entity_id: climate.dining_room_ac
       action_button_down_long:
       - service: climate.set_temperature
         target:
-          entity_id: climate.living_dining_room_ac
+          entity_id: climate.dining_room_ac
         data:
-          temperature: "{% if state_attr('climate.living_dining_room_ac', 'temperature')\
-            \ > 24 %}\n  {{ state_attr('climate.living_dining_room_ac', 'temperature')\
-            \ - 1 }}\n{% else %}\n  24\n{% endif %}\n"
+          temperature: "{% if state_attr('climate.dining_room_ac', 'temperature')\
+            \ > 24 %}\n  {{ state_attr('climate.dining_room_ac', 'temperature') -\
+            \ 1 }}\n{% else %}\n  24\n{% endif %}\n"
 - id: '1643643631965'
   alias: Dining Room Fan Controller
   description: Control the Dining Room Fan
@@ -1319,15 +1353,15 @@
       sequence:
       - service: notify.mobile_app_pixel_4a
         data:
-          message: AC on with doors open
-          title: Please close the doors
+          message: AC on with doors and windows open
+          title: Please close the doors and windows
           data:
             persistent: true
             tag: doors_open
       - service: notify.mobile_app_grace
         data:
-          message: AC on with doors open
-          title: Please close the doors
+          message: AC on with doors and windows open
+          title: Please close the doors and windows
           data:
             tag: doors_open
     - conditions:
@@ -1394,12 +1428,26 @@
             before: input_datetime.lights_auto_control_end
             after: input_datetime.sleep_hours_start
           sequence:
+          - condition: state
+            entity_id: light.powder_room_pendant_light_entity
+            state: 'off'
+            for:
+              hours: 0
+              minutes: 0
+              seconds: 2
           - service: light.turn_on
             target:
               entity_id: light.powder_room_pendant_light_entity
             data:
               brightness_pct: 5
         default:
+        - condition: state
+          entity_id: light.powder_room_pendant_light_entity
+          state: 'off'
+          for:
+            hours: 0
+            minutes: 0
+            seconds: 2
         - service: light.turn_on
           target:
             entity_id: light.powder_room_pendant_light_entity
@@ -1424,13 +1472,13 @@
     id: motion
     to: 'on'
   - platform: state
-    entity_id: binary_sensor.junior_bathroom_motion
     id: no_motion
     to: 'off'
     for:
       hours: 0
       minutes: 15
       seconds: 0
+    entity_id: binary_sensor.junior_bathroom_motion
   condition: []
   action:
   - choose:
@@ -1444,12 +1492,26 @@
             after: input_datetime.elenas_bedtime
             before: input_datetime.lights_auto_control_end
           sequence:
+          - condition: state
+            entity_id: light.junior_bathroom_lights
+            state: 'off'
+            for:
+              hours: 0
+              minutes: 0
+              seconds: 2
           - service: light.turn_on
             target:
               entity_id: light.junior_bathroom_lights
             data:
               brightness_pct: 5
         default:
+        - condition: state
+          entity_id: light.junior_bathroom_lights
+          state: 'off'
+          for:
+            hours: 0
+            minutes: 0
+            seconds: 2
         - service: light.turn_on
           target:
             entity_id: light.junior_bathroom_lights
@@ -1462,6 +1524,7 @@
       - service: light.turn_off
         target:
           entity_id: light.junior_bathroom_lights
+        data: {}
     default: []
   mode: single
 - id: '1644478273862'
@@ -1729,4 +1792,45 @@
   action:
   - service: script.set_recommended_scene_in_dining_room
     data: {}
+  mode: single
+- id: '1653105007378'
+  alias: Notify When Raining With Windows Open
+  description: Send a persistent notification if it is raining heavily with windows
+    open, and dismiss it if the windows are closed or it is not raining heavily anymore
+  trigger:
+  - platform: state
+    entity_id: sensor.raining_with_windows_open
+    to:
+  condition: []
+  action:
+  - choose:
+    - conditions:
+      - condition: state
+        entity_id: sensor.raining_with_windows_open
+        state: alert
+      sequence:
+      - service: notify.mobile_app_pixel_4a
+        data:
+          title: Please close windows
+          message: Windows open in heavy rain
+          data:
+            persistent: true
+            tag: windows_open_raining
+      - service: notify.mobile_app_grace
+        data:
+          message: Windows open in heavy rain
+          title: Please close windows
+          data:
+            tag: windows_open_raining
+    default:
+    - service: notify.mobile_app_pixel_4a
+      data:
+        message: clear_notification
+        data:
+          tag: windows_open_raining
+    - service: notify.mobile_app_grace
+      data:
+        message: clear_notification
+        data:
+          tag: windows_open_raining
   mode: single

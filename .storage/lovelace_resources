@@ -15,14 +15,14 @@
                 "id": "0b717c0a02e34f309bd7a9e47b42053e"
             },
             {
-                "url": "/hacsfiles/slider-button-card/slider-button-card.js?hacstag=3754399611103",
-                "type": "module",
-                "id": "5f711b66633143b2a345bcf944ade8b8"
-            },
-            {
                 "url": "/hacsfiles/lovelace-state-switch/state-switch.js?hacstag=158756598193",
                 "type": "module",
                 "id": "1b5e975b1f594a5b890c96dfd9922c89"
+            },
+            {
+                "url": "/hacsfiles/slider-button-card/slider-button-card.js?hacstag=4843114401107",
+                "type": "module",
+                "id": "0504c9480ad64a1895c8cb16efde8e8a"
             }
         ]
     }

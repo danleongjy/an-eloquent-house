@@ -30,6 +30,7 @@ fan: !include fans.yaml
 climate: !include aircons.yaml
 light: !include lightgroups.yaml
 template: !include template-sensors.yaml
+sensor: !include sensors.yaml
 
 google_assistant: !include google_assistant.yaml
 
@@ -38,3 +39,7 @@ zha:
     network:
       channel: 25             # What channel the radio should try to use.
       channels: [15, 20, 25]  # Channel mask
+
+logger:
+  default: warn
+  logs: !include logger.yaml

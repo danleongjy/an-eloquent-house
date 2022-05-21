@@ -9,7 +9,9 @@
         "archived_repositories": [
             "dr1rrb/ha-twinkly",
             "DSorlov/hasl-platform",
-            "iantrich/aftership-card"
+            "iantrich/aftership-card",
+            "nagyrobi/home-assistant-custom-components-pfsense-gateways",
+            "pippyn/Home-Assistant-Sensor-Groningen-Afvalwijzer"
         ],
         "renamed_repositories": {
             "78wesley/Darkish-Theme": "78wesley/Home-Assistant-Darkish-Theme",
@@ -17,7 +19,8 @@
             "DarkSir23/sensor.mylar": "WillowMist/sensor.mylar",
             "KartoffelToby/ai_thermostat": "KartoffelToby/better_thermostat",
             "nbogojevic/homeassistant-midea-dehumidifier-lan": "nbogojevic/homeassistant-midea-air-appliances-lan",
-            "nikrolls/homeassistant-goldair-climate": "nicole-ashley/homeassistant-goldair-climate"
+            "nikrolls/homeassistant-goldair-climate": "nicole-ashley/homeassistant-goldair-climate",
+            "ulic75/power-distribution-card": "ulic75/power-flow-card"
         },
         "ignored_repositories": []
     }

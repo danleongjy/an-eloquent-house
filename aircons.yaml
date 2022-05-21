@@ -1,7 +1,7 @@
 - platform: generic_thermostat
-  name: Living Dining Room AC
-  unique_id: climate.living_dining_room_ac
-  heater: switch.living_dining_room_ac_switch
+  name: Dining Room AC
+  unique_id: climate.dining_room_ac
+  heater: switch.dining_room_ac_switch
   target_sensor: sensor.dining_room_temperature
   ac_mode: true
   min_temp: 23

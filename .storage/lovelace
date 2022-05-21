@@ -8,6 +8,16 @@
                 "square_cell": {
                     "aspect_ratio": "1/1",
                     "show_name": false
+                },
+                "top_row": {
+                    "template": "square_cell",
+                    "styles": {
+                        "card": [
+                            {
+                                "border-radius": "33%"
+                            }
+                        ]
+                    }
                 }
             },
             "views": [
@@ -19,6 +29,103 @@
                         {
                             "type": "grid",
                             "cards": [
+                                {
+                                    "type": "custom:swipe-card",
+                                    "start_card": 1,
+                                    "reset_after": 10,
+                                    "cards": [
+                                        {
+                                            "type": "custom:button-card",
+                                            "entity": "sensor.local_two_hour_forecast",
+                                            "template": "top_row",
+                                            "icon": "[[[\n  if (entity.state == 'Fair' || entity.state == 'Fair & Warm')\n    if (states['sun.sun'].state == 'above_horizon')\n      return \"mdi:weather-sunny\";\n    else\n     return \"mdi:weather-night\";\n  else if (entity.state == 'Partly Cloudy')\n    if (states['sun.sun'].state == 'above_horizon')\n      return \"mdi:weather-partly-cloudy\";\n    else\n      return \"mdi:weather-night-partly-cloudy\";\n  else if (entity.state == 'Cloudy')\n    return \"mdi:weather-cloudy\";\n  else if (entity.state == 'Showers')\n    return \"mdi:weather-pouring\";\n  else if (entity.state == 'Thundery Showers')\n    return \"mdi:weather-lightning-rainy\";\n  else if (entity.state == 'Light Rain')\n    return \"mdi:weather-rainy\";\n  else\n    return \"mdi:weather-cloudy-alert\"\n]]]\n",
+                                            "styles": {
+                                                "card": [
+                                                    {
+                                                        "background-color": "[[[\n  if (states['sensor.raining_with_windows_open'].state == 'alert')\n    return '#9e110d';\n  else if (states['sensor.raining_with_windows_open'].state == 'warning')\n    return '#f2ba00';\n  else\n    return 'var(--secondary-background-color)';\n]]]\n"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "type": "custom:button-card",
+                                            "entity": "sensor.local_rainfall",
+                                            "icon": "mdi:weather-pouring",
+                                            "template": "square_cell",
+                                            "show_state": true
+                                        },
+                                        {
+                                            "type": "custom:button-card",
+                                            "entity": "sensor.local_outdoor_temperature",
+                                            "icon": "mdi:sun-thermometer",
+                                            "template": "square_cell",
+                                            "show_state": true
+                                        },
+                                        {
+                                            "type": "custom:button-card",
+                                            "entity": "sensor.local_outdoor_humidity",
+                                            "icon": "mdi:weather-rainy",
+                                            "template": "square_cell",
+                                            "show_state": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "custom:button-card",
+                                    "color_type": "blank-card"
+                                },
+                                {
+                                    "type": "custom:state-switch",
+                                    "entity": "switch.water_heater",
+                                    "default": "disabled",
+                                    "states": {
+                                        "disabled": {
+                                            "type": "custom:button-card",
+                                            "icon": "mdi:water-boiler-off"
+                                        },
+                                        "off": {
+                                            "type": "custom:button-card",
+                                            "entity": "switch.water_heater",
+                                            "template": "top_row",
+                                            "label": "[[[ \n  if (parseInt(states['input_number.water_heating'].state) > 0)\n    return Math.round(states['input_number.water_heating'].state, 0) + \"%\" \n  else\n    return ''\n]]]\n",
+                                            "show_label": true,
+                                            "double_tap_action": {
+                                                "action": "more-info"
+                                            }
+                                        },
+                                        "on": {
+                                            "type": "custom:button-card",
+                                            "entity": "switch.water_heater",
+                                            "template": "top_row",
+                                            "label": "[[[ \n  if (parseInt(states['input_number.water_heating'].state) < 100)\n    return Math.round(states['input_number.water_heating'].state, 0) + \"%\" \n  else\n    return ''\n]]]\n",
+                                            "show_label": true,
+                                            "double_tap_action": {
+                                                "action": "more-info"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "custom:button-card",
+                                    "entity": "switch.lights_auto_control",
+                                    "template": "top_row"
+                                },
+                                {
+                                    "type": "custom:button-card",
+                                    "color_type": "blank-card"
+                                },
+                                {
+                                    "type": "custom:button-card",
+                                    "entity": "binary_sensor.all_off",
+                                    "template": "top_row",
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "script.turn_off_all"
+                                    },
+                                    "double_tap_action": {
+                                        "action": "more-info"
+                                    }
+                                },
                                 {
                                     "type": "custom:swipe-card",
                                     "start_card": 1,
@@ -899,7 +1006,7 @@
                                             "styles": {
                                                 "card": [
                                                     {
-                                                        "background-color": "[[[\n  if (states['binary_sensor.ac_on_with_window_open_at_yard'].state == 'on')\n    return '#9e110d';\n  else\n    return 'var(--secondary-background-color)';\n]]]\n"
+                                                        "background-color": "[[[\n  if (states['binary_sensor.ac_on_with_window_open_at_yard'].state == 'on')\n    return '#9e110d';\n  else if (states['sensor.raining_with_windows_open'].state == 'alert')\n    return '#9e110d';\n  else if (states['sensor.raining_with_windows_open'].state == 'warning')\n    return '#f2ba00';\n  else\n    return 'var(--secondary-background-color)';\n]]]\n"
                                                     }
                                                 ]
                                             }
@@ -913,122 +1020,12 @@
                                             "styles": {
                                                 "card": [
                                                     {
-                                                        "background-color": "[[[\n  if (states['binary_sensor.ac_on_with_window_open_at_yard'].state == 'on')\n    return '#9e110d';\n  else\n    return 'var(--secondary-background-color)';\n]]]\n"
+                                                        "background-color": "[[[\n  if (states['binary_sensor.ac_on_with_window_open_at_yard'].state == 'on')\n    return '#9e110d';\n  else if (states['sensor.raining_with_windows_open'].state == 'alert')\n    return '#9e110d';\n  else if (states['sensor.raining_with_windows_open'].state == 'warning')\n    return '#f2ba00';\n  else\n    return 'var(--secondary-background-color)';\n]]]\n"
                                                     }
                                                 ]
                                             }
                                         }
                                     ]
-                                },
-                                {
-                                    "type": "custom:state-switch",
-                                    "entity": "light.playroom_lights",
-                                    "default": "disabled",
-                                    "states": {
-                                        "disabled": {
-                                            "type": "custom:button-card",
-                                            "icon": "mdi:lightbulb-group-off",
-                                            "template": "square_cell"
-                                        },
-                                        "off": {
-                                            "type": "custom:button-card",
-                                            "entity": "light.playroom_lights",
-                                            "template": "square_cell",
-                                            "tap_action": {
-                                                "action": "toggle"
-                                            }
-                                        },
-                                        "on": {
-                                            "type": "custom:slider-button-card",
-                                            "entity": "light.playroom_lights",
-                                            "slider": {
-                                                "direction": "bottom-top",
-                                                "background": "solid",
-                                                "use_state_color": false,
-                                                "use_percentage_bg_opacity": false,
-                                                "show_track": false,
-                                                "toggle_on_click": false,
-                                                "force_square": true
-                                            },
-                                            "show_name": false,
-                                            "show_state": false,
-                                            "compact": true,
-                                            "icon": {
-                                                "show": true,
-                                                "use_state_color": true,
-                                                "tap_action": {
-                                                    "action": "more-info"
-                                                },
-                                                "icon": ""
-                                            },
-                                            "action_button": {
-                                                "mode": "toggle",
-                                                "icon": "mdi:power",
-                                                "show": false
-                                            }
-                                        },
-                                        "show_spinner": true,
-                                        "tap_action": {
-                                            "action": "toggle"
-                                        }
-                                    }
-                                },
-                                {
-                                    "type": "custom:button-card",
-                                    "color_type": "blank-card"
-                                },
-                                {
-                                    "type": "custom:state-switch",
-                                    "entity": "light.yard_light_entity",
-                                    "default": "disabled",
-                                    "states": {
-                                        "disabled": {
-                                            "type": "custom:button-card",
-                                            "icon": "mdi:lightbulb-off",
-                                            "template": "square_cell"
-                                        },
-                                        "off": {
-                                            "type": "custom:button-card",
-                                            "entity": "light.yard_light_entity",
-                                            "template": "square_cell",
-                                            "tap_action": {
-                                                "action": "toggle"
-                                            }
-                                        },
-                                        "on": {
-                                            "type": "custom:slider-button-card",
-                                            "entity": "light.yard_light_entity",
-                                            "slider": {
-                                                "direction": "bottom-top",
-                                                "background": "solid",
-                                                "use_state_color": false,
-                                                "use_percentage_bg_opacity": false,
-                                                "show_track": false,
-                                                "toggle_on_click": false,
-                                                "force_square": true
-                                            },
-                                            "show_name": false,
-                                            "show_state": false,
-                                            "compact": true,
-                                            "icon": {
-                                                "show": true,
-                                                "use_state_color": true,
-                                                "tap_action": {
-                                                    "action": "more-info"
-                                                },
-                                                "icon": ""
-                                            },
-                                            "action_button": {
-                                                "mode": "toggle",
-                                                "icon": "mdi:power",
-                                                "show": false
-                                            }
-                                        },
-                                        "show_spinner": true,
-                                        "tap_action": {
-                                            "action": "toggle"
-                                        }
-                                    }
                                 },
                                 {
                                     "type": "custom:state-switch",
@@ -1132,6 +1129,244 @@
                                                     }
                                                 ]
                                             }
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "custom:state-switch",
+                                    "entity": "vacuum.pikachu",
+                                    "default": "disabled",
+                                    "states": {
+                                        "disabled": {
+                                            "type": "custom:button-card",
+                                            "entity": "vacuum.pikachu",
+                                            "template": "square_cell",
+                                            "label": "Error",
+                                            "show_label": true,
+                                            "styles": {
+                                                "card": [
+                                                    {
+                                                        "background-color": "#9e110d"
+                                                    }
+                                                ],
+                                                "label": [
+                                                    {
+                                                        "animation": "blink 2s ease infinite"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "docked": {
+                                            "type": "custom:button-card",
+                                            "entity": "vacuum.pikachu",
+                                            "template": "square_cell",
+                                            "label": "[[[ \n  if (parseInt(states['vacuum.pikachu'].attributes.battery_level) <= 95)\n    return states['vacuum.pikachu'].attributes.battery_level + '%';\n  else\n    return ''\n]]]\n",
+                                            "show_label": true,
+                                            "color": "rgb(68,115,158)",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "vacuum.start",
+                                                "service_data": {
+                                                    "entity_id": "vacuum.pikachu"
+                                                }
+                                            },
+                                            "double_tap_action": {
+                                                "action": "more-info"
+                                            }
+                                        },
+                                        "cleaning": {
+                                            "type": "custom:button-card",
+                                            "entity": "vacuum.pikachu",
+                                            "template": "square_cell",
+                                            "label": "[[[ return states['vacuum.pikachu'].attributes.battery_level + '%']]]",
+                                            "show_label": true,
+                                            "color": "rgb(253,216,53)",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "vacuum.pause",
+                                                "service_data": {
+                                                    "entity_id": "vacuum.pikachu"
+                                                }
+                                            },
+                                            "double_tap_action": {
+                                                "action": "more-info"
+                                            }
+                                        },
+                                        "returning": {
+                                            "type": "custom:button-card",
+                                            "entity": "vacuum.pikachu",
+                                            "template": "square_cell",
+                                            "label": "[[[ return states['vacuum.pikachu'].attributes.battery_level + '%']]]",
+                                            "show_label": true,
+                                            "color": "rgb(253,216,53)",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "vacuum.pause",
+                                                "service_data": {
+                                                    "entity_id": "vacuum.pikachu"
+                                                }
+                                            },
+                                            "double_tap_action": {
+                                                "action": "more-info"
+                                            }
+                                        },
+                                        "paused": {
+                                            "type": "custom:button-card",
+                                            "entity": "vacuum.pikachu",
+                                            "template": "square_cell",
+                                            "label": "Paused",
+                                            "show_label": true,
+                                            "color": "rgb(68,115,158)",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "vacuum.start",
+                                                "service_data": {
+                                                    "entity_id": "vacuum.pikachu"
+                                                }
+                                            },
+                                            "double_tap_action": {
+                                                "action": "more-info"
+                                            },
+                                            "styles": {
+                                                "card": [
+                                                    {
+                                                        "background-color": "#f2ba00"
+                                                    }
+                                                ],
+                                                "label": [
+                                                    {
+                                                        "color": "var(--primary-background-color)"
+                                                    },
+                                                    {
+                                                        "animation": "blink 2s ease infinite"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "idle": {
+                                            "type": "custom:button-card",
+                                            "entity": "vacuum.pikachu",
+                                            "template": "square_cell",
+                                            "label": "[[[ return states['vacuum.pikachu'].attributes.battery_level + '%']]]",
+                                            "show_label": true,
+                                            "styles": {
+                                                "card": [
+                                                    {
+                                                        "background-color": "#9e110d"
+                                                    }
+                                                ],
+                                                "label": [
+                                                    {
+                                                        "animation": "blink 2s ease infinite"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "custom:state-switch",
+                                    "entity": "light.playroom_lights",
+                                    "default": "disabled",
+                                    "states": {
+                                        "disabled": {
+                                            "type": "custom:button-card",
+                                            "icon": "mdi:lightbulb-group-off",
+                                            "template": "square_cell"
+                                        },
+                                        "off": {
+                                            "type": "custom:button-card",
+                                            "entity": "light.playroom_lights",
+                                            "template": "square_cell",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        "on": {
+                                            "type": "custom:slider-button-card",
+                                            "entity": "light.playroom_lights",
+                                            "slider": {
+                                                "direction": "bottom-top",
+                                                "background": "solid",
+                                                "use_state_color": false,
+                                                "use_percentage_bg_opacity": false,
+                                                "show_track": false,
+                                                "toggle_on_click": false,
+                                                "force_square": true
+                                            },
+                                            "show_name": false,
+                                            "show_state": false,
+                                            "compact": true,
+                                            "icon": {
+                                                "show": true,
+                                                "use_state_color": true,
+                                                "tap_action": {
+                                                    "action": "more-info"
+                                                },
+                                                "icon": ""
+                                            },
+                                            "action_button": {
+                                                "mode": "toggle",
+                                                "icon": "mdi:power",
+                                                "show": false
+                                            }
+                                        },
+                                        "show_spinner": true,
+                                        "tap_action": {
+                                            "action": "toggle"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "custom:state-switch",
+                                    "entity": "light.yard_light_entity",
+                                    "default": "disabled",
+                                    "states": {
+                                        "disabled": {
+                                            "type": "custom:button-card",
+                                            "icon": "mdi:lightbulb-off",
+                                            "template": "square_cell"
+                                        },
+                                        "off": {
+                                            "type": "custom:button-card",
+                                            "entity": "light.yard_light_entity",
+                                            "template": "square_cell",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        "on": {
+                                            "type": "custom:slider-button-card",
+                                            "entity": "light.yard_light_entity",
+                                            "slider": {
+                                                "direction": "bottom-top",
+                                                "background": "solid",
+                                                "use_state_color": false,
+                                                "use_percentage_bg_opacity": false,
+                                                "show_track": false,
+                                                "toggle_on_click": false,
+                                                "force_square": true
+                                            },
+                                            "show_name": false,
+                                            "show_state": false,
+                                            "compact": true,
+                                            "icon": {
+                                                "show": true,
+                                                "use_state_color": true,
+                                                "tap_action": {
+                                                    "action": "more-info"
+                                                },
+                                                "icon": ""
+                                            },
+                                            "action_button": {
+                                                "mode": "toggle",
+                                                "icon": "mdi:power",
+                                                "show": false
+                                            }
+                                        },
+                                        "show_spinner": true,
+                                        "tap_action": {
+                                            "action": "toggle"
                                         }
                                     }
                                 },
@@ -1291,7 +1526,7 @@
                                 },
                                 {
                                     "type": "custom:state-switch",
-                                    "entity": "climate.living_dining_room_ac",
+                                    "entity": "climate.dining_room_ac",
                                     "default": "disabled",
                                     "states": {
                                         "disabled": {
@@ -1301,19 +1536,19 @@
                                         },
                                         "off": {
                                             "type": "custom:button-card",
-                                            "entity": "climate.living_dining_room_ac",
+                                            "entity": "climate.dining_room_ac",
                                             "template": "square_cell",
                                             "tap_action": {
                                                 "action": "call-service",
                                                 "service": "climate.turn_on",
                                                 "service_data": {
-                                                    "entity_id": "climate.living_dining_room_ac"
+                                                    "entity_id": "climate.dining_room_ac"
                                                 }
                                             }
                                         },
                                         "cool": {
                                             "type": "custom:slider-button-card",
-                                            "entity": "climate.living_dining_room_ac",
+                                            "entity": "climate.dining_room_ac",
                                             "slider": {
                                                 "direction": "bottom-top",
                                                 "background": "solid",
@@ -1467,61 +1702,9 @@
                                     "template": "square_cell"
                                 },
                                 {
-                                    "type": "custom:state-switch",
-                                    "entity": "climate.living_dining_room_ac",
-                                    "default": "disabled",
-                                    "states": {
-                                        "disabled": {
-                                            "type": "custom:button-card",
-                                            "icon": "mdi:snowflake-off",
-                                            "template": "square_cell"
-                                        },
-                                        "off": {
-                                            "type": "custom:button-card",
-                                            "entity": "climate.living_dining_room_ac",
-                                            "template": "square_cell",
-                                            "tap_action": {
-                                                "action": "call-service",
-                                                "service": "climate.turn_on",
-                                                "service_data": {
-                                                    "entity_id": "climate.living_dining_room_ac"
-                                                }
-                                            }
-                                        },
-                                        "cool": {
-                                            "type": "custom:slider-button-card",
-                                            "entity": "climate.living_dining_room_ac",
-                                            "slider": {
-                                                "direction": "bottom-top",
-                                                "background": "solid",
-                                                "use_state_color": false,
-                                                "use_percentage_bg_opacity": false,
-                                                "show_track": false,
-                                                "toggle_on_click": false,
-                                                "force_square": true
-                                            },
-                                            "show_name": false,
-                                            "show_state": false,
-                                            "compact": true,
-                                            "icon": {
-                                                "show": true,
-                                                "use_state_color": true,
-                                                "tap_action": {
-                                                    "action": "more-info"
-                                                },
-                                                "icon": ""
-                                            },
-                                            "action_button": {
-                                                "mode": "toggle",
-                                                "icon": "mdi:power",
-                                                "show": false
-                                            }
-                                        },
-                                        "show_spinner": true,
-                                        "tap_action": {
-                                            "action": "toggle"
-                                        }
-                                    }
+                                    "type": "custom:button-card",
+                                    "icon": "mdi:snowflake",
+                                    "template": "square_cell"
                                 },
                                 {
                                     "type": "custom:button-card",
@@ -1555,7 +1738,7 @@
                                         "off": {
                                             "type": "custom:button-card",
                                             "entity": "sensor.dishwasher",
-                                            "label": "[[[\n  if (parseInt(states['sensor.dishwasher'].attributes.cooldown) >= 10)\n    return '0:' + states['sensor.dishwasher'].attributes.cooldown\n  else if (parseInt(states['sensor.dishwasher'].attributes.cooldown) > 0)\n    return '0:0' + states['sensor.dishwasher'].attributes.cooldown\n  else\n    return ''\n]]]\n",
+                                            "label": "[[[\n  if (parseInt(states['sensor.dishwasher'].attributes.cooldown) >= 5)\n    return 'Cool'\n  else if (parseInt(states['sensor.dishwasher'].attributes.cooldown) > 0)\n    return '0:0' + states['sensor.dishwasher'].attributes.cooldown\n  else\n    return ''\n]]]\n",
                                             "show_label": true,
                                             "template": "square_cell"
                                         },
@@ -1563,7 +1746,7 @@
                                             "type": "custom:button-card",
                                             "entity": "sensor.dishwasher",
                                             "template": "square_cell",
-                                            "label": "[[[\n  if (states['sensor.dishwasher'].attributes.dishwasher_status == 'washing')\n    return 'Wash'\n  else if (parseInt(states['sensor.dishwasher'].attributes.cooldown) >= 10)\n    return '0:' + states['sensor.dishwasher'].attributes.cooldown\n  else if (parseInt(states['sensor.dishwasher'].attributes.cooldown) > 0)\n    return '0:0' + states['sensor.dishwasher'].attributes.cooldown\n  else if (states['sensor.dishwasher'].attributes.dishwasher_status == 'standby')\n    return '...'\n  else\n    return ''\n]]]\n",
+                                            "label": "[[[\n  if (states['sensor.dishwasher'].attributes.dishwasher_status == 'washing')\n    return 'Wash'\n  else if (parseInt(states['sensor.dishwasher'].attributes.cooldown) >= 5)\n    return 'Cool'\n  else if (parseInt(states['sensor.dishwasher'].attributes.cooldown) > 0)\n    return '0:0' + states['sensor.dishwasher'].attributes.cooldown\n  else if (states['sensor.dishwasher'].attributes.dishwasher_status == 'standby')\n    return '...'\n  else\n    return ''\n]]]\n",
                                             "show_label": true
                                         }
                                     }
@@ -1648,194 +1831,6 @@
                                     "type": "custom:button-card",
                                     "icon": "mdi:lightbulb-group",
                                     "template": "square_cell"
-                                },
-                                {
-                                    "type": "custom:button-card",
-                                    "entity": "binary_sensor.all_off",
-                                    "template": "square_cell",
-                                    "tap_action": {
-                                        "action": "call-service",
-                                        "service": "script.turn_off_all"
-                                    },
-                                    "double_tap_action": {
-                                        "action": "more-info"
-                                    }
-                                },
-                                {
-                                    "type": "custom:button-card",
-                                    "color_type": "blank-card"
-                                },
-                                {
-                                    "type": "custom:button-card",
-                                    "color_type": "blank-card"
-                                },
-                                {
-                                    "type": "custom:button-card",
-                                    "entity": "switch.lights_auto_control",
-                                    "template": "square_cell"
-                                },
-                                {
-                                    "type": "custom:state-switch",
-                                    "entity": "vacuum.pikachu",
-                                    "default": "disabled",
-                                    "states": {
-                                        "disabled": {
-                                            "type": "custom:button-card",
-                                            "entity": "vacuum.pikachu",
-                                            "template": "square_cell",
-                                            "label": "Error",
-                                            "show_label": true,
-                                            "styles": {
-                                                "card": [
-                                                    {
-                                                        "background-color": "#9e110d"
-                                                    }
-                                                ],
-                                                "label": [
-                                                    {
-                                                        "animation": "blink 2s ease infinite"
-                                                    }
-                                                ]
-                                            }
-                                        },
-                                        "docked": {
-                                            "type": "custom:button-card",
-                                            "entity": "vacuum.pikachu",
-                                            "template": "square_cell",
-                                            "label": "[[[ \n  if (parseInt(states['vacuum.pikachu'].attributes.battery_level) <= 95)\n    return states['vacuum.pikachu'].attributes.battery_level + '%';\n  else\n    return ''\n]]]\n",
-                                            "show_label": true,
-                                            "color": "rgb(68,115,158)",
-                                            "tap_action": {
-                                                "action": "call-service",
-                                                "service": "vacuum.start",
-                                                "service_data": {
-                                                    "entity_id": "vacuum.pikachu"
-                                                }
-                                            },
-                                            "double_tap_action": {
-                                                "action": "more-info"
-                                            }
-                                        },
-                                        "cleaning": {
-                                            "type": "custom:button-card",
-                                            "entity": "vacuum.pikachu",
-                                            "template": "square_cell",
-                                            "label": "[[[ return states['vacuum.pikachu'].attributes.battery_level + '%']]]",
-                                            "show_label": true,
-                                            "color": "rgb(253,216,53)",
-                                            "tap_action": {
-                                                "action": "call-service",
-                                                "service": "vacuum.pause",
-                                                "service_data": {
-                                                    "entity_id": "vacuum.pikachu"
-                                                }
-                                            },
-                                            "double_tap_action": {
-                                                "action": "more-info"
-                                            }
-                                        },
-                                        "returning": {
-                                            "type": "custom:button-card",
-                                            "entity": "vacuum.pikachu",
-                                            "template": "square_cell",
-                                            "label": "[[[ return states['vacuum.pikachu'].attributes.battery_level + '%']]]",
-                                            "show_label": true,
-                                            "color": "rgb(253,216,53)",
-                                            "tap_action": {
-                                                "action": "call-service",
-                                                "service": "vacuum.pause",
-                                                "service_data": {
-                                                    "entity_id": "vacuum.pikachu"
-                                                }
-                                            },
-                                            "double_tap_action": {
-                                                "action": "more-info"
-                                            }
-                                        },
-                                        "paused": {
-                                            "type": "custom:button-card",
-                                            "entity": "vacuum.pikachu",
-                                            "template": "square_cell",
-                                            "label": "Paused",
-                                            "show_label": true,
-                                            "color": "rgb(68,115,158)",
-                                            "tap_action": {
-                                                "action": "call-service",
-                                                "service": "vacuum.start",
-                                                "service_data": {
-                                                    "entity_id": "vacuum.pikachu"
-                                                }
-                                            },
-                                            "double_tap_action": {
-                                                "action": "more-info"
-                                            },
-                                            "styles": {
-                                                "card": [
-                                                    {
-                                                        "background-color": "#f2ba00"
-                                                    }
-                                                ],
-                                                "label": [
-                                                    {
-                                                        "color": "var(--primary-background-color)"
-                                                    },
-                                                    {
-                                                        "animation": "blink 2s ease infinite"
-                                                    }
-                                                ]
-                                            }
-                                        },
-                                        "idle": {
-                                            "type": "custom:button-card",
-                                            "entity": "vacuum.pikachu",
-                                            "template": "square_cell",
-                                            "label": "[[[ return states['vacuum.pikachu'].attributes.battery_level + '%']]]",
-                                            "show_label": true,
-                                            "styles": {
-                                                "card": [
-                                                    {
-                                                        "background-color": "#9e110d"
-                                                    }
-                                                ],
-                                                "label": [
-                                                    {
-                                                        "animation": "blink 2s ease infinite"
-                                                    }
-                                                ]
-                                            }
-                                        }
-                                    }
-                                },
-                                {
-                                    "type": "custom:state-switch",
-                                    "entity": "switch.water_heater",
-                                    "default": "disabled",
-                                    "states": {
-                                        "disabled": {
-                                            "type": "custom:button-card",
-                                            "icon": "mdi:water-boiler-off"
-                                        },
-                                        "off": {
-                                            "type": "custom:button-card",
-                                            "entity": "switch.water_heater",
-                                            "template": "square_cell",
-                                            "label": "[[[ \n  if (parseInt(states['input_number.water_heating'].state) > 0)\n    return Math.round(states['input_number.water_heating'].state, 0) + \"%\" \n  else\n    return ''\n]]]\n",
-                                            "show_label": true,
-                                            "double_tap_action": {
-                                                "action": "more-info"
-                                            }
-                                        },
-                                        "on": {
-                                            "type": "custom:button-card",
-                                            "entity": "switch.water_heater",
-                                            "template": "square_cell",
-                                            "label": "[[[ \n  if (parseInt(states['input_number.water_heating'].state) < 100)\n    return Math.round(states['input_number.water_heating'].state, 0) + \"%\" \n  else\n    return ''\n]]]\n",
-                                            "show_label": true,
-                                            "double_tap_action": {
-                                                "action": "more-info"
-                                            }
-                                        }
-                                    }
                                 }
                             ],
                             "columns": 6,

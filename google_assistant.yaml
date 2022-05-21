@@ -23,7 +23,7 @@ entity_config:
     room: Powder Room
     aliases:
       - Powder Room Light
-  light.hallways_lights:
+  light.hallway_lights:
     name: Hallway Lights
     room: Hallway
     aliases:

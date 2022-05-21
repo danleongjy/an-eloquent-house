@@ -1,0 +1,9 @@
+-== Watchman Report ==- 
+
+-== Congratulations, all 37 services from your config are available!
+
+-== Congratulations, all 115 entities from your config are available!
+
+-== Report created on 21 May 2022 15:21:33
+-== Parsed 23 files in 0.15s., ignored 0 files 
+-== Generated in: 0.00s. Validated in: 0.00s.
