@@ -362,7 +362,7 @@
         {% if is_state('switch.dishwasher', 'on') %}
           {% if states('sensor.dishwasher_watts') | float == 0 %}
             off
-          {% elif states('sensor.dishwasher_watts') | float < 4 %}
+          {% elif states('sensor.dishwasher_watts') | float < 5 %}
             standby
           {% else %}
             washing

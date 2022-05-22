@@ -26,7 +26,7 @@
             "switch"
         ],
         "downloads": 0,
-        "etag_repository": "W/\"100ea5cb40c58674dac0bdb10afe7df2fdefc61ff611d95e453947d7af7cddfc\"",
+        "etag_repository": "W/\"7fd11988ef2218b649286ba8f65c89975e9fea49d3f8b9cb563df5e473d0ffd1\"",
         "file_name": "",
         "filename": null,
         "first_install": false,
@@ -43,7 +43,7 @@
         "installed": true,
         "installed_commit": "73bc046",
         "installed_version": "v3.5.0",
-        "open_issues": 440,
+        "open_issues": 442,
         "last_commit": "73bc046",
         "last_version": "v3.5.0",
         "last_updated": "2022-05-17T09:41:14Z",
@@ -62,7 +62,7 @@
         ],
         "selected_tag": null,
         "show_beta": false,
-        "stargazers_count": 1095,
+        "stargazers_count": 1096,
         "topics": [
             "localtuya",
             "tuya",

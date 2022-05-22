@@ -75,6 +75,15 @@
                                     "color_type": "blank-card"
                                 },
                                 {
+                                    "type": "custom:button-card",
+                                    "color_type": "blank-card"
+                                },
+                                {
+                                    "type": "custom:button-card",
+                                    "entity": "switch.lights_auto_control",
+                                    "template": "top_row"
+                                },
+                                {
                                     "type": "custom:state-switch",
                                     "entity": "switch.water_heater",
                                     "default": "disabled",
@@ -104,15 +113,6 @@
                                             }
                                         }
                                     }
-                                },
-                                {
-                                    "type": "custom:button-card",
-                                    "entity": "switch.lights_auto_control",
-                                    "template": "top_row"
-                                },
-                                {
-                                    "type": "custom:button-card",
-                                    "color_type": "blank-card"
                                 },
                                 {
                                     "type": "custom:button-card",

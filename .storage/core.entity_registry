@@ -3180,7 +3180,7 @@
                 "name": null,
                 "options": {},
                 "original_device_class": "battery",
-                "original_icon": "mdi:battery-80",
+                "original_icon": "mdi:battery-70",
                 "original_name": "Pixel 4a Battery Level",
                 "platform": "mobile_app",
                 "supported_features": 0,
