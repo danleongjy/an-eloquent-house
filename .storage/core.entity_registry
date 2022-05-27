@@ -3180,7 +3180,7 @@
                 "name": null,
                 "options": {},
                 "original_device_class": "battery",
-                "original_icon": "mdi:battery-70",
+                "original_icon": "mdi:battery-40",
                 "original_name": "Pixel 4a Battery Level",
                 "platform": "mobile_app",
                 "supported_features": 0,
@@ -5946,7 +5946,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "2a7c49b8bb04303ca9a7609856049c08",
@@ -5958,7 +5960,7 @@
                 "id": "66a83a82155cb48c0c63c95b4edb65d6",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "dresden elektronik ConBee II e6d706ff basic rssi",
                 "platform": "zha",
@@ -5968,7 +5970,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "2a7c49b8bb04303ca9a7609856049c08",
@@ -5980,7 +5984,7 @@
                 "id": "db158247ba1ea76674d292c1ec52ab6f",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "dresden elektronik ConBee II e6d706ff basic lqi",
                 "platform": "zha",
@@ -5990,7 +5994,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "b91b53c544a3fd255f58f8fb2425214a",
@@ -6002,7 +6008,7 @@
                 "id": "c0e467b768a6cf15a475549d7d2333c1",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 455095fe basic rssi",
                 "platform": "zha",
@@ -6012,7 +6018,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "b91b53c544a3fd255f58f8fb2425214a",
@@ -6024,7 +6032,7 @@
                 "id": "bbd5d81f5603f4fea0f753298dfa4f99",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 455095fe basic lqi",
                 "platform": "zha",
@@ -6034,7 +6042,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "38fce4f13d803d7f422753b018849042",
@@ -6046,7 +6056,7 @@
                 "id": "38ca248b487237289ec7f471c68f886a",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 62ce19fe basic rssi",
                 "platform": "zha",
@@ -6056,7 +6066,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "38fce4f13d803d7f422753b018849042",
@@ -6068,7 +6080,7 @@
                 "id": "1414799b3ac1cc20a3474f9b638e1176",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 62ce19fe basic lqi",
                 "platform": "zha",
@@ -6078,7 +6090,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "8f55b3591bcf5292ddd1eb957a06ecbb",
@@ -6090,7 +6104,7 @@
                 "id": "1c42b338e314d0a888870ef5c1a665d7",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm f086fefe basic rssi",
                 "platform": "zha",
@@ -6100,7 +6114,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "8f55b3591bcf5292ddd1eb957a06ecbb",
@@ -6112,7 +6128,7 @@
                 "id": "813df0dd2ebad2dfd1ec23e1dddf31f1",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm f086fefe basic lqi",
                 "platform": "zha",
@@ -6122,7 +6138,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "68fe00b7c0ad89a05e1dc7714625a6e3",
@@ -6134,7 +6152,7 @@
                 "id": "e113ab9d3c233a28c500537b2ebf09f3",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 0ea902fe basic rssi",
                 "platform": "zha",
@@ -6144,7 +6162,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "68fe00b7c0ad89a05e1dc7714625a6e3",
@@ -6156,7 +6176,7 @@
                 "id": "c3a1ef836b7c754980547ebe0f01903c",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 0ea902fe basic lqi",
                 "platform": "zha",
@@ -6166,7 +6186,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "96018f4c6c9fa34d2d3a76c6851ae5dd",
@@ -6178,7 +6200,7 @@
                 "id": "a1f0f4d494a707aee6cb4f1358af7659",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 63fe00fe basic rssi",
                 "platform": "zha",
@@ -6188,7 +6210,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "96018f4c6c9fa34d2d3a76c6851ae5dd",
@@ -6200,7 +6224,7 @@
                 "id": "9e8726e4b9f39d915f49ab9e92930967",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 63fe00fe basic lqi",
                 "platform": "zha",
@@ -6210,7 +6234,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "2db853366b1775779a8a94e680edc9ec",
@@ -6222,7 +6248,7 @@
                 "id": "c28951588bd217943a592f2651f135cd",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 87b7f3fe basic rssi",
                 "platform": "zha",
@@ -6232,7 +6258,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "2db853366b1775779a8a94e680edc9ec",
@@ -6244,7 +6272,7 @@
                 "id": "60ce65bee4be26c9e2cd763bd609dd5d",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 87b7f3fe basic lqi",
                 "platform": "zha",
@@ -6254,7 +6282,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "824aa41c2a13f2c9d94fc2e131b4575c",
@@ -6266,7 +6296,7 @@
                 "id": "5cec763096927506f326b4df689fc9cf",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 7381fffe basic rssi",
                 "platform": "zha",
@@ -6276,7 +6306,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "824aa41c2a13f2c9d94fc2e131b4575c",
@@ -6288,7 +6320,7 @@
                 "id": "bbb98da2e1e423873830cb4465ddf283",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 7381fffe basic lqi",
                 "platform": "zha",
@@ -6298,7 +6330,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "afda408ceaf7c4244cac3fd018a741f7",
@@ -6310,7 +6344,7 @@
                 "id": "b448e9bf1965da9fd925dd4de647ac97",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm be85fcfe basic rssi",
                 "platform": "zha",
@@ -6320,7 +6354,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "afda408ceaf7c4244cac3fd018a741f7",
@@ -6332,7 +6368,7 @@
                 "id": "ff54378e17a08d0f6326a64a5556220c",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm be85fcfe basic lqi",
                 "platform": "zha",
@@ -6342,7 +6378,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "5600465becd58a51c06b29678dc82991",
@@ -6354,7 +6392,7 @@
                 "id": "205d3e1bc58f02b5503f33e10b404590",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm d6f800fe basic rssi",
                 "platform": "zha",
@@ -6364,7 +6402,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "5600465becd58a51c06b29678dc82991",
@@ -6376,7 +6416,7 @@
                 "id": "ea8163a9e7a61eea23a319f003ea2d3e",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm d6f800fe basic lqi",
                 "platform": "zha",
@@ -6386,7 +6426,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "6e5f11040136d7cc173af1419ac931b4",
@@ -6398,7 +6440,7 @@
                 "id": "7de8bbac3ef3b5bf58925432942af904",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "eWeLink MS01 48d21422 basic rssi",
                 "platform": "zha",
@@ -6408,7 +6450,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "6e5f11040136d7cc173af1419ac931b4",
@@ -6420,7 +6464,7 @@
                 "id": "4aaa7e0b78026b5c4619407d1bdbc37f",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "eWeLink MS01 48d21422 basic lqi",
                 "platform": "zha",
@@ -6430,7 +6474,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "cea5083fc6a1972a0b57048ffa03cfd8",
@@ -6442,7 +6488,7 @@
                 "id": "f6da091bf8811f9ae25f3d1cb85275aa",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch 5cbc95fe basic rssi",
                 "platform": "zha",
@@ -6452,7 +6498,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "cea5083fc6a1972a0b57048ffa03cfd8",
@@ -6464,7 +6512,7 @@
                 "id": "71c482648b61cb1762f8aab31da031cd",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch 5cbc95fe basic lqi",
                 "platform": "zha",
@@ -6474,7 +6522,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "77cd8d76f6f7d32e5d054bf767686d1d",
@@ -6486,7 +6536,7 @@
                 "id": "76d8b878f81e1055042566f49e76acc5",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 26b8fefe basic rssi",
                 "platform": "zha",
@@ -6496,7 +6546,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "77cd8d76f6f7d32e5d054bf767686d1d",
@@ -6508,7 +6560,7 @@
                 "id": "62f05bf54e4f38a54b0f2c0abcad47d9",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 26b8fefe basic lqi",
                 "platform": "zha",
@@ -6518,7 +6570,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "bdf9adbfe396bd8c79729d78794362d1",
@@ -6530,7 +6584,7 @@
                 "id": "bf85a8e78df434ed21b0847db36bf19a",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 8091fafe basic rssi",
                 "platform": "zha",
@@ -6540,7 +6594,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "bdf9adbfe396bd8c79729d78794362d1",
@@ -6552,7 +6608,7 @@
                 "id": "7acc2dc4fe951063b7591249332e2940",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 8091fafe basic lqi",
                 "platform": "zha",
@@ -6562,7 +6618,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "fc072fd7b2bb17425c94654709b1feae",
@@ -6574,7 +6632,7 @@
                 "id": "2e127f1887a83063a8d0b2c4db66fe07",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 0a8afffe basic rssi",
                 "platform": "zha",
@@ -6584,7 +6642,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "fc072fd7b2bb17425c94654709b1feae",
@@ -6596,7 +6656,7 @@
                 "id": "ad34f3d498da4fa8f68dbe242135c4b8",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 0a8afffe basic lqi",
                 "platform": "zha",
@@ -6606,7 +6666,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "f70176647fea31ee95539e565e16e9be",
@@ -6618,7 +6680,7 @@
                 "id": "136d35d4143f5e824a44201bc94d97a6",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch da069cfe basic rssi",
                 "platform": "zha",
@@ -6628,7 +6690,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "f70176647fea31ee95539e565e16e9be",
@@ -6640,7 +6704,7 @@
                 "id": "762e224da7d856c6620548415e7b11e7",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch da069cfe basic lqi",
                 "platform": "zha",
@@ -6650,7 +6714,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "6e3bab771f635d9d237ea94a56bbf115",
@@ -6662,7 +6728,7 @@
                 "id": "06200f86a20955b924b39caaa843130d",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch 05109ffe basic rssi",
                 "platform": "zha",
@@ -6672,7 +6738,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "6e3bab771f635d9d237ea94a56bbf115",
@@ -6684,7 +6752,7 @@
                 "id": "5a34e1cd21df32927a77d1fede2093bf",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch 05109ffe basic lqi",
                 "platform": "zha",
@@ -6694,7 +6762,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "6dcff9d064c54fe82d682ecbd2e05d86",
@@ -6706,7 +6776,7 @@
                 "id": "66fcc8630cbb93bc1219a7de165c6cde",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 3f85fcfe basic rssi",
                 "platform": "zha",
@@ -6716,7 +6786,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "6dcff9d064c54fe82d682ecbd2e05d86",
@@ -6728,7 +6800,7 @@
                 "id": "9f3fd55ca233c3d003615e12c9abd83d",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 3f85fcfe basic lqi",
                 "platform": "zha",
@@ -6738,7 +6810,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "e95e96f13401adce546971e1c5254832",
@@ -6750,7 +6824,7 @@
                 "id": "a412d02dd1488be30145b22f49f9b4d2",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 28b0fafe basic rssi",
                 "platform": "zha",
@@ -6760,7 +6834,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "e95e96f13401adce546971e1c5254832",
@@ -6772,7 +6848,7 @@
                 "id": "70b04417d9311cd11a33d19e7f458c49",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 28b0fafe basic lqi",
                 "platform": "zha",
@@ -6782,7 +6858,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "729379c869fac5a454929998eba2f3d2",
@@ -6794,7 +6872,7 @@
                 "id": "2c32e8be3eb83c3edf8dd3a9fa4e8461",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch ffbb95fe basic rssi",
                 "platform": "zha",
@@ -6804,7 +6882,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "729379c869fac5a454929998eba2f3d2",
@@ -6816,7 +6896,7 @@
                 "id": "8dc5c4f700d37de178cbc0eb1089cced",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch ffbb95fe basic lqi",
                 "platform": "zha",
@@ -6826,7 +6906,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "bb7b10ab6fcb92baef93cc32ab33b68b",
@@ -6838,7 +6920,7 @@
                 "id": "eeefdfc1ef3413fb60300b8c57b5a998",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "eWeLink TH01 01f61422 basic rssi",
                 "platform": "zha",
@@ -6848,7 +6930,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "bb7b10ab6fcb92baef93cc32ab33b68b",
@@ -6860,7 +6944,7 @@
                 "id": "a5c4a22661450fbe241797b2831d981d",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "eWeLink TH01 01f61422 basic lqi",
                 "platform": "zha",
@@ -6870,7 +6954,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "7ba33171a7196881c47052f6eb86ae34",
@@ -6882,7 +6968,7 @@
                 "id": "abf66c71981b5e0dd1ed9b8b59c279af",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb E27 WW 806lm b7d605fe basic rssi",
                 "platform": "zha",
@@ -6892,7 +6978,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "7ba33171a7196881c47052f6eb86ae34",
@@ -6904,7 +6992,7 @@
                 "id": "40bc70e34c2a506576fe49fc492ee20b",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb E27 WW 806lm b7d605fe basic lqi",
                 "platform": "zha",
@@ -6914,7 +7002,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "ed7a0f3e5988ae5799c9d5e67034909c",
@@ -6926,7 +7016,7 @@
                 "id": "0494cebd83cade4931fbe6215362f997",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "eWeLink TH01 cc962e22 basic rssi",
                 "platform": "zha",
@@ -6936,7 +7026,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "ed7a0f3e5988ae5799c9d5e67034909c",
@@ -6948,7 +7040,7 @@
                 "id": "5c1b609c5927092d0aa4042c6cf8331c",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "eWeLink TH01 cc962e22 basic lqi",
                 "platform": "zha",
@@ -6958,7 +7050,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "0df2cd0b0fa9112188778c56db622911",
@@ -6970,7 +7064,7 @@
                 "id": "c68b13815438eb6ed23ac96dbfbaa852",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch e00f9ffe basic rssi",
                 "platform": "zha",
@@ -6980,7 +7074,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "0df2cd0b0fa9112188778c56db622911",
@@ -6992,7 +7088,7 @@
                 "id": "d0c3140c833c677b28b0f11e65bf5458",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch e00f9ffe basic lqi",
                 "platform": "zha",
@@ -7002,7 +7098,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "f3b2b75f7b31fb5a91e8a449f6714d1c",
@@ -7014,7 +7112,7 @@
                 "id": "c5eba363d90b264e48fe952ba90e88fc",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "eWeLink TH01 11992e22 basic rssi",
                 "platform": "zha",
@@ -7024,7 +7122,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "f3b2b75f7b31fb5a91e8a449f6714d1c",
@@ -7036,7 +7136,7 @@
                 "id": "95a593cf2712f8063962aab2ac1dd904",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "eWeLink TH01 11992e22 basic lqi",
                 "platform": "zha",
@@ -7046,7 +7146,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "867b78e6f7808ffcceb260be52b0c174",
@@ -7058,7 +7160,7 @@
                 "id": "c3e3133f4618e4ebce7832fc1b96f648",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch fc0f9cfe basic rssi",
                 "platform": "zha",
@@ -7068,7 +7170,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "867b78e6f7808ffcceb260be52b0c174",
@@ -7080,7 +7184,7 @@
                 "id": "6a87fb6059edef0a92eb3ab84aa5c084",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch fc0f9cfe basic lqi",
                 "platform": "zha",
@@ -7090,7 +7194,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "03468835a032021fe680721335c32cd5",
@@ -7102,7 +7208,7 @@
                 "id": "8924947a90b3e3ae8ee03b6fada44b18",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "eWeLink MSO1 51a32822 basic rssi",
                 "platform": "zha",
@@ -7112,7 +7218,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "03468835a032021fe680721335c32cd5",
@@ -7124,7 +7232,7 @@
                 "id": "854686c1c0aba3a63b48dc86f657c0ce",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "eWeLink MSO1 51a32822 basic lqi",
                 "platform": "zha",
@@ -7134,7 +7242,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "4f9d115057150510080b9cde7008bb35",
@@ -7146,7 +7256,7 @@
                 "id": "79c25034779248288d0e77061a9ddf6d",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI remote control 439a1bfe basic rssi",
                 "platform": "zha",
@@ -7156,7 +7266,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "4f9d115057150510080b9cde7008bb35",
@@ -7168,7 +7280,7 @@
                 "id": "ac2ffc771380e3a5dc34d8ca071108fa",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI remote control 439a1bfe basic lqi",
                 "platform": "zha",
@@ -7178,7 +7290,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "ea611248af61d7f5dc06e3a824288132",
@@ -7190,7 +7304,7 @@
                 "id": "9ab0c47afb3d559c3a4c699d39f39bc6",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch 94783bfe basic rssi",
                 "platform": "zha",
@@ -7200,7 +7314,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "ea611248af61d7f5dc06e3a824288132",
@@ -7212,7 +7328,7 @@
                 "id": "adf138b469cc1fa53f6a732dec377f8d",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch 94783bfe basic lqi",
                 "platform": "zha",
@@ -7222,7 +7338,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "4992a43f1eecbf448ac02a3c2601ab36",
@@ -7234,7 +7352,7 @@
                 "id": "0057de7e304422a2d88bf4aee9f1064f",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch c9109ffe basic rssi",
                 "platform": "zha",
@@ -7244,7 +7362,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "4992a43f1eecbf448ac02a3c2601ab36",
@@ -7256,7 +7376,7 @@
                 "id": "4cff6b83c9b785e6092521ed6dcafdea",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch c9109ffe basic lqi",
                 "platform": "zha",
@@ -7266,7 +7386,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "7ee5c67d32c83441d269a0b900d08e20",
@@ -7278,7 +7400,7 @@
                 "id": "a5984906e00fdf0569ac7db518afe68e",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm e8d3f3fe basic rssi",
                 "platform": "zha",
@@ -7288,7 +7410,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "7ee5c67d32c83441d269a0b900d08e20",
@@ -7300,7 +7424,7 @@
                 "id": "ff5b998f3051610caff03231d572a0aa",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm e8d3f3fe basic lqi",
                 "platform": "zha",
@@ -7310,7 +7434,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "f084f2e55c0800941585a50dd83e5f47",
@@ -7322,7 +7448,7 @@
                 "id": "aa6d162358bf609fdef29e1c66b5c64e",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch 7bf734fe basic rssi",
                 "platform": "zha",
@@ -7332,7 +7458,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "f084f2e55c0800941585a50dd83e5f47",
@@ -7344,7 +7472,7 @@
                 "id": "cedcc62679aeb99843c41a652fc9e3ab",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch 7bf734fe basic lqi",
                 "platform": "zha",
@@ -7354,7 +7482,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "8fd4f8715be89cc0f383c887c3fac892",
@@ -7366,7 +7496,7 @@
                 "id": "c5e73de72dcb20eedac71c70b171e85a",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch 2c5037fe basic rssi",
                 "platform": "zha",
@@ -7376,7 +7506,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "8fd4f8715be89cc0f383c887c3fac892",
@@ -7388,7 +7520,7 @@
                 "id": "9df4a34fee720f46ebd30ec023e3a5cb",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch 2c5037fe basic lqi",
                 "platform": "zha",
@@ -7398,7 +7530,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "3739789542016f6880b0c0e589de8e70",
@@ -7410,7 +7544,7 @@
                 "id": "2f350b2eb925bde458942d6ac749ce6d",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb E27 WW 806lm e31524fe basic rssi",
                 "platform": "zha",
@@ -7420,7 +7554,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "3739789542016f6880b0c0e589de8e70",
@@ -7432,7 +7568,7 @@
                 "id": "151147ce692d1a9a066d35c298e3d6ac",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb E27 WW 806lm e31524fe basic lqi",
                 "platform": "zha",
@@ -7442,7 +7578,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "bd198033321d47396b326bb21d0480b9",
@@ -7454,7 +7592,7 @@
                 "id": "78c277cca0de5661974a1a38044d3f08",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "LUMI lumi.sensor_magnet.aq2 2d770807 basic rssi",
                 "platform": "zha",
@@ -7464,7 +7602,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "bd198033321d47396b326bb21d0480b9",
@@ -7476,7 +7616,7 @@
                 "id": "c12b90aa0fadee1fb154cab6cbd699c4",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "LUMI lumi.sensor_magnet.aq2 2d770807 basic lqi",
                 "platform": "zha",
@@ -7486,7 +7626,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "0b47519b31f7456f4cafb9f84361de7a",
@@ -7498,7 +7640,7 @@
                 "id": "b93415f73e804d235f45b23f27fd55dc",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "LUMI lumi.sensor_magnet.aq2 c8dd0607 basic rssi",
                 "platform": "zha",
@@ -7508,7 +7650,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "0b47519b31f7456f4cafb9f84361de7a",
@@ -7520,7 +7664,7 @@
                 "id": "679db0fb78b6994e71c31a7d30ae2994",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "LUMI lumi.sensor_magnet.aq2 c8dd0607 basic lqi",
                 "platform": "zha",
@@ -7530,7 +7674,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "ec07e7cc2ba58817099284c321a9f665",
@@ -7542,7 +7688,7 @@
                 "id": "73f88fae4250661a0dcacfc930955c3e",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "LUMI lumi.sensor_magnet.aq2 11740807 basic rssi",
                 "platform": "zha",
@@ -7552,7 +7698,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "ec07e7cc2ba58817099284c321a9f665",
@@ -7564,7 +7712,7 @@
                 "id": "763fe3b765328c5d7733473178048758",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "LUMI lumi.sensor_magnet.aq2 11740807 basic lqi",
                 "platform": "zha",
@@ -7574,7 +7722,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "1c67aa1100d19478436302b801137a23",
@@ -7586,7 +7736,7 @@
                 "id": "23907306ebf7626a0fe2d20d2df3187a",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "LUMI lumi.sensor_magnet.aq2 c5780807 basic rssi",
                 "platform": "zha",
@@ -7596,7 +7746,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "1c67aa1100d19478436302b801137a23",
@@ -7608,7 +7760,7 @@
                 "id": "01e82657119e90349d535145fadee017",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "LUMI lumi.sensor_magnet.aq2 c5780807 basic lqi",
                 "platform": "zha",
@@ -7618,7 +7770,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "2c65aa31e07cc74bcef34dfa0d22d784",
@@ -7630,7 +7784,7 @@
                 "id": "31241b2764b9bab9b6bfb3e882569759",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch 87119ffe basic rssi",
                 "platform": "zha",
@@ -7640,7 +7794,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "2c65aa31e07cc74bcef34dfa0d22d784",
@@ -7652,7 +7808,7 @@
                 "id": "48bd0e381009df61eff816f027542afd",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI on/off switch 87119ffe basic lqi",
                 "platform": "zha",
@@ -7662,7 +7818,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "2bf33bc6518f840e4f5529afac888ce7",
@@ -7674,7 +7832,7 @@
                 "id": "138dd8d2263f76d3b5e359ae4ea8a932",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI Signal Repeater 5b9a44fe basic rssi",
                 "platform": "zha",
@@ -7684,7 +7842,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "2bf33bc6518f840e4f5529afac888ce7",
@@ -7696,7 +7856,7 @@
                 "id": "cd23abaf79bad9acc61a6b8da923e6a9",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI Signal Repeater 5b9a44fe basic lqi",
                 "platform": "zha",
@@ -7706,7 +7866,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "8427db721596a2af4dcdb7052879b833",
@@ -7718,7 +7880,7 @@
                 "id": "6e5a518893438008990fc617a7b1449d",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI Signal Repeater 11c5edfe basic rssi",
                 "platform": "zha",
@@ -7728,7 +7890,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "8427db721596a2af4dcdb7052879b833",
@@ -7740,7 +7904,7 @@
                 "id": "1556dc1bb1b4d4914b81d6b22e6d9acd",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI Signal Repeater 11c5edfe basic lqi",
                 "platform": "zha",
@@ -7750,7 +7914,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "025088ad4e56336ce789c443375da5bd",
@@ -7762,7 +7928,7 @@
                 "id": "111f1817b4d478be0ddbe1643887f7dd",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "eWeLink MS01 9c0acd24 basic rssi",
                 "platform": "zha",
@@ -7772,7 +7938,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "025088ad4e56336ce789c443375da5bd",
@@ -7784,7 +7952,7 @@
                 "id": "04c7c7b4ad57a3eff00e8b3ed444a6a4",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "eWeLink MS01 9c0acd24 basic lqi",
                 "platform": "zha",
@@ -7794,7 +7962,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "656045ee1e65c2add5e5bebdcd2711bc",
@@ -7806,7 +7976,7 @@
                 "id": "c6d0cef5a6ad7beab429416cdc558999",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "eWeLink MS01 f00ccd24 basic rssi",
                 "platform": "zha",
@@ -7816,7 +7986,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "656045ee1e65c2add5e5bebdcd2711bc",
@@ -7828,7 +8000,7 @@
                 "id": "da6c80e944a413206c81b3133fe2f4bd",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "eWeLink MS01 f00ccd24 basic lqi",
                 "platform": "zha",
@@ -7838,7 +8010,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "60f09509c650a1f6a61d76fbe546407d",
@@ -7850,7 +8024,7 @@
                 "id": "b7eeb59f09ac10b576cbc25a560c228a",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI Signal Repeater 52de47fe basic rssi",
                 "platform": "zha",
@@ -7860,7 +8034,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "60f09509c650a1f6a61d76fbe546407d",
@@ -7872,7 +8048,7 @@
                 "id": "c77b25a6371f66317b56a84899f1dd56",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI Signal Repeater 52de47fe basic lqi",
                 "platform": "zha",
@@ -8854,7 +9030,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "ff6d84cb7d67e28c33690ea08f6b571b",
@@ -8866,7 +9044,7 @@
                 "id": "ffedf8f145a9b8668c87823d1fe118d6",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden GUNNARP panel round 20fa58fe basic rssi",
                 "platform": "zha",
@@ -8876,7 +9054,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "ff6d84cb7d67e28c33690ea08f6b571b",
@@ -8888,7 +9068,7 @@
                 "id": "a512879855b6ddf8ac0828e8a58b49f3",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden GUNNARP panel round 20fa58fe basic lqi",
                 "platform": "zha",
@@ -8920,7 +9100,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "98183520cc180bf52f048d7566497cf4",
@@ -8932,7 +9114,7 @@
                 "id": "4d4960f40df7f49b87dc7c330f9f959f",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden GUNNARP panel round a61856fe basic rssi",
                 "platform": "zha",
@@ -8942,7 +9124,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "98183520cc180bf52f048d7566497cf4",
@@ -8954,7 +9138,7 @@
                 "id": "fbf3cfe911fc94f2ae8b2d13b940adf2",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden GUNNARP panel round a61856fe basic lqi",
                 "platform": "zha",
@@ -9042,7 +9226,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "4887aacb6003bfff53e588f01fce030f",
@@ -9054,7 +9240,7 @@
                 "id": "dfe7fa70fd25de32c795479603b4a0eb",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI remote control b354aefe basic rssi",
                 "platform": "zha",
@@ -9064,7 +9250,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "4887aacb6003bfff53e588f01fce030f",
@@ -9076,7 +9264,7 @@
                 "id": "377bf553c6a92cfafc5d2338b8a6c504",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI remote control b354aefe basic lqi",
                 "platform": "zha",
@@ -9154,7 +9342,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "242129cc8771a47993af788662141d33",
@@ -9166,7 +9356,7 @@
                 "id": "fc02efd4100d846eb46f1d00940532d4",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb E27 WS opal 1000lm 882642fe basic rssi",
                 "platform": "zha",
@@ -9176,7 +9366,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "242129cc8771a47993af788662141d33",
@@ -9188,7 +9380,7 @@
                 "id": "ecf324a89494c7b32f2fa51481d61239",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "IKEA of Sweden TRADFRI bulb E27 WS opal 1000lm 882642fe basic lqi",
                 "platform": "zha",
@@ -9248,7 +9440,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "44ae2a2899e9bb3205426e375261a177",
@@ -9260,7 +9454,7 @@
                 "id": "a8aea9d212b38618db272605920e1628",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "eWeLink DS01 76125d24 basic rssi",
                 "platform": "zha",
@@ -9270,7 +9464,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "44ae2a2899e9bb3205426e375261a177",
@@ -9282,7 +9478,7 @@
                 "id": "6d30d10a3d3cf053dc90cfc0fcbea3d7",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "eWeLink DS01 76125d24 basic lqi",
                 "platform": "zha",
@@ -9382,7 +9578,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "c688b84ce52b1eeb1537d53f3923a15d",
@@ -9394,7 +9592,7 @@
                 "id": "7e6cea774e3638dff4ae03160777517e",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "eWeLink DS01 0a145d24 basic rssi",
                 "platform": "zha",
@@ -9404,7 +9602,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "c688b84ce52b1eeb1537d53f3923a15d",
@@ -9416,7 +9616,7 @@
                 "id": "248fb61fe9711edd7c1cdb632c3d7f6d",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "eWeLink DS01 0a145d24 basic lqi",
                 "platform": "zha",
@@ -9903,7 +10103,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "d08cd36db06518041e77ec16770524c3",
@@ -9915,7 +10117,7 @@
                 "id": "b01dd4eb751f25d20ee0d419db07432e",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "eWeLink DS01 6a555c24 basic rssi",
                 "platform": "zha",
@@ -9925,7 +10127,9 @@
             },
             {
                 "area_id": null,
-                "capabilities": null,
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
                 "device_class": null,
                 "device_id": "d08cd36db06518041e77ec16770524c3",
@@ -9937,7 +10141,7 @@
                 "id": "d76d65d8a55308712fb9437fedb7491d",
                 "name": null,
                 "options": {},
-                "original_device_class": null,
+                "original_device_class": "signal_strength",
                 "original_icon": null,
                 "original_name": "eWeLink DS01 6a555c24 basic lqi",
                 "platform": "zha",
@@ -10497,10 +10701,8 @@
             {
                 "area_id": null,
                 "capabilities": {
-                    "min_mireds": 250,
-                    "max_mireds": 454,
                     "supported_color_modes": [
-                        "color_temp"
+                        "onoff"
                     ]
                 },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
@@ -10525,10 +10727,8 @@
             {
                 "area_id": null,
                 "capabilities": {
-                    "min_mireds": 250,
-                    "max_mireds": 454,
                     "supported_color_modes": [
-                        "color_temp"
+                        "onoff"
                     ]
                 },
                 "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
@@ -11063,7 +11263,7 @@
                 "name": "Dishwasher Apparent Power",
                 "options": {},
                 "original_device_class": null,
-                "original_icon": null,
+                "original_icon": "mdi:flash",
                 "original_name": "Dishwasher ENERGY ApparentPower",
                 "platform": "tasmota",
                 "supported_features": 0,
@@ -11111,7 +11311,7 @@
                 "name": "Dishwasher Reactive Power",
                 "options": {},
                 "original_device_class": null,
-                "original_icon": null,
+                "original_icon": "mdi:flash",
                 "original_name": "Dishwasher ENERGY ReactivePower",
                 "platform": "tasmota",
                 "supported_features": 0,
@@ -11143,7 +11343,7 @@
             {
                 "area_id": null,
                 "capabilities": {
-                    "state_class": "total_increasing"
+                    "state_class": "total"
                 },
                 "config_entry_id": "6a48e197010ac762b768f2e81ae53f3d",
                 "device_class": "energy",
@@ -11313,8 +11513,7 @@
                         "off",
                         "washing",
                         "cooling",
-                        "standby",
-                        "unavailable"
+                        "standby"
                     ]
                 },
                 "config_entry_id": null,
@@ -11378,6 +11577,314 @@
                 "platform": "template",
                 "supported_features": 0,
                 "unique_id": "binary_sensor.dishwasher",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_category": null,
+                "entity_id": "script.ac_set_state",
+                "hidden_by": null,
+                "icon": null,
+                "id": "b270f76eccbe74e9a8997707fad985b3",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": "mdi:snowflake",
+                "original_name": "AC Set State",
+                "platform": "script",
+                "supported_features": 0,
+                "unique_id": "ac_set_state",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_category": null,
+                "entity_id": "script.fan_set_state",
+                "hidden_by": null,
+                "icon": null,
+                "id": "530e2a15ef0d8643af13b58d15569640",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": "mdi:speedometer",
+                "original_name": "Fan Set State",
+                "platform": "script",
+                "supported_features": 0,
+                "unique_id": "fan_set_state",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_category": null,
+                "entity_id": "script.fan_reverse_spin",
+                "hidden_by": null,
+                "icon": null,
+                "id": "00e49aab262bd0ad62a58a6cb85fde79",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": "mdi:rotate-3d-variant",
+                "original_name": "Fan Reverse Spin",
+                "platform": "script",
+                "supported_features": 0,
+                "unique_id": "fan_reverse_spin",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_category": null,
+                "entity_id": "script.turn_off_elis_room",
+                "hidden_by": null,
+                "icon": null,
+                "id": "9617e3876b1d01a37e42b7d54b53e283",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": "mdi:power",
+                "original_name": "Turn Off Eli's Room",
+                "platform": "script",
+                "supported_features": 0,
+                "unique_id": "turn_off_elis_room",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_category": null,
+                "entity_id": "script.turn_off_elenas_room",
+                "hidden_by": null,
+                "icon": null,
+                "id": "dd835cbeda261f622661e88b5dbed0ce",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": "mdi:power",
+                "original_name": "Turn Off Elena's Room",
+                "platform": "script",
+                "supported_features": 0,
+                "unique_id": "turn_off_elenas_room",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_category": null,
+                "entity_id": "script.turn_off_dining_room",
+                "hidden_by": null,
+                "icon": null,
+                "id": "d23a81a718b2bb39b1329263bfe2ebe3",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": "mdi:power",
+                "original_name": "Turn Off Dining Room",
+                "platform": "script",
+                "supported_features": 0,
+                "unique_id": "turn_off_dining_room",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_category": null,
+                "entity_id": "script.turn_off_playroom",
+                "hidden_by": null,
+                "icon": null,
+                "id": "db07e4ef8d12e82dd7d426d336844bc2",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": "mdi:power",
+                "original_name": "Turn Off Playroom",
+                "platform": "script",
+                "supported_features": 0,
+                "unique_id": "turn_off_playroom",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_category": null,
+                "entity_id": "script.turn_off_junior_bathroom",
+                "hidden_by": null,
+                "icon": null,
+                "id": "136cf1f25f03a4051eb78537ab77a937",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": "mdi:power",
+                "original_name": "Turn Off Junior Bathroom",
+                "platform": "script",
+                "supported_features": 0,
+                "unique_id": "turn_off_junior_bathroom",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_category": null,
+                "entity_id": "script.turn_off_powder_room",
+                "hidden_by": null,
+                "icon": null,
+                "id": "1fb37b798059036ade229d07242104f9",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": "mdi:power",
+                "original_name": "Turn Off Powder Room",
+                "platform": "script",
+                "supported_features": 0,
+                "unique_id": "turn_off_powder_room",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_category": null,
+                "entity_id": "script.turn_off_hallway",
+                "hidden_by": null,
+                "icon": null,
+                "id": "7b72b3cbfa8b9dbaf4ccf2b44156ffc6",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": "mdi:power",
+                "original_name": "Turn Off Hallway",
+                "platform": "script",
+                "supported_features": 0,
+                "unique_id": "turn_off_hallway",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_category": null,
+                "entity_id": "script.turn_off_all",
+                "hidden_by": null,
+                "icon": null,
+                "id": "04f4e2c410150bff6d4a2d640c8f31ed",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": "mdi:home-export-outline",
+                "original_name": "Turn Off All",
+                "platform": "script",
+                "supported_features": 0,
+                "unique_id": "turn_off_all",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_category": null,
+                "entity_id": "script.set_recommended_scene_in_elenas_room",
+                "hidden_by": null,
+                "icon": null,
+                "id": "72fbda513a03afdfd87b7dfe139d9d3d",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": "mdi:magic-staff",
+                "original_name": "Set Recommended Scene in Elena's Room",
+                "platform": "script",
+                "supported_features": 0,
+                "unique_id": "set_recommended_scene_in_elenas_room",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_category": null,
+                "entity_id": "script.set_recommended_scene_in_elis_room",
+                "hidden_by": null,
+                "icon": null,
+                "id": "974d97798099845d44399a726628ea63",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": "mdi:magic-staff",
+                "original_name": "Set Recommended Scene in Eli's Room",
+                "platform": "script",
+                "supported_features": 0,
+                "unique_id": "set_recommended_scene_in_elis_room",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_category": null,
+                "entity_id": "script.set_recommended_scene_in_dining_room",
+                "hidden_by": null,
+                "icon": null,
+                "id": "98a88589d79efdd4a7e2a3d44fce9160",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": "mdi:magic-staff",
+                "original_name": "Set Recommended Scene in Dining Room",
+                "platform": "script",
+                "supported_features": 0,
+                "unique_id": "set_recommended_scene_in_dining_room",
                 "unit_of_measurement": null
             }
         ]

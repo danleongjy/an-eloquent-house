@@ -18,7 +18,7 @@
                 "manufacturer": "Home Assistant",
                 "model": "Home Assistant Operating System",
                 "name": "Home Assistant Operating System",
-                "sw_version": "7.6",
+                "sw_version": "8.1",
                 "hw_version": null,
                 "entry_type": "service",
                 "id": "8b70dff75ca15e2aadccc38a37e12023",
@@ -83,8 +83,8 @@
             },
             {
                 "config_entries": [
-                    "5d93d8c83f53e64b941406e7a7271a3b",
-                    "87baef47363fe521d0084d83f506d42f"
+                    "87baef47363fe521d0084d83f506d42f",
+                    "5d93d8c83f53e64b941406e7a7271a3b"
                 ],
                 "connections": [
                     [
@@ -1724,7 +1724,7 @@
                 "manufacturer": "hacs.xyz",
                 "model": "",
                 "name": "HACS",
-                "sw_version": "1.24.4",
+                "sw_version": "1.25.1",
                 "hw_version": null,
                 "entry_type": "service",
                 "id": "ba4fe9d7b1bbc06b53143899a36fb716",
@@ -1975,7 +1975,7 @@
                 "manufacturer": "Home Assistant",
                 "model": "Home Assistant Core",
                 "name": "Home Assistant Core",
-                "sw_version": "2022.4.7",
+                "sw_version": "2022.5.5",
                 "hw_version": null,
                 "entry_type": "service",
                 "id": "9a67e6e754c4e53a547e9472719f8bc2",
@@ -1999,7 +1999,7 @@
                 "manufacturer": "Home Assistant",
                 "model": "Home Assistant Supervisor",
                 "name": "Home Assistant Supervisor",
-                "sw_version": "2022.05.2",
+                "sw_version": "2022.05.3",
                 "hw_version": null,
                 "entry_type": "service",
                 "id": "1fc81e04ab27d3ffabab7adecc68cdd8",

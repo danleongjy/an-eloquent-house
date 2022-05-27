@@ -38,27 +38,26 @@
       - condition: trigger
         id: temperature_changed
       sequence:
-      - choose:
-        - conditions:
-          - condition: numeric_state
+      - if:
+        - condition: numeric_state
+          entity_id: climate.dining_room_ac
+          attribute: temperature
+          below: '24'
+        then:
+        - service: climate.set_temperature
+          data:
+            temperature: 27
+          target:
             entity_id: climate.dining_room_ac
-            attribute: temperature
-            below: '24'
-          sequence:
-          - service: climate.set_temperature
-            data:
-              temperature: 27
-            target:
-              entity_id: climate.dining_room_ac
-          - service: climate.turn_off
-            data: {}
-            target:
-              entity_id: climate.dining_room_ac
-          - service: script.ac_set_state
-            data:
-              target_ac: Dining Room AC
-              target_ac_power: false
-        default:
+        - service: climate.turn_off
+          data: {}
+          target:
+            entity_id: climate.dining_room_ac
+        - service: script.ac_set_state
+          data:
+            target_ac: Dining Room AC
+            target_ac_power: false
+        else:
         - service: climate.turn_on
           data: {}
           target:
@@ -110,27 +109,26 @@
       - condition: trigger
         id: temperature_changed
       sequence:
-      - choose:
-        - conditions:
-          - condition: numeric_state
+      - if:
+        - condition: numeric_state
+          entity_id: climate.elis_room_ac
+          attribute: temperature
+          below: '24'
+        then:
+        - service: climate.set_temperature
+          data:
+            temperature: 27
+          target:
             entity_id: climate.elis_room_ac
-            attribute: temperature
-            below: '24'
-          sequence:
-          - service: climate.set_temperature
-            data:
-              temperature: 27
-            target:
-              entity_id: climate.elis_room_ac
-          - service: climate.turn_off
-            target:
-              entity_id: climate.elis_room_ac
-            data: {}
-          - service: script.ac_set_state
-            data:
-              target_ac: Eli's Room AC
-              target_ac_power: false
-        default:
+        - service: climate.turn_off
+          target:
+            entity_id: climate.elis_room_ac
+          data: {}
+        - service: script.ac_set_state
+          data:
+            target_ac: Eli's Room AC
+            target_ac_power: false
+        else:
         - service: climate.turn_on
           target:
             entity_id: climate.elis_room_ac
@@ -183,27 +181,26 @@
       - condition: trigger
         id: temperature_changed
       sequence:
-      - choose:
-        - conditions:
-          - condition: numeric_state
+      - if:
+        - condition: numeric_state
+          entity_id: climate.elenas_room_ac
+          attribute: temperature
+          below: '24'
+        then:
+        - service: climate.set_temperature
+          target:
             entity_id: climate.elenas_room_ac
-            attribute: temperature
-            below: '24'
-          sequence:
-          - service: climate.set_temperature
-            target:
-              entity_id: climate.elenas_room_ac
-            data:
-              temperature: 27
-          - service: climate.turn_off
-            target:
-              entity_id: climate.elenas_room_ac
-            data: {}
-          - service: script.ac_set_state
-            data:
-              target_ac: Elena's Room AC
-              target_ac_power: false
-        default:
+          data:
+            temperature: 27
+        - service: climate.turn_off
+          target:
+            entity_id: climate.elenas_room_ac
+          data: {}
+        - service: script.ac_set_state
+          data:
+            target_ac: Elena's Room AC
+            target_ac_power: false
+        else:
         - service: climate.turn_on
           target:
             entity_id: climate.elenas_room_ac
@@ -241,28 +238,27 @@
       - condition: trigger
         id: speed
       sequence:
-      - choose:
-        - conditions:
-          - condition: numeric_state
+      - if:
+        - condition: numeric_state
+          entity_id: fan.dining_room_fan
+          attribute: percentage
+          below: '10'
+        then:
+        - service: fan.set_percentage
+          data:
+            percentage: '{{ state_attr("binary_sensor.recommended_scene_in_dining_room",
+              "fan_speed") | int }}'
+          target:
             entity_id: fan.dining_room_fan
-            attribute: percentage
-            below: '10'
-          sequence:
-          - service: fan.set_percentage
-            data:
-              percentage: '{{ state_attr("binary_sensor.recommended_scene_in_dining_room",
-                "fan_speed") | int }}'
-            target:
-              entity_id: fan.dining_room_fan
-          - service: fan.turn_off
-            data: {}
-            target:
-              entity_id: fan.dining_room_fan
-          - service: script.fan_set_state
-            data:
-              target_fan: Dining Room Fan
-              target_fan_power: false
-        default:
+        - service: fan.turn_off
+          data: {}
+          target:
+            entity_id: fan.dining_room_fan
+        - service: script.fan_set_state
+          data:
+            target_fan: Dining Room Fan
+            target_fan_power: false
+        else:
         - service: script.fan_set_state
           data:
             target_fan: Dining Room Fan
@@ -324,28 +320,27 @@
       - condition: trigger
         id: speed
       sequence:
-      - choose:
-        - conditions:
-          - condition: numeric_state
+      - if:
+        - condition: numeric_state
+          entity_id: fan.elis_room_fan
+          attribute: percentage
+          below: '10'
+        then:
+        - service: fan.set_percentage
+          data:
+            percentage: '{{ state_attr("binary_sensor.recommended_scene_in_elis_room",
+              "fan_speed") | int }}'
+          target:
             entity_id: fan.elis_room_fan
-            attribute: percentage
-            below: '10'
-          sequence:
-          - service: fan.set_percentage
-            data:
-              percentage: '{{ state_attr("binary_sensor.recommended_scene_in_elis_room",
-                "fan_speed") | int }}'
-            target:
-              entity_id: fan.elis_room_fan
-          - service: fan.turn_off
-            data: {}
-            target:
-              entity_id: fan.elis_room_fan
-          - service: script.fan_set_state
-            data:
-              target_fan: Eli's Room Fan
-              target_fan_power: false
-        default:
+        - service: fan.turn_off
+          data: {}
+          target:
+            entity_id: fan.elis_room_fan
+        - service: script.fan_set_state
+          data:
+            target_fan: Eli's Room Fan
+            target_fan_power: false
+        else:
         - service: script.fan_set_state
           data:
             target_fan: Eli's Room Fan
@@ -407,28 +402,27 @@
       - condition: trigger
         id: speed
       sequence:
-      - choose:
-        - conditions:
-          - condition: numeric_state
+      - if:
+        - condition: numeric_state
+          entity_id: fan.elenas_room_fan
+          attribute: percentage
+          below: '10'
+        then:
+        - service: fan.set_percentage
+          data:
+            percentage: '{{ state_attr("binary_sensor.recommended_scene_in_elenas_room",
+              "fan_speed") | int }}'
+          target:
             entity_id: fan.elenas_room_fan
-            attribute: percentage
-            below: '10'
-          sequence:
-          - service: fan.set_percentage
-            data:
-              percentage: '{{ state_attr("binary_sensor.recommended_scene_in_elenas_room",
-                "fan_speed") | int }}'
-            target:
-              entity_id: fan.elenas_room_fan
-          - service: fan.turn_off
-            data: {}
-            target:
-              entity_id: fan.elenas_room_fan
-          - service: script.fan_set_state
-            data:
-              target_fan: Elena's Room Fan
-              target_fan_power: false
-        default:
+        - service: fan.turn_off
+          data: {}
+          target:
+            entity_id: fan.elenas_room_fan
+        - service: script.fan_set_state
+          data:
+            target_fan: Elena's Room Fan
+            target_fan_power: false
+        else:
         - service: script.fan_set_state
           data:
             target_fan: Elena's Room Fan
@@ -650,86 +644,64 @@
       seconds: 0
   condition: []
   action:
-  - choose:
-    - conditions:
-      - condition: trigger
-        id: motion
-      sequence:
+  - if:
+    - condition: trigger
+      id: motion
+    then:
+    - condition: state
+      entity_id: switch.lights_auto_control
+      state: 'on'
+    - condition: and
+      conditions:
       - condition: state
-        entity_id: switch.lights_auto_control
-        state: 'on'
-      - choose:
-        - conditions:
-          - condition: time
-            before: input_datetime.lights_auto_control_end
-            weekday:
-            - mon
-            - tue
-            - wed
-            - thu
-            - fri
-            - sat
-            - sun
-            after: input_datetime.wind_down
-          sequence:
-          - condition: and
-            conditions:
-            - condition: state
-              entity_id: light.playroom_lights
-              state: 'off'
-              for:
-                hours: 0
-                minutes: 0
-                seconds: 2
-            - condition: state
-              entity_id: light.yard_light_entity
-              state: 'off'
-              for:
-                hours: 0
-                minutes: 0
-                seconds: 2
-          - service: light.turn_on
-            target:
-              entity_id:
-              - light.playroom_lights
-              - light.yard_light_entity
-            data:
-              brightness_pct: 5
-        default:
-        - condition: and
-          conditions:
-          - condition: state
-            entity_id: light.playroom_lights
-            state: 'off'
-            for:
-              hours: 0
-              minutes: 0
-              seconds: 2
-          - condition: state
-            entity_id: light.yard_light_entity
-            state: 'off'
-            for:
-              hours: 0
-              minutes: 0
-              seconds: 2
-        - service: light.turn_on
-          target:
-            entity_id:
-            - light.playroom_lights
-            - light.yard_light_entity
-          data:
-            brightness_pct: 100
-    - conditions:
-      - condition: trigger
-        id: no_motion
-      sequence:
-      - service: light.turn_off
+        entity_id: light.playroom_lights
+        state: 'off'
+        for:
+          hours: 0
+          minutes: 0
+          seconds: 2
+      - condition: state
+        entity_id: light.yard_light_entity
+        state: 'off'
+        for:
+          hours: 0
+          minutes: 0
+          seconds: 2
+    - if:
+      - condition: time
+        before: input_datetime.lights_auto_control_end
+        weekday:
+        - mon
+        - tue
+        - wed
+        - thu
+        - fri
+        - sat
+        - sun
+        after: input_datetime.wind_down
+      then:
+      - service: light.turn_on
         target:
           entity_id:
           - light.playroom_lights
           - light.yard_light_entity
-        data: {}
-    default: []
+        data:
+          brightness_pct: 5
+      else:
+      - service: light.turn_on
+        target:
+          entity_id:
+          - light.playroom_lights
+          - light.yard_light_entity
+        data:
+          brightness_pct: 100
+    else:
+    - service: light.turn_off
+      target:
+        entity_id:
+        - light.playroom_lights
+        - light.yard_light_entity
+      data: {}
   mode: single
 - id: '1643642651826'
   alias: Hallway Motion
@@ -747,39 +719,34 @@
     to: 'off'
   condition: []
   action:
-  - choose:
-    - conditions:
-      - condition: trigger
-        id: motion
-      sequence:
-      - condition: state
-        entity_id: switch.lights_auto_control
-        state: 'on'
-      - choose:
-        - conditions:
-          - condition: time
-            after: input_datetime.elenas_wind_down
-            before: input_datetime.lights_auto_control_end
-          sequence:
-          - service: light.turn_on
-            target:
-              entity_id: light.hallway_lights
-            data:
-              brightness_pct: 5
-        default:
-        - service: light.turn_on
-          target:
-            entity_id: light.hallway_lights
-          data:
-            brightness_pct: 100
-    - conditions:
-      - condition: trigger
-        id: no_motion
-      sequence:
-      - service: light.turn_off
+  - if:
+    - condition: trigger
+      id: motion
+    then:
+    - condition: state
+      entity_id: switch.lights_auto_control
+      state: 'on'
+    - if:
+      - condition: time
+        after: input_datetime.elenas_wind_down
+        before: input_datetime.lights_auto_control_end
+      then:
+      - service: light.turn_on
         target:
           entity_id: light.hallway_lights
-    default: []
+        data:
+          brightness_pct: 5
+      else:
+      - service: light.turn_on
+        target:
+          entity_id: light.hallway_lights
+        data:
+          brightness_pct: 100
+    else:
+    - service: light.turn_off
+      target:
+        entity_id: light.hallway_lights
+      data: {}
   mode: single
 - id: '1643643181661'
   alias: Living Dining Room AC Controller 1
@@ -1275,6 +1242,52 @@
             data: {}
         default: []
     default: []
+    enabled: false
+  - if:
+    - condition: trigger
+      id: start
+    then:
+    - if:
+      - condition: or
+        conditions:
+        - condition: state
+          entity_id: fan.elenas_room_fan
+          state: 'on'
+        - condition: state
+          entity_id: climate.elenas_room_ac
+          state: cool
+      then:
+      - service: automation.turn_on
+        data: {}
+        target:
+          entity_id: automation.elenas_room_ac_auto_control
+    - if:
+      - condition: or
+        conditions:
+        - condition: state
+          entity_id: fan.elis_room_fan
+          state: 'on'
+        - condition: state
+          entity_id: climate.elis_room_ac
+          state: cool
+      then:
+      - service: automation.turn_on
+        data: {}
+        target:
+          entity_id: automation.elis_room_ac_auto_control
+    else:
+    - service: automation.turn_off
+      data: {}
+      target:
+        entity_id:
+        - automation.elenas_room_ac_auto_control
+        - automation.elis_room_ac_auto_control
+    - service: climate.turn_off
+      data: {}
+      target:
+        entity_id:
+        - climate.elenas_room_ac
+        - climate.elis_room_ac
   mode: single
 - id: '1643973685368'
   alias: Notify When Vacuum Undocked
@@ -1291,39 +1304,34 @@
     from: idle
   condition: []
   action:
-  - choose:
-    - conditions:
-      - condition: trigger
-        id: idle
-      sequence:
-      - service: notify.mobile_app_pixel_4a
+  - if:
+    - condition: trigger
+      id: idle
+    then:
+    - service: notify.mobile_app_pixel_4a
+      data:
+        message: Vacuum not docked properly
+        title: Please manually dock vacuum
         data:
-          message: Vacuum not docked properly
-          title: Please manually dock vacuum
-          data:
-            persistent: true
-            tag: vacuum_undocked
-      - service: notify.mobile_app_grace
+          persistent: true
+          tag: vacuum_undocked
+    - service: notify.mobile_app_grace
+      data:
+        message: Vacuum not docked properly
+        title: Please manually dock vacuum
         data:
-          message: Vacuum not docked properly
-          title: Please manually dock vacuum
-          data:
-            tag: vacuum_undocked
-    - conditions:
-      - condition: trigger
-        id: not_idle
-      sequence:
-      - service: notify.mobile_app_pixel_4a
+          tag: vacuum_undocked
+    else:
+    - service: notify.mobile_app_pixel_4a
+      data:
+        message: clear_notification
         data:
-          message: clear_notification
-          data:
-            tag: vacuum_undocked
-      - service: notify.mobile_app_grace
+          tag: vacuum_undocked
+    - service: notify.mobile_app_grace
+      data:
+        message: clear_notification
         data:
-          message: clear_notification
-          data:
-            tag: vacuum_undocked
-    default: []
+          tag: vacuum_undocked
   mode: single
 - id: '1643979293415'
   alias: Notify When AC On With Doors Open
@@ -1346,39 +1354,34 @@
     to: 'off'
   condition: []
   action:
-  - choose:
-    - conditions:
-      - condition: trigger
-        id: notify
-      sequence:
-      - service: notify.mobile_app_pixel_4a
+  - if:
+    - condition: trigger
+      id: notify
+    then:
+    - service: notify.mobile_app_pixel_4a
+      data:
+        message: AC on with doors and windows open
+        title: Please close the doors and windows
         data:
-          message: AC on with doors and windows open
-          title: Please close the doors and windows
-          data:
-            persistent: true
-            tag: doors_open
-      - service: notify.mobile_app_grace
+          persistent: true
+          tag: doors_open
+    - service: notify.mobile_app_grace
+      data:
+        message: AC on with doors and windows open
+        title: Please close the doors and windows
         data:
-          message: AC on with doors and windows open
-          title: Please close the doors and windows
-          data:
-            tag: doors_open
-    - conditions:
-      - condition: trigger
-        id: clear
-      sequence:
-      - service: notify.mobile_app_pixel_4a
+          tag: doors_open
+    else:
+    - service: notify.mobile_app_pixel_4a
+      data:
+        message: clear_notification
         data:
-          message: clear_notification
-          data:
-            tag: doors_open
-      - service: notify.mobile_app_grace
+          tag: doors_open
+    - service: notify.mobile_app_grace
+      data:
+        message: clear_notification
         data:
-          message: clear_notification
-          data:
-            tag: doors_open
-    default: []
+          tag: doors_open
   mode: single
 - id: '1643979577174'
   alias: Notify When Wash Completed
@@ -1417,51 +1420,45 @@
       seconds: 0
   condition: []
   action:
-  - choose:
-    - conditions:
-      - condition: trigger
-        id: motion
-      sequence:
-      - choose:
-        - conditions:
-          - condition: time
-            before: input_datetime.lights_auto_control_end
-            after: input_datetime.sleep_hours_start
-          sequence:
-          - condition: state
-            entity_id: light.powder_room_pendant_light_entity
-            state: 'off'
-            for:
-              hours: 0
-              minutes: 0
-              seconds: 2
-          - service: light.turn_on
-            target:
-              entity_id: light.powder_room_pendant_light_entity
-            data:
-              brightness_pct: 5
-        default:
-        - condition: state
-          entity_id: light.powder_room_pendant_light_entity
-          state: 'off'
-          for:
-            hours: 0
-            minutes: 0
-            seconds: 2
-        - service: light.turn_on
-          target:
-            entity_id: light.powder_room_pendant_light_entity
-          data:
-            brightness_pct: 100
-    - conditions:
-      - condition: trigger
-        id: no_motion
-      sequence:
-      - service: light.turn_off
+  - if:
+    - condition: trigger
+      id: motion
+    then:
+    - if:
+      - condition: time
+        before: input_datetime.lights_auto_control_end
+        after: input_datetime.sleep_hours_start
+      then:
+      - condition: state
+        entity_id: light.powder_room_pendant_light_entity
+        state: 'off'
+        for:
+          hours: 0
+          minutes: 0
+          seconds: 2
+      - service: light.turn_on
         target:
           entity_id: light.powder_room_pendant_light_entity
-        data: {}
-    default: []
+        data:
+          brightness_pct: 5
+      else:
+      - condition: state
+        entity_id: light.powder_room_pendant_light_entity
+        state: 'off'
+        for:
+          hours: 0
+          minutes: 0
+          seconds: 2
+      - service: light.turn_on
+        target:
+          entity_id: light.powder_room_pendant_light_entity
+        data:
+          brightness_pct: 100
+    else:
+    - service: light.turn_off
+      target:
+        entity_id: light.powder_room_pendant_light_entity
+      data: {}
   mode: single
 - id: '1644147041887'
   alias: Junior Bathroom Motion
@@ -1481,51 +1478,45 @@
     entity_id: binary_sensor.junior_bathroom_motion
   condition: []
   action:
-  - choose:
-    - conditions:
-      - condition: trigger
-        id: motion
-      sequence:
-      - choose:
-        - conditions:
-          - condition: time
-            after: input_datetime.elenas_bedtime
-            before: input_datetime.lights_auto_control_end
-          sequence:
-          - condition: state
-            entity_id: light.junior_bathroom_lights
-            state: 'off'
-            for:
-              hours: 0
-              minutes: 0
-              seconds: 2
-          - service: light.turn_on
-            target:
-              entity_id: light.junior_bathroom_lights
-            data:
-              brightness_pct: 5
-        default:
-        - condition: state
-          entity_id: light.junior_bathroom_lights
-          state: 'off'
-          for:
-            hours: 0
-            minutes: 0
-            seconds: 2
-        - service: light.turn_on
-          target:
-            entity_id: light.junior_bathroom_lights
-          data:
-            brightness_pct: 100
-    - conditions:
-      - condition: trigger
-        id: no_motion
-      sequence:
-      - service: light.turn_off
+  - if:
+    - condition: trigger
+      id: motion
+    then:
+    - if:
+      - condition: time
+        after: input_datetime.elenas_bedtime
+        before: input_datetime.lights_auto_control_end
+      then:
+      - condition: state
+        entity_id: light.junior_bathroom_lights
+        state: 'off'
+        for:
+          hours: 0
+          minutes: 0
+          seconds: 2
+      - service: light.turn_on
         target:
           entity_id: light.junior_bathroom_lights
-        data: {}
-    default: []
+        data:
+          brightness_pct: 5
+      else:
+      - condition: state
+        entity_id: light.junior_bathroom_lights
+        state: 'off'
+        for:
+          hours: 0
+          minutes: 0
+          seconds: 2
+      - service: light.turn_on
+        target:
+          entity_id: light.junior_bathroom_lights
+        data:
+          brightness_pct: 100
+    else:
+    - service: light.turn_off
+      target:
+        entity_id: light.junior_bathroom_lights
+      data: {}
   mode: single
 - id: '1644478273862'
   alias: Lights Auto Control at Night
@@ -1539,22 +1530,19 @@
     at: input_datetime.lights_auto_control_end
   condition: []
   action:
-  - choose:
-    - conditions:
-      - condition: trigger
-        id: start
-      sequence:
-      - service: switch.turn_on
-        target:
-          entity_id: switch.lights_auto_control
-    - conditions:
-      - condition: trigger
-        id: end
-      sequence:
-      - service: switch.turn_off
-        target:
-          entity_id: switch.lights_auto_control
-    default: []
+  - if:
+    - condition: trigger
+      id: start
+    then:
+    - service: switch.turn_on
+      target:
+        entity_id: switch.lights_auto_control
+      data: {}
+    else:
+    - service: switch.turn_off
+      target:
+        entity_id: switch.lights_auto_control
+      data: {}
   mode: single
 - id: '1648365105505'
   alias: Elena's Room Lights Controller
@@ -1580,22 +1568,21 @@
     to: 'off'
   condition: []
   action:
-  - choose:
-    - conditions:
-      - condition: trigger
-        id: error_cleared
-      sequence:
-      - service: notify.mobile_app_pixel_4a
+  - if:
+    - condition: trigger
+      id: error_cleared
+    then:
+    - service: notify.mobile_app_pixel_4a
+      data:
+        message: clear_notification
         data:
-          message: clear_notification
-          data:
-            tag: vacuum_running_with_bathroom_doors_open
-      - service: notify.mobile_app_grace
+          tag: vacuum_running_with_bathroom_doors_open
+    - service: notify.mobile_app_grace
+      data:
+        message: clear_notification
         data:
-          message: clear_notification
-          data:
-            tag: vacuum_running_with_bathroom_doors_open
-    default:
+          tag: vacuum_running_with_bathroom_doors_open
+    else:
     - service: notify.mobile_app_pixel_4a
       data:
         message: Otherwise, vacuum will pause at {{ ((now() + timedelta(minutes =
@@ -1619,6 +1606,10 @@
     - condition: state
       entity_id: binary_sensor.vacuum_running_with_bathroom_doors_open
       state: 'on'
+      for:
+        hours: 0
+        minutes: 0
+        seconds: 0
     - service: vacuum.pause
       data: {}
       target:
@@ -1633,20 +1624,19 @@
     entity_id: binary_sensor.water_heater_turn_on
   condition: []
   action:
-  - choose:
-    - conditions:
-      - condition: state
-        entity_id: binary_sensor.water_heater_turn_on
-        state: 'on'
-      sequence:
-      - condition: state
-        entity_id: binary_sensor.all_off
-        state: 'off'
-      - service: switch.turn_on
-        data: {}
-        target:
-          entity_id: switch.water_heater
-    default:
+  - if:
+    - condition: state
+      entity_id: binary_sensor.water_heater_turn_on
+      state: 'on'
+    then:
+    - condition: state
+      entity_id: binary_sensor.all_off
+      state: 'off'
+    - service: switch.turn_on
+      data: {}
+      target:
+        entity_id: switch.water_heater
+    else:
     - service: switch.turn_off
       data: {}
       target:
@@ -1660,55 +1650,46 @@
     minutes: /1
   condition: []
   action:
-  - choose:
-    - conditions:
-      - condition: state
-        entity_id: switch.water_heater
-        state: 'on'
-      sequence:
-      - choose:
-        - conditions:
-          - condition: numeric_state
-            entity_id: input_number.water_heating
-            above: '100'
-            value_template: '{{ state.state | float + 100 / states(''input_number.hot_water_preheat'')
-              | float }}'
-          sequence:
-          - service: input_number.set_value
-            data:
-              value: 100
-            target:
-              entity_id: input_number.water_heating
-        default:
-        - service: input_number.set_value
-          data_template:
-            entity_id: input_number.water_heating
-            value: '{{ states(''input_number.water_heating'') | int + 100 / states(''input_number.hot_water_preheat'')
-              | int }}'
-    - conditions:
-      - condition: state
-        entity_id: switch.water_heater
-        state: 'off'
-      sequence:
-      - choose:
-        - conditions:
-          - condition: numeric_state
-            entity_id: input_number.water_heating
-            value_template: '{{ state.state | float - 100 / 120 }}'
-            below: '0'
-          sequence:
-          - service: input_number.set_value
-            data:
-              value: 0
-            target:
-              entity_id: input_number.water_heating
-        default:
-        - service: input_number.set_value
-          data_template:
-            entity_id: input_number.water_heating
-            value: '{{ states(''input_number.water_heating'') | float - 100 / 120
-              }}'
-    default: []
+  - if:
+    - condition: state
+      entity_id: switch.water_heater
+      state: 'on'
+    then:
+    - if:
+      - condition: numeric_state
+        entity_id: input_number.water_heating
+        above: '100'
+        value_template: '{{ state.state | float + 100 / states(''input_number.hot_water_preheat'')
+          | float }}'
+      then:
+      - service: input_number.set_value
+        data:
+          value: 100
+        target:
+          entity_id: input_number.water_heating
+      else:
+      - service: input_number.set_value
+        data_template:
+          entity_id: input_number.water_heating
+          value: '{{ states(''input_number.water_heating'') | int + 100 / states(''input_number.hot_water_preheat'')
+            | int }}'
+    else:
+    - if:
+      - condition: numeric_state
+        entity_id: input_number.water_heating
+        value_template: '{{ state.state | float - 100 / 120 }}'
+        below: '0'
+      then:
+      - service: input_number.set_value
+        data:
+          value: 0
+        target:
+          entity_id: input_number.water_heating
+      else:
+      - service: input_number.set_value
+        data_template:
+          entity_id: input_number.water_heating
+          value: '{{ states(''input_number.water_heating'') | float - 100 / 120 }}'
   mode: single
 - id: '1648784734226'
   alias: Notify When Dishwasher Cooldown Completed
@@ -1758,26 +1739,25 @@
     to:
   condition: []
   action:
-  - choose:
-    - conditions:
-      - condition: state
-        entity_id: sensor.raining_with_windows_open
-        state: alert
-      sequence:
-      - service: notify.mobile_app_pixel_4a
+  - if:
+    - condition: state
+      entity_id: sensor.raining_with_windows_open
+      state: alert
+    then:
+    - service: notify.mobile_app_pixel_4a
+      data:
+        title: Please close windows
+        message: Windows open in heavy rain
         data:
-          title: Please close windows
-          message: Windows open in heavy rain
-          data:
-            persistent: true
-            tag: windows_open_raining
-      - service: notify.mobile_app_grace
+          persistent: true
+          tag: windows_open_raining
+    - service: notify.mobile_app_grace
+      data:
+        message: Windows open in heavy rain
+        title: Please close windows
         data:
-          message: Windows open in heavy rain
-          title: Please close windows
-          data:
-            tag: windows_open_raining
-    default:
+          tag: windows_open_raining
+    else:
     - service: notify.mobile_app_pixel_4a
       data:
         message: clear_notification
@@ -1822,18 +1802,17 @@
       - condition: trigger
         id: idle
       sequence:
-      - choose:
-        - conditions:
-          - condition: state
+      - if:
+        - condition: state
+          entity_id: input_select.dishwasher_status
+          state: washing
+        then:
+        - service: input_select.select_option
+          data:
+            option: cooling
+          target:
             entity_id: input_select.dishwasher_status
-            state: washing
-          sequence:
-          - service: input_select.select_option
-            data:
-              option: cooling
-            target:
-              entity_id: input_select.dishwasher_status
-        default:
+        else:
         - service: input_select.select_option
           data:
             option: standby
