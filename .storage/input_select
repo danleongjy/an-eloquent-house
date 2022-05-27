@@ -30,6 +30,17 @@
                     "reverse"
                 ],
                 "id": "eli_s_room_fan_direction"
+            },
+            {
+                "name": "Dishwasher Status",
+                "icon": "mdi:dishwasher",
+                "options": [
+                    "off",
+                    "washing",
+                    "cooling",
+                    "standby"
+                ],
+                "id": "dishwasher_status"
             }
         ]
     }

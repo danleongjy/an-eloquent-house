@@ -173,6 +173,13 @@
       junior_bathroom_door: "{{ states('binary_sensor.junior_bathroom_door') }}"
       powder_room_door: "{{ states('binary_sensor.powder_room_door') }}"
       
+  - name: Dishwasher
+    unique_id: binary_sensor.dishwasher
+    state: "{{ states('sensor.dishwasher_watts') | int(0) > 0 }}"
+    attributes:
+      dishwasher_status: "{{ states('input_select.dishwasher_status') }}"
+    availability: "{{ states('switch.dishwasher') }}"
+
   - name: Water Heater Turn On
     unique_id: binary_sensor.water_heater_turn_on
     state: >
@@ -344,33 +351,6 @@
       washer_run_state: "{{ state_attr('sensor.washer', 'run_state') }}"
       washer_remaining_time: "{{ state_attr('sensor.washer', 'remain_time')[:-3] }}"
       washer_reserve_time: "{{ state_attr('sensor.washer', 'reserve_time')[:-3] }}"
-
-  - name: Dishwasher
-    unique_id: sensor.dishwasher
-    state: >
-      {% if is_state('switch.dishwasher', 'on') %}
-        {% if states('sensor.dishwasher_watts') | float > 0 %}
-          on
-        {% elif states('sensor.dishwasher_watts') | float == 0 %}
-          off
-        {% endif %}
-      {% else %}
-        unavailable
-      {% endif %}
-    attributes:
-      dishwasher_status: >
-        {% if is_state('switch.dishwasher', 'on') %}
-          {% if states('sensor.dishwasher_watts') | float == 0 %}
-            off
-          {% elif states('sensor.dishwasher_watts') | float < 5 %}
-            standby
-          {% else %}
-            washing
-          {% endif %}
-        {% else %}
-          unavailable
-        {% endif %}
-      cooldown: "{{ states('input_number.dishwasher_cooldown_time') }}"
 
   - name: Elena's Room AC Status
     unique_id: sensor.elenas_room_ac_status

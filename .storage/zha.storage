@@ -7,262 +7,257 @@
             {
                 "name": "dresden elektronik ConBee II",
                 "ieee": "00:21:2e:ff:ff:06:d7:e6",
-                "last_seen": 1653219950.8594987
+                "last_seen": 1653615283.267213
             },
             {
                 "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
                 "ieee": "bc:33:ac:ff:fe:95:50:45",
-                "last_seen": 1653222224.6253357
+                "last_seen": 1653618774.7112482
             },
             {
                 "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
                 "ieee": "84:fd:27:ff:fe:19:ce:62",
-                "last_seen": 1653220847.5990396
+                "last_seen": 1653620207.6394248
             },
             {
                 "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
                 "ieee": "80:4b:50:ff:fe:fe:86:f0",
-                "last_seen": 1653222301.894449
+                "last_seen": 1653619930.968595
             },
             {
                 "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
                 "ieee": "84:fd:27:ff:fe:02:a9:0e",
-                "last_seen": 1653223779.9822779
+                "last_seen": 1653621576.270186
             },
             {
                 "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
                 "ieee": "84:fd:27:ff:fe:00:fe:63",
-                "last_seen": 1653223183.0694647
+                "last_seen": 1653620620.1541598
             },
             {
                 "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
                 "ieee": "80:4b:50:ff:fe:f3:b7:87",
-                "last_seen": 1653223184.6381638
+                "last_seen": 1653620620.17808
             },
             {
                 "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
                 "ieee": "80:4b:50:ff:fe:ff:81:73",
-                "last_seen": 1653223183.2001219
+                "last_seen": 1653620620.133413
             },
             {
                 "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
                 "ieee": "80:4b:50:ff:fe:fc:85:be",
-                "last_seen": 1653223759.1908894
+                "last_seen": 1653620679.7024436
             },
             {
                 "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
                 "ieee": "84:fd:27:ff:fe:00:f8:d6",
-                "last_seen": 1653223759.147997
+                "last_seen": 1653620679.6794813
             },
             {
                 "name": "eWeLink MS01",
                 "ieee": "00:12:4b:00:22:14:d2:48",
-                "last_seen": 1653223759.0811028
+                "last_seen": 1653621513.3151915
             },
             {
                 "name": "IKEA of Sweden TRADFRI on/off switch",
                 "ieee": "84:fd:27:ff:fe:95:bc:5c",
-                "last_seen": 1653222463.9782825
+                "last_seen": 1653621058.650995
             },
             {
                 "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
                 "ieee": "80:4b:50:ff:fe:fe:b8:26",
-                "last_seen": 1653222389.8243637
+                "last_seen": 1653621420.0250046
             },
             {
                 "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
                 "ieee": "80:4b:50:ff:fe:fa:91:80",
-                "last_seen": 1653222380.6783044
+                "last_seen": 1653621053.7639508
             },
             {
                 "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
                 "ieee": "80:4b:50:ff:fe:ff:8a:0a",
-                "last_seen": 1653223590.198605
+                "last_seen": 1653618317.3797274
             },
             {
                 "name": "IKEA of Sweden TRADFRI on/off switch",
                 "ieee": "84:fd:27:ff:fe:9c:06:da",
-                "last_seen": 1653223489.1917515
+                "last_seen": 1653621028.3408306
             },
             {
                 "name": "IKEA of Sweden TRADFRI on/off switch",
                 "ieee": "84:fd:27:ff:fe:9f:10:05",
-                "last_seen": 1653215714.3977678
+                "last_seen": 1653617046.240677
             },
             {
                 "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
                 "ieee": "80:4b:50:ff:fe:fc:85:3f",
-                "last_seen": 1653221227.8860724
+                "last_seen": 1653618116.0207345
             },
             {
                 "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
                 "ieee": "80:4b:50:ff:fe:fa:b0:28",
-                "last_seen": 1653223625.6838593
+                "last_seen": 1653621352.3428502
             },
             {
                 "name": "IKEA of Sweden TRADFRI on/off switch",
                 "ieee": "84:fd:27:ff:fe:95:bb:ff",
-                "last_seen": 1653220613.173224
+                "last_seen": 1653619529.4101624
             },
             {
                 "name": "eWeLink TH01",
                 "ieee": "00:12:4b:00:22:14:f6:01",
-                "last_seen": 1653223821.3534763
-            },
-            {
-                "name": "IKEA of Sweden TRADFRI on/off switch",
-                "ieee": "84:fd:27:ff:fe:95:bb:e8",
-                "last_seen": 1648353353.4963279
+                "last_seen": 1653620991.6886127
             },
             {
                 "name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm",
                 "ieee": "80:4b:50:ff:fe:f3:d3:e8",
-                "last_seen": 1653222861.7822797
+                "last_seen": 1653618204.845294
             },
             {
                 "name": "IKEA of Sweden TRADFRI bulb E27 WW 806lm",
                 "ieee": "84:fd:27:ff:fe:05:d6:b7",
-                "last_seen": 1653223784.4271643
+                "last_seen": 1653621508.4760191
             },
             {
                 "name": "IKEA of Sweden TRADFRI on/off switch",
                 "ieee": "84:fd:27:ff:fe:34:f7:7b",
-                "last_seen": 1653223784.3203104
+                "last_seen": 1653621508.3181293
             },
             {
                 "name": "IKEA of Sweden TRADFRI bulb E27 WW 806lm",
                 "ieee": "84:fd:27:ff:fe:24:15:e3",
-                "last_seen": 1653223805.4932954
+                "last_seen": 1653621601.317181
             },
             {
                 "name": "eWeLink TH01",
                 "ieee": "00:12:4b:00:22:2e:96:cc",
-                "last_seen": 1653223467.7786036
+                "last_seen": 1653621583.850395
             },
             {
                 "name": "IKEA of Sweden TRADFRI on/off switch",
                 "ieee": "84:fd:27:ff:fe:9f:0f:e0",
-                "last_seen": 1653223111.1255965
+                "last_seen": 1653621026.5867326
             },
             {
                 "name": "eWeLink TH01",
                 "ieee": "00:12:4b:00:22:2e:99:11",
-                "last_seen": 1653223487.4728148
+                "last_seen": 1653621459.8421094
             },
             {
                 "name": "IKEA of Sweden TRADFRI on/off switch",
                 "ieee": "84:fd:27:ff:fe:9c:0f:fc",
-                "last_seen": 1653222234.828739
+                "last_seen": 1653621451.9901628
             },
             {
                 "name": "eWeLink MSO1",
                 "ieee": "00:12:4b:00:22:28:a3:51",
-                "last_seen": 1653223122.878583
+                "last_seen": 1653621583.866218
             },
             {
                 "name": "IKEA of Sweden TRADFRI on/off switch",
                 "ieee": "84:fd:27:ff:fe:9f:11:87",
-                "last_seen": 1653211291.1905694
+                "last_seen": 1653616271.5009677
             },
             {
                 "name": "IKEA of Sweden TRADFRI remote control",
                 "ieee": "84:fd:27:ff:fe:1b:9a:43",
-                "last_seen": 1653221057.8781178
+                "last_seen": 1653619282.186247
             },
             {
                 "name": "IKEA of Sweden TRADFRI on/off switch",
                 "ieee": "84:fd:27:ff:fe:3b:78:94",
-                "last_seen": 1653218065.109051
+                "last_seen": 1653614953.4943607
             },
             {
                 "name": "IKEA of Sweden TRADFRI on/off switch",
                 "ieee": "84:fd:27:ff:fe:9f:10:c9",
-                "last_seen": 1653218008.2466614
+                "last_seen": 1653613872.7338054
             },
             {
                 "name": "IKEA of Sweden TRADFRI on/off switch",
                 "ieee": "84:fd:27:ff:fe:37:50:2c",
-                "last_seen": 1653222005.4843805
+                "last_seen": 1653620447.0920126
             },
             {
                 "name": "LUMI lumi.sensor_magnet.aq2",
                 "ieee": "00:15:8d:00:07:08:77:2d",
-                "last_seen": 1653222712.9521992
+                "last_seen": 1653620495.1993165
             },
             {
                 "name": "LUMI lumi.sensor_magnet.aq2",
                 "ieee": "00:15:8d:00:07:06:dd:c8",
-                "last_seen": 1653220964.823578
+                "last_seen": 1653619090.0361454
             },
             {
                 "name": "LUMI lumi.sensor_magnet.aq2",
                 "ieee": "00:15:8d:00:07:08:74:11",
-                "last_seen": 1653211618.4997175
+                "last_seen": 1653620494.9615188
             },
             {
                 "name": "LUMI lumi.sensor_magnet.aq2",
                 "ieee": "00:15:8d:00:07:08:78:c5",
-                "last_seen": 1653222872.4543674
+                "last_seen": 1653621218.8002985
             },
             {
                 "name": "IKEA of Sweden TRADFRI Signal Repeater",
                 "ieee": "84:fd:27:ff:fe:44:9a:5b",
-                "last_seen": 1653220119.475347
+                "last_seen": 1653615441.9274144
             },
             {
                 "name": "IKEA of Sweden TRADFRI Signal Repeater",
                 "ieee": "ec:1b:bd:ff:fe:ed:c5:11",
-                "last_seen": 1653220130.6703694
+                "last_seen": 1653615452.1554523
             },
             {
                 "name": "eWeLink MS01",
                 "ieee": "00:12:4b:00:24:cd:0a:9c",
-                "last_seen": 1653223762.4380798
+                "last_seen": 1653621413.0080848
             },
             {
                 "name": "eWeLink MS01",
                 "ieee": "00:12:4b:00:24:cd:0c:f0",
-                "last_seen": 1653222125.317143
+                "last_seen": 1653621601.200263
             },
             {
                 "name": "IKEA of Sweden TRADFRI Signal Repeater",
                 "ieee": "84:fd:27:ff:fe:47:de:52",
-                "last_seen": 1653220138.5764818
+                "last_seen": 1653615462.0115128
             },
             {
                 "name": "IKEA of Sweden GUNNARP panel round",
                 "ieee": "80:4b:50:ff:fe:58:fa:20",
-                "last_seen": 1653223330.5857487
+                "last_seen": 1653621622.2591553
             },
             {
                 "name": "IKEA of Sweden GUNNARP panel round",
                 "ieee": "80:4b:50:ff:fe:56:18:a6",
-                "last_seen": 1653223784.5102587
+                "last_seen": 1653621508.5350416
             },
             {
                 "name": "IKEA of Sweden TRADFRI remote control",
                 "ieee": "84:fd:27:ff:fe:ae:54:b3",
-                "last_seen": 1653220925.6043324
+                "last_seen": 1653614797.4176097
             },
             {
                 "name": "IKEA of Sweden TRADFRI bulb E27 WS opal 1000lm",
                 "ieee": "84:fd:27:ff:fe:42:26:88",
-                "last_seen": 1653223351.6685574
+                "last_seen": 1653619621.7419562
             },
             {
                 "name": "eWeLink DS01",
                 "ieee": "00:12:4b:00:24:5d:12:76",
-                "last_seen": 1653212667.0725513
+                "last_seen": 1653621574.270264
             },
             {
                 "name": "eWeLink DS01",
                 "ieee": "00:12:4b:00:24:5d:14:0a",
-                "last_seen": 1653221656.4227848
+                "last_seen": 1653618632.0943906
             },
             {
                 "name": "eWeLink DS01",
                 "ieee": "00:12:4b:00:24:5c:55:6a",
-                "last_seen": 1653215620.1509566
+                "last_seen": 1653621600.6721802
             }
         ]
     }

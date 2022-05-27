@@ -38,7 +38,7 @@
                                             "type": "custom:button-card",
                                             "entity": "sensor.local_two_hour_forecast",
                                             "template": "top_row",
-                                            "icon": "[[[\n  if (entity.state == 'Fair' || entity.state == 'Fair & Warm')\n    if (states['sun.sun'].state == 'above_horizon')\n      return \"mdi:weather-sunny\";\n    else\n     return \"mdi:weather-night\";\n  else if (entity.state == 'Partly Cloudy')\n    if (states['sun.sun'].state == 'above_horizon')\n      return \"mdi:weather-partly-cloudy\";\n    else\n      return \"mdi:weather-night-partly-cloudy\";\n  else if (entity.state == 'Cloudy')\n    return \"mdi:weather-cloudy\";\n  else if (entity.state == 'Showers')\n    return \"mdi:weather-pouring\";\n  else if (entity.state == 'Thundery Showers')\n    return \"mdi:weather-lightning-rainy\";\n  else if (entity.state == 'Light Rain')\n    return \"mdi:weather-rainy\";\n  else\n    return \"mdi:weather-cloudy-alert\"\n]]]\n",
+                                            "icon": "[[[\n  if (entity.state == 'Fair' || entity.state == 'Fair & Warm')\n    if (states['sun.sun'].state == 'above_horizon')\n      return \"mdi:weather-sunny\";\n    else\n     return \"mdi:weather-night\";\n  else if (entity.state == 'Partly Cloudy')\n    if (states['sun.sun'].state == 'above_horizon')\n      return \"mdi:weather-partly-cloudy\";\n    else\n      return \"mdi:weather-night-partly-cloudy\";\n  else if (entity.state == 'Cloudy')\n    return \"mdi:weather-cloudy\";\n  else if (entity.state.includes('Thundery'))\n    return \"mdi:weather-lightning-rainy\";\n  else if (entity.state.includes('Showers'))\n    return \"mdi:weather-pouring\";\n  else if (entity.state.includes('Rain'))\n    return \"mdi:weather-rainy\";\n  else\n    return \"mdi:weather-cloudy-alert\"\n]]]\n",
                                             "styles": {
                                                 "card": [
                                                     {
@@ -1727,7 +1727,7 @@
                                 },
                                 {
                                     "type": "custom:state-switch",
-                                    "entity": "sensor.dishwasher",
+                                    "entity": "binary_sensor.dishwasher",
                                     "default": "disabled",
                                     "states": {
                                         "disabled": {
@@ -1737,16 +1737,14 @@
                                         },
                                         "off": {
                                             "type": "custom:button-card",
-                                            "entity": "sensor.dishwasher",
-                                            "label": "[[[\n  if (parseInt(states['sensor.dishwasher'].attributes.cooldown) >= 5)\n    return 'Cool'\n  else if (parseInt(states['sensor.dishwasher'].attributes.cooldown) > 0)\n    return '0:0' + states['sensor.dishwasher'].attributes.cooldown\n  else\n    return ''\n]]]\n",
-                                            "show_label": true,
+                                            "entity": "binary_sensor.dishwasher",
                                             "template": "square_cell"
                                         },
                                         "on": {
                                             "type": "custom:button-card",
-                                            "entity": "sensor.dishwasher",
+                                            "entity": "binary_sensor.dishwasher",
                                             "template": "square_cell",
-                                            "label": "[[[\n  if (states['sensor.dishwasher'].attributes.dishwasher_status == 'washing')\n    return 'Wash'\n  else if (parseInt(states['sensor.dishwasher'].attributes.cooldown) >= 5)\n    return 'Cool'\n  else if (parseInt(states['sensor.dishwasher'].attributes.cooldown) > 0)\n    return '0:0' + states['sensor.dishwasher'].attributes.cooldown\n  else if (states['sensor.dishwasher'].attributes.dishwasher_status == 'standby')\n    return '...'\n  else\n    return ''\n]]]\n",
+                                            "label": "[[[\n  if (states['input_select.dishwasher_status'].state == 'washing')\n    return 'Wash'\n  else if (states['input_select.dishwasher_status'].state == 'cooling')\n    return 'Cool'\n  else if (states['input_select.dishwasher_status'].state == 'standby')\n    return '...'\n  else\n    return ''\n]]]\n",
                                             "show_label": true
                                         }
                                     }

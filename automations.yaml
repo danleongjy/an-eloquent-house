@@ -1710,59 +1710,14 @@
               }}'
     default: []
   mode: single
-- id: '1648783441110'
-  alias: Dishwasher Cooldown Timer
-  description: Keep track of the time since dishwasher finished washing to cool down
-    the load
-  trigger:
-  - platform: time_pattern
-    id: decrement
-    minutes: /1
-  - platform: state
-    entity_id: sensor.dishwasher
-    attribute: dishwasher_status
-    to: washing
-    id: wash_start
-  condition: []
-  action:
-  - choose:
-    - conditions:
-      - condition: trigger
-        id: wash_start
-      sequence:
-      - service: input_number.set_value
-        data:
-          value: 40
-        target:
-          entity_id: input_number.dishwasher_cooldown_time
-    - conditions:
-      - condition: trigger
-        id: decrement
-      sequence:
-      - condition: and
-        conditions:
-        - condition: numeric_state
-          entity_id: input_number.dishwasher_cooldown_time
-          above: '0'
-        - condition: not
-          conditions:
-          - condition: state
-            entity_id: sensor.dishwasher
-            attribute: dishwasher_status
-            state: washing
-      - service: input_number.decrement
-        data: {}
-        target:
-          entity_id: input_number.dishwasher_cooldown_time
-    default: []
-  mode: single
 - id: '1648784734226'
   alias: Notify When Dishwasher Cooldown Completed
   description: Send a notification when dishwasher cooldown is complete
   trigger:
-  - platform: numeric_state
-    entity_id: input_number.dishwasher_cooldown_time
-    below: '1'
+  - platform: state
+    entity_id: input_select.dishwasher_status
+    to: 'off'
+    from: cooling
   condition: []
   action:
   - service: notify.mobile_app_pixel_4a
@@ -1834,3 +1789,60 @@
         data:
           tag: windows_open_raining
   mode: single
+- id: '1653280933582'
+  alias: Dishwasher Set State
+  description: Set the state of the dishwasher based on its power consumption
+  trigger:
+  - platform: numeric_state
+    entity_id: sensor.dishwasher_watts
+    above: '4'
+    id: washing
+  - platform: numeric_state
+    entity_id: sensor.dishwasher_watts
+    above: '0'
+    below: '5'
+    id: idle
+  - platform: state
+    entity_id: sensor.dishwasher_watts
+    to: '0'
+    id: 'off'
+  condition: []
+  action:
+  - choose:
+    - conditions:
+      - condition: trigger
+        id: washing
+      sequence:
+      - service: input_select.select_option
+        data:
+          option: washing
+        target:
+          entity_id: input_select.dishwasher_status
+    - conditions:
+      - condition: trigger
+        id: idle
+      sequence:
+      - choose:
+        - conditions:
+          - condition: state
+            entity_id: input_select.dishwasher_status
+            state: washing
+          sequence:
+          - service: input_select.select_option
+            data:
+              option: cooling
+            target:
+              entity_id: input_select.dishwasher_status
+        default:
+        - service: input_select.select_option
+          data:
+            option: standby
+          target:
+            entity_id: input_select.dishwasher_status
+    default:
+    - service: input_select.select_option
+      data:
+        option: 'off'
+      target:
+        entity_id: input_select.dishwasher_status
+  mode: queued

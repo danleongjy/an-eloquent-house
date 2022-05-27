@@ -60,16 +60,6 @@
                 "step": 1.0,
                 "mode": "slider",
                 "id": "water_heating"
-            },
-            {
-                "min": 0.0,
-                "max": 1440.0,
-                "name": "Dishwasher Cooldown Time",
-                "icon": "mdi:dishwasher",
-                "unit_of_measurement": "min",
-                "step": 1.0,
-                "mode": "box",
-                "id": "dishwasher_cooldown_time"
             }
         ]
     }
