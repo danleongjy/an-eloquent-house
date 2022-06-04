@@ -38,11 +38,11 @@
                                             "type": "custom:button-card",
                                             "entity": "sensor.local_two_hour_forecast",
                                             "template": "top_row",
-                                            "icon": "[[[\n  if (entity.state == 'Fair' || entity.state == 'Fair & Warm')\n    if (states['sun.sun'].state == 'above_horizon')\n      return \"mdi:weather-sunny\";\n    else\n     return \"mdi:weather-night\";\n  else if (entity.state == 'Partly Cloudy')\n    if (states['sun.sun'].state == 'above_horizon')\n      return \"mdi:weather-partly-cloudy\";\n    else\n      return \"mdi:weather-night-partly-cloudy\";\n  else if (entity.state == 'Cloudy')\n    return \"mdi:weather-cloudy\";\n  else if (entity.state.includes('Thunder'))\n    return \"mdi:weather-lightning-rainy\";\n  else if (entity.state.includes('Shower'))\n    return \"mdi:weather-pouring\";\n  else if (entity.state.includes('Rain'))\n    return \"mdi:weather-rainy\";\n  else\n    return \"mdi:weather-cloudy-alert\"\n]]]\n",
+                                            "icon": "[[[\n  if (entity.state.includes('Fair'))\n    if (states['sun.sun'].state == 'above_horizon')\n      return \"mdi:weather-sunny\";\n    else\n     return \"mdi:weather-night\";\n  else if (entity.state == 'Partly Cloudy')\n    if (states['sun.sun'].state == 'above_horizon')\n      return \"mdi:weather-partly-cloudy\";\n    else\n      return \"mdi:weather-night-partly-cloudy\";\n  else if (entity.state == 'Cloudy')\n    return \"mdi:weather-cloudy\";\n  else if (entity.state.includes('Thunder'))\n    return \"mdi:weather-lightning-rainy\";\n  else if (entity.state.includes('Shower'))\n    return \"mdi:weather-pouring\";\n  else if (entity.state.includes('Rain'))\n    return \"mdi:weather-rainy\";\n  else\n    return \"mdi:weather-cloudy-alert\"\n]]]\n",
                                             "styles": {
                                                 "card": [
                                                     {
-                                                        "background-color": "[[[\n  if (states['sensor.raining_with_windows_open'].state == 'alert')\n    return '#9e110d';\n  else if (states['sensor.raining_with_windows_open'].state == 'warning')\n    return '#f2ba00';\n  else\n    return 'var(--secondary-background-color)';\n]]]\n"
+                                                        "background-color": "[[[\n  if (states['sensor.raining_with_windows_open'].state == 'alert')\n    return '#9e110d';\n  else if (states['sensor.raining_with_windows_open'].state == 'warning')\n    return '#f2900f';\n  else\n    return 'var(--secondary-background-color)';\n]]]\n"
                                                     }
                                                 ]
                                             }
@@ -52,7 +52,14 @@
                                             "entity": "sensor.local_rainfall",
                                             "icon": "mdi:weather-pouring",
                                             "template": "square_cell",
-                                            "show_state": true
+                                            "show_state": true,
+                                            "styles": {
+                                                "card": [
+                                                    {
+                                                        "background-color": "[[[\n  if (states['sensor.raining_with_windows_open'].state == 'alert')\n    return '#9e110d';\n  else if (states['sensor.raining_with_windows_open'].state == 'warning')\n    return '#f2900f';\n  else\n    return 'var(--secondary-background-color)';\n]]]\n"
+                                                    }
+                                                ]
+                                            }
                                         },
                                         {
                                             "type": "custom:button-card",
@@ -1006,7 +1013,7 @@
                                             "styles": {
                                                 "card": [
                                                     {
-                                                        "background-color": "[[[\n  if (states['binary_sensor.ac_on_with_window_open_at_yard'].state == 'on')\n    return '#9e110d';\n  else if (states['sensor.raining_with_windows_open'].state == 'alert')\n    return '#9e110d';\n  else if (states['sensor.raining_with_windows_open'].state == 'warning')\n    return '#f2ba00';\n  else\n    return 'var(--secondary-background-color)';\n]]]\n"
+                                                        "background-color": "[[[\n  if (states['binary_sensor.ac_on_with_window_open_at_yard'].state == 'on')\n    return '#9e110d';\n  else if (states['sensor.raining_with_windows_open'].state == 'alert')\n    return '#9e110d';\n  else if (states['sensor.raining_with_windows_open'].state == 'warning')\n    return '#f2900f';\n  else\n    return 'var(--secondary-background-color)';\n]]]\n"
                                                     }
                                                 ]
                                             }
@@ -1020,7 +1027,7 @@
                                             "styles": {
                                                 "card": [
                                                     {
-                                                        "background-color": "[[[\n  if (states['binary_sensor.ac_on_with_window_open_at_yard'].state == 'on')\n    return '#9e110d';\n  else if (states['sensor.raining_with_windows_open'].state == 'alert')\n    return '#9e110d';\n  else if (states['sensor.raining_with_windows_open'].state == 'warning')\n    return '#f2ba00';\n  else\n    return 'var(--secondary-background-color)';\n]]]\n"
+                                                        "background-color": "[[[\n  if (states['binary_sensor.ac_on_with_window_open_at_yard'].state == 'on')\n    return '#9e110d';\n  else if (states['sensor.raining_with_windows_open'].state == 'alert')\n    return '#9e110d';\n  else if (states['sensor.raining_with_windows_open'].state == 'warning')\n    return '#f2900f';\n  else\n    return 'var(--secondary-background-color)';\n]]]\n"
                                                     }
                                                 ]
                                             }
@@ -1230,13 +1237,10 @@
                                             "styles": {
                                                 "card": [
                                                     {
-                                                        "background-color": "#f2ba00"
+                                                        "background-color": "#f2900f"
                                                     }
                                                 ],
                                                 "label": [
-                                                    {
-                                                        "color": "var(--primary-background-color)"
-                                                    },
                                                     {
                                                         "animation": "blink 2s ease infinite"
                                                     }

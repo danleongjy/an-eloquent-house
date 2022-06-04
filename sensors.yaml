@@ -2,20 +2,17 @@
   resource: https://api.data.gov.sg/v1/environment/rainfall
   name: Local Rainfall
   value_template: >
-    {% set ns = namespace(totalrain = 0, totalstations = 0) %}
+    {% set ns = namespace(max_rain = 0) %}
     {% set readings = value_json['items'][0]['readings'] %}
-    {# average of Geylang East Central, Towner Road, Poole Road and Nicoll Highway #}
+    {# max of Geylang East Central, Towner Road, Poole Road and Nicoll Highway #}
     {% for reading in readings %}
       {% if reading['station_id'] in ['S215','S123','S78','S119'] %}
-        {% set ns.totalrain = ns.totalrain + reading['value'] %}
-        {% set ns.totalstations = ns.totalstations + 1 %}
+        {% if reading['value'] > ns.max_rain %}
+          {% set ns.max_rain = reading['value'] %}
+        {% endif %}
       {% endif %}
     {% endfor %}
-    {% if ns.totalstations > 0 %}
-      {{ (ns.totalrain / ns.totalstations) | round(1) }}
-    {% else %}
-      unavailable
-    {% endif %}
+    {{ ns.max_rain | round(1) }}
   unit_of_measurement: mm
   scan_interval: 600
 

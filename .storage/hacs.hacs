@@ -8,7 +8,28 @@
             "DSorlov/hasl-platform",
             "iantrich/aftership-card",
             "nagyrobi/home-assistant-custom-components-pfsense-gateways",
-            "pippyn/Home-Assistant-Sensor-Groningen-Afvalwijzer"
+            "pippyn/Home-Assistant-Sensor-Groningen-Afvalwijzer",
+            "custom-components/sensor.plex_recently_added",
+            "custom-components/sensor.radarr_upcoming_media",
+            "custom-components/sensor.sonarr_upcoming_media",
+            "maykar/plex_assistant",
+            "custom-cards/upcoming-media-card",
+            "maykar/kiosk-mode",
+            "maykar/lovelace-swipe-navigation",
+            "custom-components/breaking_changes",
+            "custom-components/config_check",
+            "custom-components/combined",
+            "custom-components/sensor.yandex_maps",
+            "custom-components/templatesensor",
+            "custom-components/unsplash",
+            "custom-cards/ext-weblink",
+            "custom-cards/favicon-counter",
+            "custom-cards/state-attribute-element",
+            "custom-cards/state-element",
+            "custom-cards/text-element",
+            "custom-cards/username-element",
+            "custom-components/wienerlinien",
+            "GeorgeSG/lovelace-folder-card"
         ],
         "renamed_repositories": {
             "78wesley/Darkish-Theme": "78wesley/Home-Assistant-Darkish-Theme",
@@ -17,7 +38,8 @@
             "KartoffelToby/ai_thermostat": "KartoffelToby/better_thermostat",
             "nbogojevic/homeassistant-midea-dehumidifier-lan": "nbogojevic/homeassistant-midea-air-appliances-lan",
             "nikrolls/homeassistant-goldair-climate": "nicole-ashley/homeassistant-goldair-climate",
-            "ulic75/power-distribution-card": "ulic75/power-flow-card"
+            "ulic75/power-distribution-card": "ulic75/power-flow-card",
+            "wills106/homsassistant-solax-modbus": "wills106/homeassistant-solax-modbus"
         },
         "ignored_repositories": []
     }

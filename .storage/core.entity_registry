@@ -3180,7 +3180,7 @@
                 "name": null,
                 "options": {},
                 "original_device_class": "battery",
-                "original_icon": "mdi:battery-40",
+                "original_icon": "mdi:battery-30",
                 "original_name": "Pixel 4a Battery Level",
                 "platform": "mobile_app",
                 "supported_features": 0,
@@ -4882,7 +4882,7 @@
                 "name": null,
                 "options": {},
                 "original_device_class": null,
-                "original_icon": "mdi:lan-disconnect",
+                "original_icon": "mdi:lan-connect",
                 "original_name": "qca-ioeboard",
                 "platform": "asuswrt",
                 "supported_features": 0,
@@ -4950,7 +4950,7 @@
                 "name": null,
                 "options": {},
                 "original_device_class": null,
-                "original_icon": "mdi:lan-connect",
+                "original_icon": "mdi:lan-disconnect",
                 "original_name": "DESKTOP-UT48GB7",
                 "platform": "asuswrt",
                 "supported_features": 0,
@@ -11885,6 +11885,557 @@
                 "platform": "script",
                 "supported_features": 0,
                 "unique_id": "set_recommended_scene_in_dining_room",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "Off",
+                        "On",
+                        "Toggle",
+                        "PreviousValue"
+                    ]
+                },
+                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
+                "device_class": null,
+                "device_id": "b91b53c544a3fd255f58f8fb2425214a",
+                "disabled_by": null,
+                "entity_category": "config",
+                "entity_id": "select.ikea_of_sweden_tradfri_bulb_gu10_ws_400lm_455095fe_on_off_startuponoff",
+                "hidden_by": null,
+                "icon": null,
+                "id": "a05a847bec07f99b82d9673df84168e5",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": null,
+                "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 455095fe on_off StartUpOnOff",
+                "platform": "zha",
+                "supported_features": 0,
+                "unique_id": "bc:33:ac:ff:fe:95:50:45-1-6-StartUpOnOff",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "Off",
+                        "On",
+                        "Toggle",
+                        "PreviousValue"
+                    ]
+                },
+                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
+                "device_class": null,
+                "device_id": "38fce4f13d803d7f422753b018849042",
+                "disabled_by": null,
+                "entity_category": "config",
+                "entity_id": "select.ikea_of_sweden_tradfri_bulb_gu10_ws_400lm_62ce19fe_on_off_startuponoff",
+                "hidden_by": null,
+                "icon": null,
+                "id": "c746f96b1ef934ad62026055235f658e",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": null,
+                "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 62ce19fe on_off StartUpOnOff",
+                "platform": "zha",
+                "supported_features": 0,
+                "unique_id": "84:fd:27:ff:fe:19:ce:62-1-6-StartUpOnOff",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "Off",
+                        "On",
+                        "Toggle",
+                        "PreviousValue"
+                    ]
+                },
+                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
+                "device_class": null,
+                "device_id": "8f55b3591bcf5292ddd1eb957a06ecbb",
+                "disabled_by": null,
+                "entity_category": "config",
+                "entity_id": "select.ikea_of_sweden_tradfri_bulb_gu10_ws_400lm_f086fefe_on_off_startuponoff",
+                "hidden_by": null,
+                "icon": null,
+                "id": "cf8bd04a8e748ba37b035d26fc92e501",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": null,
+                "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm f086fefe on_off StartUpOnOff",
+                "platform": "zha",
+                "supported_features": 0,
+                "unique_id": "80:4b:50:ff:fe:fe:86:f0-1-6-StartUpOnOff",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "Off",
+                        "On",
+                        "Toggle",
+                        "PreviousValue"
+                    ]
+                },
+                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
+                "device_class": null,
+                "device_id": "68fe00b7c0ad89a05e1dc7714625a6e3",
+                "disabled_by": null,
+                "entity_category": "config",
+                "entity_id": "select.ikea_of_sweden_tradfri_bulb_gu10_ws_400lm_0ea902fe_on_off_startuponoff",
+                "hidden_by": null,
+                "icon": null,
+                "id": "f1792f28c5a475b83e9b18b952cf83c0",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": null,
+                "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 0ea902fe on_off StartUpOnOff",
+                "platform": "zha",
+                "supported_features": 0,
+                "unique_id": "84:fd:27:ff:fe:02:a9:0e-1-6-StartUpOnOff",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "Off",
+                        "On",
+                        "Toggle",
+                        "PreviousValue"
+                    ]
+                },
+                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
+                "device_class": null,
+                "device_id": "96018f4c6c9fa34d2d3a76c6851ae5dd",
+                "disabled_by": null,
+                "entity_category": "config",
+                "entity_id": "select.ikea_of_sweden_tradfri_bulb_gu10_ws_400lm_63fe00fe_on_off_startuponoff",
+                "hidden_by": null,
+                "icon": null,
+                "id": "a1664d21a0f129eaa47cab606c6431fd",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": null,
+                "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 63fe00fe on_off StartUpOnOff",
+                "platform": "zha",
+                "supported_features": 0,
+                "unique_id": "84:fd:27:ff:fe:00:fe:63-1-6-StartUpOnOff",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "Off",
+                        "On",
+                        "Toggle",
+                        "PreviousValue"
+                    ]
+                },
+                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
+                "device_class": null,
+                "device_id": "2db853366b1775779a8a94e680edc9ec",
+                "disabled_by": null,
+                "entity_category": "config",
+                "entity_id": "select.ikea_of_sweden_tradfri_bulb_gu10_ws_400lm_87b7f3fe_on_off_startuponoff",
+                "hidden_by": null,
+                "icon": null,
+                "id": "adc22c43d4c97503736b86ed3d8b5f50",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": null,
+                "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 87b7f3fe on_off StartUpOnOff",
+                "platform": "zha",
+                "supported_features": 0,
+                "unique_id": "80:4b:50:ff:fe:f3:b7:87-1-6-StartUpOnOff",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "Off",
+                        "On",
+                        "Toggle",
+                        "PreviousValue"
+                    ]
+                },
+                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
+                "device_class": null,
+                "device_id": "824aa41c2a13f2c9d94fc2e131b4575c",
+                "disabled_by": null,
+                "entity_category": "config",
+                "entity_id": "select.ikea_of_sweden_tradfri_bulb_gu10_ws_400lm_7381fffe_on_off_startuponoff",
+                "hidden_by": null,
+                "icon": null,
+                "id": "fdf4a240696ce743c3914f280c8b526c",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": null,
+                "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 7381fffe on_off StartUpOnOff",
+                "platform": "zha",
+                "supported_features": 0,
+                "unique_id": "80:4b:50:ff:fe:ff:81:73-1-6-StartUpOnOff",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "Off",
+                        "On",
+                        "Toggle",
+                        "PreviousValue"
+                    ]
+                },
+                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
+                "device_class": null,
+                "device_id": "afda408ceaf7c4244cac3fd018a741f7",
+                "disabled_by": null,
+                "entity_category": "config",
+                "entity_id": "select.ikea_of_sweden_tradfri_bulb_gu10_ws_400lm_be85fcfe_on_off_startuponoff",
+                "hidden_by": null,
+                "icon": null,
+                "id": "c520220b982d87d4605934a97d2fb840",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": null,
+                "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm be85fcfe on_off StartUpOnOff",
+                "platform": "zha",
+                "supported_features": 0,
+                "unique_id": "80:4b:50:ff:fe:fc:85:be-1-6-StartUpOnOff",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "Off",
+                        "On",
+                        "Toggle",
+                        "PreviousValue"
+                    ]
+                },
+                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
+                "device_class": null,
+                "device_id": "5600465becd58a51c06b29678dc82991",
+                "disabled_by": null,
+                "entity_category": "config",
+                "entity_id": "select.ikea_of_sweden_tradfri_bulb_gu10_ws_400lm_d6f800fe_on_off_startuponoff",
+                "hidden_by": null,
+                "icon": null,
+                "id": "94f24dd9f379cf40197d5c42b3885695",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": null,
+                "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm d6f800fe on_off StartUpOnOff",
+                "platform": "zha",
+                "supported_features": 0,
+                "unique_id": "84:fd:27:ff:fe:00:f8:d6-1-6-StartUpOnOff",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "Off",
+                        "On",
+                        "Toggle",
+                        "PreviousValue"
+                    ]
+                },
+                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
+                "device_class": null,
+                "device_id": "77cd8d76f6f7d32e5d054bf767686d1d",
+                "disabled_by": null,
+                "entity_category": "config",
+                "entity_id": "select.ikea_of_sweden_tradfri_bulb_gu10_ws_400lm_26b8fefe_on_off_startuponoff",
+                "hidden_by": null,
+                "icon": null,
+                "id": "f0d25e6bea560c6434b4d4c456b8ed2e",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": null,
+                "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 26b8fefe on_off StartUpOnOff",
+                "platform": "zha",
+                "supported_features": 0,
+                "unique_id": "80:4b:50:ff:fe:fe:b8:26-1-6-StartUpOnOff",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "Off",
+                        "On",
+                        "Toggle",
+                        "PreviousValue"
+                    ]
+                },
+                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
+                "device_class": null,
+                "device_id": "bdf9adbfe396bd8c79729d78794362d1",
+                "disabled_by": null,
+                "entity_category": "config",
+                "entity_id": "select.ikea_of_sweden_tradfri_bulb_gu10_ws_400lm_8091fafe_on_off_startuponoff",
+                "hidden_by": null,
+                "icon": null,
+                "id": "6bf544adfc9386a87a1582a61e517db2",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": null,
+                "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 8091fafe on_off StartUpOnOff",
+                "platform": "zha",
+                "supported_features": 0,
+                "unique_id": "80:4b:50:ff:fe:fa:91:80-1-6-StartUpOnOff",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "Off",
+                        "On",
+                        "Toggle",
+                        "PreviousValue"
+                    ]
+                },
+                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
+                "device_class": null,
+                "device_id": "fc072fd7b2bb17425c94654709b1feae",
+                "disabled_by": null,
+                "entity_category": "config",
+                "entity_id": "select.ikea_of_sweden_tradfri_bulb_gu10_ws_400lm_0a8afffe_on_off_startuponoff",
+                "hidden_by": null,
+                "icon": null,
+                "id": "c21f5d8540df4a382f59e042deafd76a",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": null,
+                "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 0a8afffe on_off StartUpOnOff",
+                "platform": "zha",
+                "supported_features": 0,
+                "unique_id": "80:4b:50:ff:fe:ff:8a:0a-1-6-StartUpOnOff",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "Off",
+                        "On",
+                        "Toggle",
+                        "PreviousValue"
+                    ]
+                },
+                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
+                "device_class": null,
+                "device_id": "6dcff9d064c54fe82d682ecbd2e05d86",
+                "disabled_by": null,
+                "entity_category": "config",
+                "entity_id": "select.ikea_of_sweden_tradfri_bulb_gu10_ws_400lm_3f85fcfe_on_off_startuponoff",
+                "hidden_by": null,
+                "icon": null,
+                "id": "a1699dc9e4db26b8ed4179b5510313c4",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": null,
+                "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm 3f85fcfe on_off StartUpOnOff",
+                "platform": "zha",
+                "supported_features": 0,
+                "unique_id": "80:4b:50:ff:fe:fc:85:3f-1-6-StartUpOnOff",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "Off",
+                        "On",
+                        "Toggle",
+                        "PreviousValue"
+                    ]
+                },
+                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
+                "device_class": null,
+                "device_id": "7ba33171a7196881c47052f6eb86ae34",
+                "disabled_by": null,
+                "entity_category": "config",
+                "entity_id": "select.ikea_of_sweden_tradfri_bulb_e27_ww_806lm_b7d605fe_on_off_startuponoff",
+                "hidden_by": null,
+                "icon": null,
+                "id": "9e220f30772226a67c3f9db0bb9f7f4f",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": null,
+                "original_name": "IKEA of Sweden TRADFRI bulb E27 WW 806lm b7d605fe on_off StartUpOnOff",
+                "platform": "zha",
+                "supported_features": 0,
+                "unique_id": "84:fd:27:ff:fe:05:d6:b7-1-6-StartUpOnOff",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "Off",
+                        "On",
+                        "Toggle",
+                        "PreviousValue"
+                    ]
+                },
+                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
+                "device_class": null,
+                "device_id": "7ee5c67d32c83441d269a0b900d08e20",
+                "disabled_by": null,
+                "entity_category": "config",
+                "entity_id": "select.ikea_of_sweden_tradfri_bulb_gu10_ws_400lm_e8d3f3fe_on_off_startuponoff",
+                "hidden_by": null,
+                "icon": null,
+                "id": "e8c876a5d545c08b2909ad91cea02b31",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": null,
+                "original_name": "IKEA of Sweden TRADFRI bulb GU10 WS 400lm e8d3f3fe on_off StartUpOnOff",
+                "platform": "zha",
+                "supported_features": 0,
+                "unique_id": "80:4b:50:ff:fe:f3:d3:e8-1-6-StartUpOnOff",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "Off",
+                        "On",
+                        "Toggle",
+                        "PreviousValue"
+                    ]
+                },
+                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
+                "device_class": null,
+                "device_id": "3739789542016f6880b0c0e589de8e70",
+                "disabled_by": null,
+                "entity_category": "config",
+                "entity_id": "select.ikea_of_sweden_tradfri_bulb_e27_ww_806lm_e31524fe_on_off_startuponoff",
+                "hidden_by": null,
+                "icon": null,
+                "id": "3419010172e8cca33f29de10aa7ea52c",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": null,
+                "original_name": "IKEA of Sweden TRADFRI bulb E27 WW 806lm e31524fe on_off StartUpOnOff",
+                "platform": "zha",
+                "supported_features": 0,
+                "unique_id": "84:fd:27:ff:fe:24:15:e3-1-6-StartUpOnOff",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "Off",
+                        "On",
+                        "Toggle",
+                        "PreviousValue"
+                    ]
+                },
+                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
+                "device_class": null,
+                "device_id": "ff6d84cb7d67e28c33690ea08f6b571b",
+                "disabled_by": null,
+                "entity_category": "config",
+                "entity_id": "select.ikea_of_sweden_gunnarp_panel_round_20fa58fe_on_off_startuponoff",
+                "hidden_by": null,
+                "icon": null,
+                "id": "7e3ae9d26178936e6c29a44c87ab11dc",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": null,
+                "original_name": "IKEA of Sweden GUNNARP panel round 20fa58fe on_off StartUpOnOff",
+                "platform": "zha",
+                "supported_features": 0,
+                "unique_id": "80:4b:50:ff:fe:58:fa:20-1-6-StartUpOnOff",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "Off",
+                        "On",
+                        "Toggle",
+                        "PreviousValue"
+                    ]
+                },
+                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
+                "device_class": null,
+                "device_id": "98183520cc180bf52f048d7566497cf4",
+                "disabled_by": null,
+                "entity_category": "config",
+                "entity_id": "select.ikea_of_sweden_gunnarp_panel_round_a61856fe_on_off_startuponoff",
+                "hidden_by": null,
+                "icon": null,
+                "id": "fd80f24f7660202ececb5f481a25b019",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": null,
+                "original_name": "IKEA of Sweden GUNNARP panel round a61856fe on_off StartUpOnOff",
+                "platform": "zha",
+                "supported_features": 0,
+                "unique_id": "80:4b:50:ff:fe:56:18:a6-1-6-StartUpOnOff",
+                "unit_of_measurement": null
+            },
+            {
+                "area_id": null,
+                "capabilities": {
+                    "options": [
+                        "Off",
+                        "On",
+                        "Toggle",
+                        "PreviousValue"
+                    ]
+                },
+                "config_entry_id": "395f0b844af6c3a5beb9f0256227de9a",
+                "device_class": null,
+                "device_id": "242129cc8771a47993af788662141d33",
+                "disabled_by": null,
+                "entity_category": "config",
+                "entity_id": "select.ikea_of_sweden_tradfri_bulb_e27_ws_opal_1000lm_882642fe_on_off_startuponoff",
+                "hidden_by": null,
+                "icon": null,
+                "id": "e2363ff2744e26bc36c3f37893e706dc",
+                "name": null,
+                "options": {},
+                "original_device_class": null,
+                "original_icon": null,
+                "original_name": "IKEA of Sweden TRADFRI bulb E27 WS opal 1000lm 882642fe on_off StartUpOnOff",
+                "platform": "zha",
+                "supported_features": 0,
+                "unique_id": "84:fd:27:ff:fe:42:26:88-1-6-StartUpOnOff",
                 "unit_of_measurement": null
             }
         ]

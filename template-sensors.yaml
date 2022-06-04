@@ -379,12 +379,13 @@
   - name: Raining With Windows Open
     unique_id: sensor.raining_with_windows_open
     state: >
-      {% if is_state('sensor.local_rainfall', 'unavailable')%}
-        unavailable
-      {% elif is_state('binary_sensor.yard_window', 'on') %}
-        {% if states('sensor.local_rainfall') | float(0) > 1 %}
+      {% if is_state('binary_sensor.yard_window', 'on') %}
+        {% if states('sensor.local_rainfall') | float(0) > 1 
+           or 'Shower' in states('sensor.local_two_hour_forecast') 
+           or 'Thunder' in states('sensor.local_two_hour_forecast') %}
           alert
-        {% elif states('sensor.local_rainfall') | float(0) > 0 %}
+        {% elif states('sensor.local_rainfall') | float(0) > 0 
+           or 'Rain' in states('sensor.local_two_hour_forecast') %}
           warning
         {% else %}
           clear
@@ -395,3 +396,4 @@
     attributes:
       yard_window: "{{ states('binary_sensor.yard_window') }}"
       local_rainfall: "{{ states('sensor.local_rainfall') }}"
+      local_two_hour_forecast: "{{ states('sensor.local_two_hour_forecast') }}"

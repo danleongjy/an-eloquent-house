@@ -53,8 +53,8 @@
             },
             {
                 "config_entries": [
-                    "1f1b219f55ca3433014f95689dbc9803",
-                    "5d93d8c83f53e64b941406e7a7271a3b"
+                    "5d93d8c83f53e64b941406e7a7271a3b",
+                    "1f1b219f55ca3433014f95689dbc9803"
                 ],
                 "connections": [
                     [
@@ -113,8 +113,8 @@
             },
             {
                 "config_entries": [
-                    "5d93d8c83f53e64b941406e7a7271a3b",
-                    "636773c40a7132a5fd52717244c85993"
+                    "636773c40a7132a5fd52717244c85993",
+                    "5d93d8c83f53e64b941406e7a7271a3b"
                 ],
                 "connections": [
                     [
@@ -155,7 +155,7 @@
                 "manufacturer": "Home Assistant Community Add-ons",
                 "model": "Home Assistant Add-on",
                 "name": "Studio Code Server",
-                "sw_version": "5.0.4",
+                "sw_version": "5.0.6",
                 "hw_version": null,
                 "entry_type": "service",
                 "id": "5b7a85777b075f2a2924071c5db8b997",
@@ -1353,7 +1353,7 @@
                 "manufacturer": "Official add-ons",
                 "model": "Home Assistant Add-on",
                 "name": "Duck DNS",
-                "sw_version": "1.14.0",
+                "sw_version": "1.15.0",
                 "hw_version": null,
                 "entry_type": "service",
                 "id": "3309550a3da01a6880b728c9a0cf1329",
