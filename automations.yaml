@@ -1099,7 +1099,7 @@
 - id: '1643710058122'
   alias: Elena's Room AC Auto Control
   description: Automatically turn of or off Elena's Room AC to keep Elena's Room Temperature
-    within +1.2 and +0.2 degC of the AC target temperature
+    within +0.7 and +0 degC of the AC target temperature
   trigger:
   - platform: state
     entity_id: sensor.elenas_room_temperature
@@ -1111,7 +1111,7 @@
         entity_id: sensor.elenas_room_temperature
         value_template: '{{ float(state.state) - state_attr(''climate.elenas_room_ac'',
           ''temperature'') | int }}'
-        above: '1.2'
+        above: '0.7'
       - condition: state
         entity_id: climate.elenas_room_ac
         state: 'off'
@@ -1123,7 +1123,7 @@
     - conditions:
       - condition: numeric_state
         entity_id: sensor.elenas_room_temperature
-        below: '0.2'
+        below: '0'
         value_template: '{{ float(state.state) - state_attr(''climate.elenas_room_ac'',
           ''temperature'') | int }}'
       - condition: state

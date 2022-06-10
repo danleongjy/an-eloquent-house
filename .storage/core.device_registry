@@ -53,8 +53,8 @@
             },
             {
                 "config_entries": [
-                    "5d93d8c83f53e64b941406e7a7271a3b",
-                    "1f1b219f55ca3433014f95689dbc9803"
+                    "1f1b219f55ca3433014f95689dbc9803",
+                    "5d93d8c83f53e64b941406e7a7271a3b"
                 ],
                 "connections": [
                     [
@@ -155,7 +155,7 @@
                 "manufacturer": "Home Assistant Community Add-ons",
                 "model": "Home Assistant Add-on",
                 "name": "Studio Code Server",
-                "sw_version": "5.0.6",
+                "sw_version": "5.1.0",
                 "hw_version": null,
                 "entry_type": "service",
                 "id": "5b7a85777b075f2a2924071c5db8b997",
@@ -203,7 +203,7 @@
                 "manufacturer": "Home Assistant Community Add-ons",
                 "model": "Home Assistant Add-on",
                 "name": "SSH & Web Terminal",
-                "sw_version": "10.1.3",
+                "sw_version": "11.0.0",
                 "hw_version": null,
                 "entry_type": "service",
                 "id": "348c0b671278fbf0de7351c25b7f95dc",
@@ -253,9 +253,9 @@
                         "00:21:2e:ff:ff:06:d7:e6"
                     ]
                 ],
-                "manufacturer": "dresden elektronik",
-                "model": "ConBee II",
-                "name": "dresden elektronik ConBee II",
+                "manufacturer": "Texas Instruments",
+                "model": "CC1352/CC2652, Z-Stack 3.30+ (build 20220219)",
+                "name": "Texas Instruments CC1352/CC2652, Z-Stack 3.30+ (build 20220219)",
                 "sw_version": null,
                 "hw_version": null,
                 "entry_type": null,
@@ -2035,8 +2035,8 @@
             },
             {
                 "config_entries": [
-                    "5d93d8c83f53e64b941406e7a7271a3b",
-                    "6a48e197010ac762b768f2e81ae53f3d"
+                    "6a48e197010ac762b768f2e81ae53f3d",
+                    "5d93d8c83f53e64b941406e7a7271a3b"
                 ],
                 "connections": [
                     [
@@ -2246,18 +2246,6 @@
                 ],
                 "id": "d6563b3c30e24806da5ef8823f3fcd03",
                 "orphaned_timestamp": null
-            },
-            {
-                "config_entries": [],
-                "connections": [],
-                "identifiers": [
-                    [
-                        "localtuya",
-                        "local_bfaefaea0d2d4841080trj"
-                    ]
-                ],
-                "id": "38da319797b5ed6e974b9c0912320fde",
-                "orphaned_timestamp": 1652098087.9051278
             }
         ]
     }
