@@ -180,22 +180,6 @@
       dishwasher_status: "{{ states('input_select.dishwasher_status') }}"
     availability: "{{ states('switch.dishwasher') }}"
 
-  - name: Water Heater Turn On
-    unique_id: binary_sensor.water_heater_turn_on
-    state: >
-      {{ (now().time() >= (strptime(states('input_datetime.hot_water_availability_in_mornings'), '%H:%M:%S') - timedelta(minutes = states('input_number.hot_water_preheat') | int)).time()
-          and now().time() < (strptime(states('input_datetime.hot_water_availability_in_mornings'), '%H:%M:%S') + timedelta(minutes = states('input_number.hot_water_availability') | int)).time()) or
-         (now().time() >= (strptime(states('input_datetime.hot_water_availability_in_afternoons'), '%H:%M:%S') - timedelta(minutes = states('input_number.hot_water_preheat') | int)).time()
-          and now().time() < (strptime(states('input_datetime.hot_water_availability_in_afternoons'), '%H:%M:%S') + timedelta(minutes = states('input_number.hot_water_availability') | int)).time()) or
-         (now().time() >= (strptime(states('input_datetime.hot_water_availability_in_evenings'), '%H:%M:%S') - timedelta(minutes = states('input_number.hot_water_preheat') | int)).time()
-          and now().time() < (strptime(states('input_datetime.hot_water_availability_in_evenings'), '%H:%M:%S') + timedelta(minutes = states('input_number.hot_water_availability') | int)).time())}}
-    attributes:
-      hot_water_availability_in_mornings: "{{ states('input_datetime.hot_water_availability_in_mornings') }}"
-      hot_water_availability_in_afternoons: "{{ states('input_datetime.hot_water_availability_in_afternoons') }}"
-      hot_water_availability_in_evenings: "{{ states('input_datetime.hot_water_availability_in_evenings') }}"
-      hot_water_availability: "{{ states('input_number.hot_water_availability') }}"
-      hot_water_preheat: "{{ states('input_number.hot_water_preheat') }}"
-
   - name: Recommended Scene in Elena's Room
     unique_id: binary_sensor.recommended_scene_in_elenas_room
     state: >
@@ -381,10 +365,10 @@
     state: >
       {% if is_state('binary_sensor.yard_window', 'on') %}
         {% if states('sensor.local_rainfall') | float(0) > 1 
-           or 'Shower' in states('sensor.local_two_hour_forecast') 
            or 'Thunder' in states('sensor.local_two_hour_forecast') %}
           alert
         {% elif states('sensor.local_rainfall') | float(0) > 0 
+           or 'Shower' in states('sensor.local_two_hour_forecast')
            or 'Rain' in states('sensor.local_two_hour_forecast') %}
           warning
         {% else %}

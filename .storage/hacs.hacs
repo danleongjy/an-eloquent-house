@@ -29,7 +29,10 @@
             "custom-cards/text-element",
             "custom-cards/username-element",
             "custom-components/wienerlinien",
-            "GeorgeSG/lovelace-folder-card"
+            "GeorgeSG/lovelace-folder-card",
+            "KTibow/lovelace-dark-soft-ui-theme",
+            "KTibow/lovelace-light-soft-ui-theme",
+            "DCSBL/ha-homewizard-energy"
         ],
         "renamed_repositories": {
             "78wesley/Darkish-Theme": "78wesley/Home-Assistant-Darkish-Theme",
@@ -40,7 +43,8 @@
             "nikrolls/homeassistant-goldair-climate": "nicole-ashley/homeassistant-goldair-climate",
             "ulic75/power-distribution-card": "ulic75/power-flow-card",
             "wills106/homsassistant-solax-modbus": "wills106/homeassistant-solax-modbus",
-            "dmitry-k/yandex_smart_home": "dext0r/yandex_smart_home"
+            "dmitry-k/yandex_smart_home": "dext0r/yandex_smart_home",
+            "uvjustin/alarmdotcom": "pyalarmdotcom/alarmdotcom"
         },
         "ignored_repositories": []
     }

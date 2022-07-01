@@ -5,12 +5,12 @@
     "data": {
         "ssl_certificate": "/ssl/fullchain.pem",
         "ssl_key": "/ssl/privkey.pem",
+        "ssl_profile": "modern",
         "ip_ban_enabled": true,
+        "server_port": 8123,
         "cors_allowed_origins": [
             "https://cast.home-assistant.io"
         ],
-        "ssl_profile": "modern",
-        "login_attempts_threshold": -1,
-        "server_port": 8123
+        "login_attempts_threshold": -1
     }
 }

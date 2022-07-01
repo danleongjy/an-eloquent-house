@@ -18,7 +18,7 @@
                 "manufacturer": "Home Assistant",
                 "model": "Home Assistant Operating System",
                 "name": "Home Assistant Operating System",
-                "sw_version": "8.1",
+                "sw_version": "8.2",
                 "hw_version": null,
                 "entry_type": "service",
                 "id": "8b70dff75ca15e2aadccc38a37e12023",
@@ -83,8 +83,8 @@
             },
             {
                 "config_entries": [
-                    "87baef47363fe521d0084d83f506d42f",
-                    "5d93d8c83f53e64b941406e7a7271a3b"
+                    "5d93d8c83f53e64b941406e7a7271a3b",
+                    "87baef47363fe521d0084d83f506d42f"
                 ],
                 "connections": [
                     [
@@ -155,7 +155,7 @@
                 "manufacturer": "Home Assistant Community Add-ons",
                 "model": "Home Assistant Add-on",
                 "name": "Studio Code Server",
-                "sw_version": "5.1.0",
+                "sw_version": "5.1.2",
                 "hw_version": null,
                 "entry_type": "service",
                 "id": "5b7a85777b075f2a2924071c5db8b997",
@@ -203,7 +203,7 @@
                 "manufacturer": "Home Assistant Community Add-ons",
                 "model": "Home Assistant Add-on",
                 "name": "SSH & Web Terminal",
-                "sw_version": "11.0.0",
+                "sw_version": "11.0.1",
                 "hw_version": null,
                 "entry_type": "service",
                 "id": "348c0b671278fbf0de7351c25b7f95dc",
@@ -227,7 +227,7 @@
                 "manufacturer": "Official add-ons",
                 "model": "Home Assistant Add-on",
                 "name": "Samba share",
-                "sw_version": "9.6.1",
+                "sw_version": "10.0.0",
                 "hw_version": null,
                 "entry_type": "service",
                 "id": "f28b5f57b81f46adaf6e421b4c4e4ddf",
@@ -1401,7 +1401,7 @@
                 "manufacturer": "Apple",
                 "model": "iPhone11,2",
                 "name": "Grace",
-                "sw_version": "15.4.1",
+                "sw_version": "15.5",
                 "hw_version": null,
                 "entry_type": null,
                 "id": "07bbde26f19f72fca96dc188a3b86990",
@@ -1536,7 +1536,7 @@
                 "entry_type": null,
                 "id": "2c65aa31e07cc74bcef34dfa0d22d784",
                 "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
-                "area_id": "dining_room",
+                "area_id": "hallway",
                 "name_by_user": "Dining Room Fan Controller",
                 "disabled_by": null,
                 "configuration_url": null
@@ -1724,7 +1724,7 @@
                 "manufacturer": "hacs.xyz",
                 "model": "",
                 "name": "HACS",
-                "sw_version": "1.25.1",
+                "sw_version": "1.25.5",
                 "hw_version": null,
                 "entry_type": "service",
                 "id": "ba4fe9d7b1bbc06b53143899a36fb716",
@@ -1919,8 +1919,8 @@
                         "local_bf22a4c8423caa06adhaxl"
                     ]
                 ],
-                "manufacturer": "Unknown",
-                "model": "key7axydcvmea3x9",
+                "manufacturer": "Tuya",
+                "model": "Smart Switch (bf22a4c8423caa06adhaxl)",
                 "name": "Water Heater",
                 "sw_version": "3.3",
                 "hw_version": null,
@@ -1975,7 +1975,7 @@
                 "manufacturer": "Home Assistant",
                 "model": "Home Assistant Core",
                 "name": "Home Assistant Core",
-                "sw_version": "2022.5.5",
+                "sw_version": "2022.6.7",
                 "hw_version": null,
                 "entry_type": "service",
                 "id": "9a67e6e754c4e53a547e9472719f8bc2",
@@ -2035,8 +2035,8 @@
             },
             {
                 "config_entries": [
-                    "6a48e197010ac762b768f2e81ae53f3d",
-                    "5d93d8c83f53e64b941406e7a7271a3b"
+                    "5d93d8c83f53e64b941406e7a7271a3b",
+                    "6a48e197010ac762b768f2e81ae53f3d"
                 ],
                 "connections": [
                     [
@@ -2057,6 +2057,59 @@
                 "name_by_user": null,
                 "disabled_by": null,
                 "configuration_url": "http://192.168.18.31/"
+            },
+            {
+                "config_entries": [
+                    "395f0b844af6c3a5beb9f0256227de9a"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:12:4b:00:24:6e:b2:18"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:12:4b:00:24:6e:b2:18"
+                    ]
+                ],
+                "manufacturer": "eWeLink",
+                "model": "MS01",
+                "name": "eWeLink MS01",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "3d5c3e2587e53dec833101a24d1d6264",
+                "via_device_id": "2a7c49b8bb04303ca9a7609856049c08",
+                "area_id": "junior_bathroom",
+                "name_by_user": "Junior Shower Motion",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "a244f73ac24521058010745e1bc38dfc"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "watchman",
+                        "watchman_unique_id"
+                    ]
+                ],
+                "manufacturer": "dummylabs",
+                "model": "Watchman",
+                "name": "Watchman",
+                "sw_version": "0.6.0",
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "52a00677362100a505fa9334cf4f7464",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "https://github.com/dummylabs/thewatchman"
             }
         ],
         "deleted_devices": [
@@ -2245,6 +2298,20 @@
                     ]
                 ],
                 "id": "d6563b3c30e24806da5ef8823f3fcd03",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "e5a199551cd330621c9a6694a24ded5f"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "localtuya",
+                        "local_bf67d5c3a79b9f8337kcfd"
+                    ]
+                ],
+                "id": "f4362989a51fb5b8e1c4ef8f76ff025b",
                 "orphaned_timestamp": null
             }
         ]

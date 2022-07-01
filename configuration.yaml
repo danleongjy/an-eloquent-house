@@ -15,11 +15,6 @@ recorder:
   db_url: !secret mariadb_url
   purge_keep_days: 14
 
-# Neato
-neato:
-  client_id: !secret neato_client_id
-  client_secret: !secret neato_client_secret
-
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml

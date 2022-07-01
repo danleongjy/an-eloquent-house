@@ -91,35 +91,8 @@
                                     "template": "top_row"
                                 },
                                 {
-                                    "type": "custom:state-switch",
-                                    "entity": "switch.water_heater",
-                                    "default": "disabled",
-                                    "states": {
-                                        "disabled": {
-                                            "type": "custom:button-card",
-                                            "icon": "mdi:water-boiler-off"
-                                        },
-                                        "off": {
-                                            "type": "custom:button-card",
-                                            "entity": "switch.water_heater",
-                                            "template": "top_row",
-                                            "label": "[[[ \n  if (parseInt(states['input_number.water_heating'].state) > 0)\n    return Math.round(states['input_number.water_heating'].state, 0) + \"%\" \n  else\n    return ''\n]]]\n",
-                                            "show_label": true,
-                                            "double_tap_action": {
-                                                "action": "more-info"
-                                            }
-                                        },
-                                        "on": {
-                                            "type": "custom:button-card",
-                                            "entity": "switch.water_heater",
-                                            "template": "top_row",
-                                            "label": "[[[ \n  if (parseInt(states['input_number.water_heating'].state) < 100)\n    return Math.round(states['input_number.water_heating'].state, 0) + \"%\" \n  else\n    return ''\n]]]\n",
-                                            "show_label": true,
-                                            "double_tap_action": {
-                                                "action": "more-info"
-                                            }
-                                        }
-                                    }
+                                    "type": "custom:button-card",
+                                    "color_type": "blank-card"
                                 },
                                 {
                                     "type": "custom:button-card",
@@ -928,6 +901,38 @@
                                                         "background-color": "[[[\n  if ((states['binary_sensor.ac_on_with_door_open_at_junior_bathroom'].state == 'on')\n      || (states['binary_sensor.vacuum_running_with_bathroom_doors_open'].state == 'on'\n          && states['binary_sensor.junior_bathroom_door'].state == 'on'))\n    return '#9e110d';\n  else\n    return 'var(--secondary-background-color)';\n]]]\n"
                                                     }
                                                 ]
+                                            }
+                                        },
+                                        {
+                                            "type": "custom:state-switch",
+                                            "entity": "switch.water_heater",
+                                            "default": "disabled",
+                                            "states": {
+                                                "disabled": {
+                                                    "type": "custom:button-card",
+                                                    "icon": "mdi:water-boiler-off",
+                                                    "template": "square_cell"
+                                                },
+                                                "off": {
+                                                    "type": "custom:button-card",
+                                                    "entity": "switch.water_heater",
+                                                    "template": "square_cell",
+                                                    "label": "[[[ \n  if (parseInt(states['input_number.water_heating'].state) > 0)\n    return Math.round(states['input_number.water_heating'].state, 0) + \"%\" \n  else\n    return ''\n]]]\n",
+                                                    "show_label": true,
+                                                    "double_tap_action": {
+                                                        "action": "more-info"
+                                                    }
+                                                },
+                                                "on": {
+                                                    "type": "custom:button-card",
+                                                    "entity": "switch.water_heater",
+                                                    "template": "square_cell",
+                                                    "label": "[[[ \n  if (parseInt(states['input_number.water_heating'].state) < 100)\n    return Math.round(states['input_number.water_heating'].state, 0) + \"%\" \n  else\n    return ''\n]]]\n",
+                                                    "show_label": true,
+                                                    "double_tap_action": {
+                                                        "action": "more-info"
+                                                    }
+                                                }
                                             }
                                         },
                                         {
@@ -1799,7 +1804,7 @@
                                 },
                                 {
                                     "type": "custom:button-card",
-                                    "icon": "mdi:blinds",
+                                    "icon": "mdi:curtains-closed",
                                     "template": "square_cell"
                                 },
                                 {
@@ -1822,6 +1827,15 @@
                                 {
                                     "type": "custom:button-card",
                                     "icon": "mdi:lightbulb-group",
+                                    "template": "square_cell"
+                                },
+                                {
+                                    "type": "custom:button-card",
+                                    "color_type": "blank-card"
+                                },
+                                {
+                                    "type": "custom:button-card",
+                                    "icon": "mdi:blinds",
                                     "template": "square_cell"
                                 },
                                 {
@@ -1878,15 +1892,6 @@
                                 },
                                 {
                                     "entity": "input_number.hot_water_availability"
-                                },
-                                {
-                                    "entity": "input_datetime.hot_water_availability_in_mornings"
-                                },
-                                {
-                                    "entity": "input_datetime.hot_water_availability_in_afternoons"
-                                },
-                                {
-                                    "entity": "input_datetime.hot_water_availability_in_evenings"
                                 }
                             ]
                         }
